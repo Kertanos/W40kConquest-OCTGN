@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="af04f855-58c4-4db3-a191-45fe33381679" sleeveid="0">
+  <section name="Warlord" shared="False">
+    <card qty="1" id="44aad991-102f-4f6a-a826-16a02f2bd75c">Colonel Straken</card>
+  </section>
+  <section name="Armies" shared="False">
+    <card qty="4" id="5a51f6fc-80ba-4888-b1c7-562301f5c55b">Straken's Command Squad</card>
+    <card qty="2" id="9f84295c-aae1-46c9-84c5-dd366d0e5aa6">Ratling Deadeye</card>
+    <card qty="1" id="4134faa4-24ab-4845-b3a7-c86b28cb8fcc">Cadian Mortar Squad</card>
+    <card qty="1" id="046489fb-1431-46ed-b14b-76b72912b869">Sanctioned Psyker</card>
+    <card qty="1" id="b379cec9-5206-4072-bc67-26e581ecd7d0">Leman Russ Battle Tank</card>
+    <card qty="1" id="6dd011fb-537f-4504-9deb-9526a6efe706">Mordian Hellhound</card>
+    <card qty="1" id="7b54c692-e055-4682-877e-4af8ac9a06d2">Assault Valkyrie</card>
+    <card qty="1" id="77b61766-50e2-4784-ba9f-5c9506bb0b9a">Stalwart Ogryn</card>
+    <card qty="1" id="a09cd6e6-3b0b-48ea-870c-3883eb27c865">Captain Markis</card>
+    <card qty="1" id="eaa35382-2175-4e2c-b3c0-93903807645c">Enginseer Augur</card>
+    <card qty="1" id="9b121eb6-7980-4b21-99c3-86be7a664dd9">Penal Legionnaire</card>
+    <card qty="2" id="3fc0e9c3-ea6c-417c-bf9e-c6b9aa8673b7">Infantry Conscripts</card>
+    <card qty="1" id="976dcf70-0ed8-41fc-993f-ab82af516596">Elysian Assault Team</card>
+    <card qty="1" id="a54d839f-c330-4c3b-b8e2-ac77ac85d66a">Void Pirate</card>
+    <card qty="1" id="4c140bfb-6a94-4af4-8e7e-c4710f1e6e4d">Rogue Trader</card>
+  </section>
+  <section name="Attachments" shared="False">
+    <card qty="1" id="00229e5d-e1c4-41b7-9f3b-11ab6e893255">Straken's Cunning</card>
+    <card qty="1" id="94a9ab51-a6b3-4ce7-8729-f00dc97a306a">Hostile Environment Gear</card>
+    <card qty="1" id="280efedb-62d6-4023-819a-57ded3bc495e">Bodyguard</card>
+    <card qty="1" id="4a12e9a4-8775-4f28-95fe-1976a9a2dffb">Promotion</card>
+  </section>
+  <section name="Events" shared="False">
+    <card qty="2" id="f90b98e7-20ac-405d-86d6-d3b67fc7b5f3">Glorious Intervention</card>
+    <card qty="1" id="6c0e0498-635e-429f-a32e-2b45fc117c3d">Preemptive Barrage</card>
+    <card qty="1" id="6dda532f-e393-40c2-b601-ce3e69cc83d4">Suppressive Fire</card>
+    <card qty="1" id="35656adf-3ea3-4409-a152-7842f96ee23c">No Mercy</card>
+    <card qty="1" id="d68a7bff-59fc-44ad-a29e-bda96f705ac6">Fall Back!</card>
+  </section>
+  <section name="Supports" shared="False">
+    <card qty="1" id="9f3c57be-cd85-4204-9a24-8ebea32491db">Omega Zero Command</card>
+    <card qty="1" id="9a541f6b-85ec-4daf-acbb-8ae194f4502c">Imperial Bunker</card>
+    <card qty="1" id="e7798bc3-8e4f-4c65-9ccc-8e4c9e7e903b">Rockcrete Bunker</card>
+    <card qty="1" id="e6171226-d96b-495a-aa14-f9a21f935fa9">Catachan Outpost</card>
+    <card qty="1" id="8dc7d63b-d902-459d-8485-53c23884825d">Promethium Mine</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

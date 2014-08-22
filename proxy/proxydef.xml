@@ -1,0 +1,3503 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+	
+	<blocks>
+		<!-- Dummy blocks used if a template section only looks for conditionals -->
+		<block type="text" id="dummyText">
+			<location x="0" y="0"/>
+			<text color="#FFFFFF" size="0"/>
+			<border color="#FFFFFF" size="0"/>
+		</block>
+		<block type="text" id="default">
+			<location x="10" y="25"/>
+			<text color="#FFFFFF" size="30"/>
+		</block>
+		<block type="overlay" id="dummyOverlay" src="proxy/proxyImages/dummy.png">
+			<location x="0" y="0"/> 
+		</block>
+				
+		<!-- Generic blocks for cards -->
+		<block type="text" id="cardCost">
+			<location x="23" y="46"/>
+			<text color="#000000" size="35" font="fonts/cost_str.ttf"/>
+			<wordwrap height="46" width="46" align="center" valign="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="cardType">
+			<location x="3" y="87"/>
+			<text color="#000000" size="14" font="fonts/text.ttf"/>
+			<wordwrap height="20" width="85" align="center" valign="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="textShield">
+			<location x="45" y="127"/>
+			<text color="#000000" size="35" font="fonts/cost_str.ttf"/>
+			<wordwrap height="46" width="46" align="center" valign="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="textResource">
+			<location x="105" y="518"/>
+			<text color="#000000" size="36" font="fonts/cost_str.ttf"/>
+			<wordwrap height="70" width="32" align="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="textDrawBonus">
+			<location x="282" y="518"/>
+			<text color="#000000" size="36" font="fonts/cost_str.ttf"/>
+			<wordwrap height="70" width="32" align="center" shrinktofit="True"/>
+		</block>
+		<block type="overlay" id="cardShield" src="proxy/proxyImages/Shield.png">
+			<location x="0" y="0"/>
+		</block>
+		<block type="overlay" id="cardResourceBonus" src="proxy/proxyImages/Resource.png">
+			<location x="133" y="505"/>
+		</block>
+		<block type="overlay" id="cardDrawBonus" src="proxy/proxyImages/CardBonus.png">
+			<location x="233" y="505"/>
+		</block>
+
+		
+		<!-- Support specific blocks -->
+		<block type="text" id="SupportCardName">
+			<location x="29" y="358" rotate="270" />
+			<text color="#000000" size="23" font="fonts/name.ttf"/>
+			<wordwrap height="34" width="230" align="center" valign="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="SupportCardTraits">
+			<location x="70" y="415"/>
+			<text color="#000000" size="21" font="fonts/traits.ttf"/>
+			<wordwrap height="34" width="300" align="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="SupportCardKeywords">
+			<location x="25" y="446"/>
+			<text color="#000000" size="20" font="fonts/text.ttf"/>
+			<wordwrap height="40" width="380" shrinktofit="True"/>
+		</block>
+		<block type="text" id="SupportCardText">
+			<location x="25" y="482"/>
+			<text color="#000000" size="20" font="fonts/text.ttf"/>
+			<wordwrap height="100" width="380" shrinktofit="True"/>
+		</block>
+		<block type="overlay" id="SupportUniqueYes" src="proxy/proxyImages/uniqueYes.png">
+			<location x="35" y="365"/>
+		</block>
+		
+		<!-- Army specific blocks -->
+		<block type="text" id="ArmyCardName">
+			<location x="120" y="48"/>
+			<text color="#000000" size="23" font="fonts/name.ttf"/>
+			<wordwrap height="35" width="250" align="center" valign="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="ArmyCardTraits">
+			<location x="75" y="410"/>
+			<text color="#000000" size="20" font="fonts/traits.ttf"/>
+			<wordwrap height="34" width="310" align="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="ArmyCardKeywords">
+			<location x="75" y="440"/>
+			<text color="#000000" size="20" font="fonts/text.ttf"/>
+			<wordwrap height="34" width="340" shrinktofit="True"/>
+		</block>
+		<block type="text" id="ArmyCardText">
+			<location x="75" y="470"/>
+			<text color="#000000" size="20" font="fonts/text.ttf"/>
+			<wordwrap height="120" width="340" shrinktofit="True"/>
+		</block>
+		<block type="text" id="textCommand">
+			<location x="18" y="322"/>
+			<text color="#000000" size="40" font="fonts/cost_str.ttf"/>
+			<wordwrap height="65" width="42" align="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="textATK">
+			<location x="19" y="430"/>
+			<text color="#FFFFFF" size="39" font="fonts/cost_str.ttf"/>
+			<wordwrap height="65" width="42" align="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="textHP">
+			<location x="18" y="506"/>
+			<text color="#000000" size="39" font="fonts/cost_str.ttf"/>
+			<wordwrap height="65" width="42" align="center" shrinktofit="True"/>
+		</block>
+		<block type="overlay" id="ArmyUnique" src="proxy/proxyImages/uniqueYes.png">
+			<location x="100" y="56"/>
+		</block>
+		<block type="overlay" id="cardCommand" src="proxy/proxyImages/CommandNeutral.png">
+			<location x="0" y="0"/>
+		</block>
+			
+		
+		<!-- Planet specific blocks -->
+		<block type="overlay" id="planetMaterial" src="proxy/proxyImages/Material.png">
+			<location x="0" y="0"/>
+		</block>
+		<block type="overlay" id="planetStrongpoint" src="proxy/proxyImages/Strongpoint.png">
+			<location x="0" y="0"/>
+		</block>
+		<block type="overlay" id="planetTech" src="proxy/proxyImages/Tech.png">
+			<location x="0" y="0"/>
+		</block>
+		<block type="text" id="planetCardTitle">
+			<location x="270" y="40"/>
+			<text color="#000000" size="30" font="fonts/name.ttf"/>
+			<wordwrap height="40" width="290"  valign="center" align="center"  shrinktofit="True"/>
+		</block>
+		<block type="text" id="planetCardText">
+			<location x="110" y="325"/>
+			<text color="#000000" size="20" font="fonts/text.ttf"/>
+			<wordwrap height="80" width="360" shrinktofit="True"/>
+		</block>
+		<block type="text" id="planetTextDrawBonus">
+			<location x="40" y="318"/>
+			<text color="#FFFFFF" size="60" font="fonts/cost_str.ttf"/>
+		</block>
+		<block type="text" id="planetTextResource">
+			<location x="514" y="318"/>
+			<text color="#000000" size="60" font="fonts/cost_str.ttf"/>
+		</block>
+
+		
+		<!-- Event specific blocks -->
+		<block type="text" id="eventCardTitle">
+			<location x="120" y="40"/>
+			<text color="#000000" size="23" font="fonts/name.ttf"/>
+			<wordwrap height="35" width="250" align="center" valign="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="eventTraits">
+			<location x="40" y="415"/>
+			<text color="#000000" size="21" font="fonts/traits.ttf"/>
+			<wordwrap height="34" width="350" align="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="eventCardKeywords">
+			<location x="25" y="436"/>
+			<text color="#000000" size="17" font="fonts/text.ttf"/>
+			<wordwrap height="40" width="380" shrinktofit="True"/>
+		</block>
+		<block type="text" id="eventCardText">
+			<location x="25" y="455"/>
+			<text color="#000000" size="20" font="fonts/text.ttf"/>
+			<wordwrap height="135" width="380" shrinktofit="True"/>
+		</block>
+		<block type="overlay" id="EventUniqueYes" src="proxy/proxyImages/uniqueYes.png">
+			<location x="100" y="47"/>
+		</block>
+		
+		<!-- Attachment specific blocks -->
+		<block type="text" id="AttachmentCardCost">
+			<location x="30" y="57"/>
+			<text color="#000000" size="35" font="fonts/cost_str.ttf"/>
+			<wordwrap height="46" width="46" align="center" valign="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="AttachmentCardType">
+			<location x="10" y="96"/>
+			<text color="#000000" size="14" font="fonts/text.ttf"/>
+			<wordwrap height="20" width="85" align="center" valign="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="AttachmentCardName">
+			<location x="110" y="370"/>
+			<text color="#000000" size="23" font="fonts/name.ttf"/>
+			<wordwrap height="32" width="220" align="center" valign="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="AttachmentCardTraits">
+			<location x="55" y="415"/>
+			<text color="#000000" size="21" font="fonts/traits.ttf"/>
+			<wordwrap height="34" width="300" align="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="AttachmentCardKeywords">
+			<location x="17" y="446"/>
+			<text color="#000000" size="20" font="fonts/text.ttf"/>
+			<wordwrap height="40" width="370" shrinktofit="True"/>
+		</block>
+		<block type="text" id="AttachmentCardText">
+			<location x="17" y="482"/>
+			<text color="#000000" size="20" font="fonts/text.ttf"/>
+			<wordwrap height="100" width="370" shrinktofit="True"/>
+		</block>
+		<block type="overlay" id="AttachmentUnique" src="proxy/proxyImages/uniqueYes.png">
+			<location x="90" y="375"/>
+		</block>
+		
+		
+	</blocks>
+	
+<!-- DEFAULT TEMPLATE -->
+	<template src="proxy/proxyImages/unknownCard.png" default="True">
+		<matches>
+			<match name="dummy" value="dummy"/>
+		</matches>
+		<overlayblocks>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		<textblocks>
+			<link block="default">
+				<property name="Name"/>
+			</link>
+			<link block="dummyText"/>
+		</textblocks>
+	</template>
+
+<!-- PLANET CARD TEMPLATE -->
+	<template src="proxy/proxyImages/planets.png" default="False">
+		<matches>
+			<match name="Type" value="Planet"/>
+		</matches>
+		<overlayblocks>		
+			<conditional>
+				<if property="PlanetMaterial" value="1">
+					<link block="planetMaterial"/> </if>
+			</conditional>
+			<conditional>
+				<if property="PlanetTech" value="1">
+					<link block="planetTech"/> </if>
+			</conditional>
+			<conditional>
+				<if property="PlanetStrongpoint" value="1">
+					<link block="planetStrongpoint"/> </if>
+			</conditional>
+		</overlayblocks>
+		<textblocks>
+			<link block="planetTextDrawBonus">
+				<property name="CardBonus"/>
+			</link>
+			<link block="planetTextResource">
+				<property name="ResourceBonus"/>
+			</link>
+			<link block="planetCardTitle">
+				<property name="Name"/>
+			</link>
+			<link block="planetCardText">
+				<property name="Text"/>
+			</link>
+			<link block="dummyText"/>
+		</textblocks>
+	</template>
+
+
+<!-- ATTACHMENT CARD TEMPLATE -->
+
+	<!-- Marine Attachment Card template -->
+	<template src="proxy/proxyImages/Attachments/attach_Marine.png" default="False">
+		<matches>
+			<match name="Type" value="Attachment"/>
+			<match name="Faction" value="Space Marine"/>
+		</matches>
+		
+		<overlayblocks>		
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="AttachmentUnique"/> </if>
+			</conditional>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+
+		
+		</overlayblocks>
+		
+		<textblocks>
+			<!-- Card Cost -->
+			<link block="AttachmentCardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="AttachmentCardType">
+				<property name="Type"/>
+			</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="dummyOverlay"/>
+			<link block="AttachmentCardName">
+				<property name="Name"/>
+			</link>
+			<link block="AttachmentCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="AttachmentCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="AttachmentCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+
+	<!-- Astra Militarum Attachment Card template -->
+	<template src="proxy/proxyImages/Attachments/attach_AstraMilitarum.png" default="False">
+		<matches>
+			<match name="Type" value="Attachment"/>
+			<match name="Faction" value="Astra Militarum"/>
+		</matches>
+		
+		<overlayblocks>		
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="AttachmentUnique"/> </if>
+			</conditional>
+
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+
+		
+		</overlayblocks>
+		
+		<textblocks>
+			<!-- Card Cost -->
+					<link block="AttachmentCardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="AttachmentCardType">
+				<property name="Type"/>
+			</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="dummyOverlay"/>
+			<link block="AttachmentCardName">
+				<property name="Name"/>
+			</link>
+			<link block="AttachmentCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="AttachmentCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="AttachmentCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+
+	<!-- Chaos Attachment Card template -->
+	<template src="proxy/proxyImages/Attachments/attach_Chaos.png" default="False">
+		<matches>
+			<match name="Type" value="Attachment"/>
+			<match name="Faction" value="Chaos"/>
+		</matches>
+		
+		<overlayblocks>		
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="AttachmentUnique"/> </if>
+			</conditional>
+
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+
+		
+		</overlayblocks>
+		
+		<textblocks>
+			<!-- Card Cost -->
+					<link block="AttachmentCardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="AttachmentCardType">
+				<property name="Type"/>
+			</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="dummyOverlay"/>
+			<link block="AttachmentCardName">
+				<property name="Name"/>
+			</link>
+			<link block="AttachmentCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="AttachmentCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="AttachmentCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+
+	<!-- Dark Eldar Attachment Card template -->
+	<template src="proxy/proxyImages/Attachments/attach_DarkEldar.png" default="False">
+		<matches>
+			<match name="Type" value="Attachment"/>
+			<match name="Faction" value="Dark Eldar"/>
+		</matches>
+		
+		<overlayblocks>		
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="AttachmentUnique"/> </if>
+			</conditional>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+
+		
+		</overlayblocks>
+		
+		<textblocks>
+			<!-- Card Cost -->
+					<link block="AttachmentCardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="AttachmentCardType">
+				<property name="Type"/>
+			</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="dummyOverlay"/>
+			<link block="AttachmentCardName">
+				<property name="Name"/>
+			</link>
+			<link block="AttachmentCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="AttachmentCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="AttachmentCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+
+	<!-- Eldar Attachment Card template -->
+	<template src="proxy/proxyImages/Attachments/attach_Eldar.png" default="False">
+		<matches>
+			<match name="Type" value="Attachment"/>
+			<match name="Faction" value="Eldar"/>
+		</matches>
+		
+		<overlayblocks>		
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="AttachmentUnique"/> </if>
+			</conditional>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+
+		
+		</overlayblocks>
+		
+		<textblocks>
+			<!-- Card Cost -->
+					<link block="AttachmentCardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="AttachmentCardType">
+				<property name="Type"/>
+			</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="dummyOverlay"/>
+			<link block="AttachmentCardName">
+				<property name="Name"/>
+			</link>
+			<link block="AttachmentCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="AttachmentCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="AttachmentCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+
+	<!-- Neutral Attachment Card template -->
+	<template src="proxy/proxyImages/Attachments/attach_Neutral.png" default="False">
+		<matches>
+			<match name="Type" value="Attachment"/>
+			<match name="Faction" value="Neutral"/>
+		</matches>
+		
+		<overlayblocks>		
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="AttachmentUnique"/> </if>
+			</conditional>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+
+		
+		</overlayblocks>
+		
+		<textblocks>
+			<!-- Card Cost -->
+					<link block="AttachmentCardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="AttachmentCardType">
+				<property name="Type"/>
+			</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="dummyOverlay"/>
+			<link block="AttachmentCardName">
+				<property name="Name"/>
+			</link>
+			<link block="AttachmentCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="AttachmentCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="AttachmentCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+
+
+
+	<!-- Ork Attachment Card template -->
+	<template src="proxy/proxyImages/Attachments/attach_Ork.png" default="False">
+		<matches>
+			<match name="Type" value="Attachment"/>
+			<match name="Faction" value="Ork"/>
+		</matches>
+		
+		<overlayblocks>		
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="AttachmentUnique"/> </if>
+			</conditional>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+
+		
+		</overlayblocks>
+		
+		<textblocks>
+			<!-- Card Cost -->
+					<link block="AttachmentCardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="AttachmentCardType">
+				<property name="Type"/>
+			</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="dummyOverlay"/>
+			<link block="AttachmentCardName">
+				<property name="Name"/>
+			</link>
+			<link block="AttachmentCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="AttachmentCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="AttachmentCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+
+	<!-- Tau Attachment Card template -->
+	<template src="proxy/proxyImages/Attachments/attach_Tau.png" default="False">
+		<matches>
+			<match name="Type" value="Attachment"/>
+			<match name="Faction" value="Tau"/>
+		</matches>
+		
+		<overlayblocks>		
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="AttachmentUnique"/> </if>
+			</conditional>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+
+		
+		</overlayblocks>
+		
+		<textblocks>
+			<!-- Card Cost -->
+					<link block="AttachmentCardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="AttachmentCardType">
+				<property name="Type"/>
+			</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="dummyOverlay"/>
+			<link block="AttachmentCardName">
+				<property name="Name"/>
+			</link>
+			<link block="AttachmentCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="AttachmentCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="AttachmentCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	
+<!-- EVENT CARD TEMPLATE -->
+	<!-- Marine Event Card template -->
+	<template src="proxy/proxyImages/Events/event_Marine.png" default="False">
+		<matches>
+			<match name="Type" value="Event"/>
+			<match name="Faction" value="Space Marine"/>
+		</matches>
+		
+		<overlayblocks>	
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="EventUniqueYes"/> </if>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/></if>
+				<else> <link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+			
+		<textblocks>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<link block="eventCardTitle">
+				<property name="Name"/>
+			</link>
+			<link block="eventTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="eventCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="eventCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+	<!-- Astra Militarum Event Card template -->
+	<template src="proxy/proxyImages/Events/event_AstraMilitarum.png" default="False">
+		<matches>
+			<match name="Type" value="Event"/>
+			<match name="Faction" value="Astra Militarum"/>
+		</matches>
+		
+		<overlayblocks>	
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="EventUniqueYes"/> </if>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/></if>
+				<else> <link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+			
+		<textblocks>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<link block="eventCardTitle">
+				<property name="Name"/>
+			</link>
+			<link block="eventTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="eventCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="eventCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+
+	<!-- Chaos Event Card template -->
+	<template src="proxy/proxyImages/Events/event_Chaos.png" default="False">
+		<matches>
+			<match name="Type" value="Event"/>
+			<match name="Faction" value="Chaos"/>
+		</matches>
+		
+		<overlayblocks>	
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="EventUniqueYes"/> </if>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/></if>
+				<else> <link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+			
+		<textblocks>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<link block="eventCardTitle">
+				<property name="Name"/>
+			</link>
+			<link block="eventTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="eventCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="eventCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+	<!-- Dark Eldar Event Card template -->
+	<template src="proxy/proxyImages/Events/event_DarkEldar.png" default="False">
+		<matches>
+			<match name="Type" value="Event"/>
+			<match name="Faction" value="Dark Eldar"/>
+		</matches>
+		
+		<overlayblocks>	
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="EventUniqueYes"/> </if>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/></if>
+				<else> <link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+			
+		<textblocks>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<link block="eventCardTitle">
+				<property name="Name"/>
+			</link>
+			<link block="eventTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="eventCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="eventCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+	<!-- Eldar Event Card template -->
+	<template src="proxy/proxyImages/Events/event_Eldar.png" default="False">
+		<matches>
+			<match name="Type" value="Event"/>
+			<match name="Faction" value="Eldar"/>
+		</matches>
+		
+		<overlayblocks>	
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="EventUniqueYes"/> </if>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/></if>
+				<else> <link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+			
+		<textblocks>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<link block="eventCardTitle">
+				<property name="Name"/>
+			</link>
+			<link block="eventTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="eventCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="eventCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+	<!-- Neutral Event Card template -->
+	<template src="proxy/proxyImages/Events/event_Neutral.png" default="False">
+		<matches>
+			<match name="Type" value="Event"/>
+			<match name="Faction" value="Neutral"/>
+		</matches>
+		
+		<overlayblocks>	
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="EventUniqueYes"/> </if>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/></if>
+				<else> <link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+			
+		<textblocks>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<link block="eventCardTitle">
+				<property name="Name"/>
+			</link>
+			<link block="eventTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="eventCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="eventCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+
+	<!-- Ork Event Card template -->
+	<template src="proxy/proxyImages/Events/event_Ork.png" default="False">
+		<matches>
+			<match name="Type" value="Event"/>
+			<match name="Faction" value="Ork"/>
+		</matches>
+		
+		<overlayblocks>	
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="EventUniqueYes"/> </if>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/></if>
+				<else> <link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+			
+		<textblocks>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<link block="eventCardTitle">
+				<property name="Name"/>
+			</link>
+			<link block="eventTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="eventCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="eventCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+	<!-- Tau Event Card template -->
+	<template src="proxy/proxyImages/Events/event_Tau.png" default="False">
+		<matches>
+			<match name="Type" value="Event"/>
+			<match name="Faction" value="Tau"/>
+		</matches>
+		
+		<overlayblocks>	
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="EventUniqueYes"/> </if>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/></if>
+				<else> <link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+			
+		<textblocks>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<link block="eventCardTitle">
+				<property name="Name"/>
+			</link>
+			<link block="eventTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="eventCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="eventCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+
+
+
+
+
+
+				
+<!-- Support CARD TEMPLATE -->	
+
+	
+	<!-- Space Marine Support Card template -->
+	<template src="proxy/proxyImages/Supports/support_Marine.png" default="False">
+		<matches>
+			<match name="Type" value="Support"/>
+			<match name="Faction" value="Space Marine"/>
+		</matches>
+		
+		<overlayblocks>			
+			<!-- Unique -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="SupportUniqueYes"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+		
+			<link block="SupportCardName">
+				<property name="Name"/>
+			</link>
+			<link block="SupportCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="SupportCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="SupportCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	
+	<!-- Astra Militarum Support Card template -->
+	<template src="proxy/proxyImages/Supports/support_AstraMilitarum.png" default="False">
+		<matches>
+			<match name="Type" value="Support"/>
+			<match name="Faction" value="Astra Militarum"/>
+		</matches>
+		
+		<overlayblocks>			
+			<!-- Unique -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="SupportUniqueYes"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+		
+			<link block="SupportCardName">
+				<property name="Name"/>
+			</link>
+			<link block="SupportCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="SupportCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="SupportCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	
+	<!-- Chaos Support Card template -->
+	<template src="proxy/proxyImages/Supports/support_Chaos.png" default="False">
+		<matches>
+			<match name="Type" value="Support"/>
+			<match name="Faction" value="Chaos"/>
+		</matches>
+		
+		<overlayblocks>			
+			<!-- Unique -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="SupportUniqueYes"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+		
+			<link block="SupportCardName">
+				<property name="Name"/>
+			</link>
+			<link block="SupportCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="SupportCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="SupportCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	
+	<!-- Dark Eldar Support Card template -->
+	<template src="proxy/proxyImages/Supports/support_DarkEldar.png" default="False">
+		<matches>
+			<match name="Type" value="Support"/>
+			<match name="Faction" value="Dark Eldar"/>
+		</matches>
+		
+		<overlayblocks>			
+			<!-- Unique -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="SupportUniqueYes"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+		
+			<link block="SupportCardName">
+				<property name="Name"/>
+			</link>
+			<link block="SupportCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="SupportCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="SupportCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	
+	<!-- Eldar Support Card template -->
+	<template src="proxy/proxyImages/Supports/support_Eldar.png" default="False">
+		<matches>
+			<match name="Type" value="Support"/>
+			<match name="Faction" value="Eldar"/>
+		</matches>
+		
+		<overlayblocks>			
+			<!-- Unique -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="SupportUniqueYes"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+		
+			<link block="SupportCardName">
+				<property name="Name"/>
+			</link>
+			<link block="SupportCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="SupportCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="SupportCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	
+	<!-- Neutral Support Card template -->
+	<template src="proxy/proxyImages/Supports/support_Neutral.png" default="False">
+		<matches>
+			<match name="Type" value="Support"/>
+			<match name="Faction" value="Neutral"/>
+		</matches>
+		
+		<overlayblocks>			
+			<!-- Unique -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="SupportUniqueYes"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+		
+			<link block="SupportCardName">
+				<property name="Name"/>
+			</link>
+			<link block="SupportCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="SupportCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="SupportCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	
+	<!-- Ork Support Card template -->
+	<template src="proxy/proxyImages/Supports/support_Ork.png" default="False">
+		<matches>
+			<match name="Type" value="Support"/>
+			<match name="Faction" value="Ork"/>
+		</matches>
+		
+		<overlayblocks>			
+			<!-- Unique -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="SupportUniqueYes"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+		
+			<link block="SupportCardName">
+				<property name="Name"/>
+			</link>
+			<link block="SupportCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="SupportCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="SupportCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	
+	<!-- Tau Support Card template -->
+	<template src="proxy/proxyImages/Supports/support_Tau.png" default="False">
+		<matches>
+			<match name="Type" value="Support"/>
+			<match name="Faction" value="Tau"/>
+		</matches>
+		
+		<overlayblocks>			
+			<!-- Unique -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="SupportUniqueYes"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+		
+			<link block="SupportCardName">
+				<property name="Name"/>
+			</link>
+			<link block="SupportCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="SupportCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="SupportCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+
+	
+<!-- Token CARD TEMPLATE -->
+	<!-- Astra Militarum Token Card template -->
+	<template src="proxy/proxyImages/Armies/army_AstraMilitarum.png" default="False">
+		<matches>
+			<match name="Type" value="Token"/>
+			<match name="Faction" value="Astra Militarum"/>
+		</matches>
+		
+		<overlayblocks>		
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="textATK">
+				<property name="Attack"/>
+			</link>
+			<link block="textHP">
+				<property name="Health"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+	<!-- Chaos Token Card template -->
+	<template src="proxy/proxyImages/Armies/army_Chaos.png" default="False">
+		<matches>
+			<match name="Type" value="Token"/>
+			<match name="Faction" value="Chaos"/>
+		</matches>
+		
+		<overlayblocks>		
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="textATK">
+				<property name="Attack"/>
+			</link>
+			<link block="textHP">
+				<property name="Health"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+	<!-- Ork Token Card template -->
+	<template src="proxy/proxyImages/Armies/army_Ork.png" default="False">
+		<matches>
+			<match name="Type" value="Token"/>
+			<match name="Faction" value="Ork"/>
+		</matches>
+		
+		<overlayblocks>			
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="textATK">
+				<property name="Attack"/>
+			</link>
+			<link block="textHP">
+				<property name="Health"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+	<!-- Dark Eldar Token Card template -->
+	<template src="proxy/proxyImages/Armies/army_DarkEldar.png" default="False">
+		<matches>
+			<match name="Type" value="Token"/>
+			<match name="Faction" value="Dark Eldar"/>
+		</matches>
+		
+		<overlayblocks>			
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="textATK">
+				<property name="Attack"/>
+			</link>
+			<link block="textHP">
+				<property name="Health"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+
+
+		
+<!-- ARMY CARD TEMPLATE -->
+
+	
+	<!-- Space Marine Army Card template -->
+	<template src="proxy/proxyImages/Armies/army_Marine.png" default="False">
+		<matches>
+			<match name="Type" value="Army"/>
+			<match name="Faction" value="Space Marine"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	<!-- Astra Militarum Army Card template -->
+	<template src="proxy/proxyImages/Armies/army_AstraMilitarum.png" default="False">
+		<matches>
+			<match name="Type" value="Army"/>
+			<match name="Faction" value="Astra Militarum"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+	
+	<!-- Ork Army Card template -->
+	<template src="proxy/proxyImages/Armies/army_Ork.png" default="False">
+		<matches>
+			<match name="Type" value="Army"/>
+			<match name="Faction" value="Ork"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+			
+	
+	<!-- Tau Army Card template -->
+	<template src="proxy/proxyImages/Armies/army_Tau.png" default="False">
+		<matches>
+			<match name="Type" value="Army"/>
+			<match name="Faction" value="Tau"/>
+		</matches>
+		
+		<overlayblocks>			
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	
+	<!-- Neutral Army Card template -->
+	<template src="proxy/proxyImages/Armies/army_Neutral.png" default="False">
+		<matches>
+			<match name="Type" value="Army"/>
+			<match name="Faction" value="Neutral"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	
+	<!-- Eldar Army Card template -->
+	<template src="proxy/proxyImages/Armies/army_Eldar.png" default="False">
+		<matches>
+			<match name="Type" value="Army"/>
+			<match name="Faction" value="Eldar"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+	
+	<!-- Dark Eldar Army Card template -->
+	<template src="proxy/proxyImages/Armies/army_DarkEldar.png" default="False">
+		<matches>
+			<match name="Type" value="Army"/>
+			<match name="Faction" value="Dark Eldar"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	
+	<!-- Chaos Army Card template -->
+	<template src="proxy/proxyImages/Armies/army_Chaos.png" default="False">
+		<matches>
+			<match name="Type" value="Army"/>
+			<match name="Faction" value="Chaos"/>
+		</matches>
+		
+		<overlayblocks>
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+
+<!-- WARLORD CARD TEMPLATE -->
+
+	
+	<!-- Space Marine Warlord Card template -->
+	<template src="proxy/proxyImages/Armies/army_Marine.png" default="False">
+		<matches>
+			<match name="Type" value="Warlord"/>
+			<match name="Faction" value="Space Marine"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	<!-- Astra Militarum Warlord Card template -->
+	<template src="proxy/proxyImages/Armies/army_AstraMilitarum.png" default="False">
+		<matches>
+			<match name="Type" value="Warlord"/>
+			<match name="Faction" value="Astra Militarum"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+	
+	<!-- Ork Warlord Card template -->
+	<template src="proxy/proxyImages/Armies/army_Ork.png" default="False">
+		<matches>
+			<match name="Type" value="Warlord"/>
+			<match name="Faction" value="Ork"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+			
+	
+	<!-- Tau Warlord Card template -->
+	<template src="proxy/proxyImages/Armies/army_Tau.png" default="False">
+		<matches>
+			<match name="Type" value="Warlord"/>
+			<match name="Faction" value="Tau"/>
+		</matches>
+		
+		<overlayblocks>			
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>	
+	
+	<!-- Eldar Warlord Card template -->
+	<template src="proxy/proxyImages/Armies/army_Eldar.png" default="False">
+		<matches>
+			<match name="Type" value="Warlord"/>
+			<match name="Faction" value="Eldar"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+	
+	<!-- Dark Eldar Warlord Card template -->
+	<template src="proxy/proxyImages/Armies/army_DarkEldar.png" default="False">
+		<matches>
+			<match name="Type" value="Warlord"/>
+			<match name="Faction" value="Dark Eldar"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+	
+	
+	<!-- Chaos Warlord Card template -->
+	<template src="proxy/proxyImages/Armies/army_Chaos.png" default="False">
+		<matches>
+			<match name="Type" value="Warlord"/>
+			<match name="Faction" value="Chaos"/>
+		</matches>
+		
+		<overlayblocks>
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>	
+</templates>

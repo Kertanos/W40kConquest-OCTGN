@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="af04f855-58c4-4db3-a191-45fe33381679" sleeveid="0">
+  <section name="Warlord" shared="False">
+    <card qty="1" id="c8ef7c23-ccb4-487b-a357-2da397c5ef79">Zarathur, High Sorcerer</card>
+  </section>
+  <section name="Armies" shared="False">
+    <card qty="1" id="a54d839f-c330-4c3b-b8e2-ac77ac85d66a">Void Pirate</card>
+    <card qty="1" id="4c140bfb-6a94-4af4-8e7e-c4710f1e6e4d">Rogue Trader</card>
+    <card qty="4" id="ec87c046-f271-4d8d-8950-c94551a5c785">Zarathur's Flamers</card>
+    <card qty="1" id="c8a0cd97-3e59-447e-bca9-1efcca575085">Alpha Legion Infiltrator</card>
+    <card qty="1" id="6d8ec6fa-76c6-4abd-b65f-cec7404de0b4">Possessed</card>
+    <card qty="1" id="64d9376d-5fa8-4d7a-8611-0a721e303eb0">Splintered Path Acolyte </card>
+    <card qty="1" id="6bf564cb-87f8-4af7-8338-5cb6c262cbb2">Khorne Berserker</card>
+    <card qty="1" id="77e6682a-580f-48aa-9ec5-df378b3f2970">Vicious Bloodletter</card>
+    <card qty="1" id="f480e3d2-17a4-4177-8db9-f17cc79c921c">Umbral Preacher</card>
+    <card qty="1" id="476432cd-e4eb-42cd-869f-47679ba78427">Black Legion Heldrake</card>
+    <card qty="1" id="af3aa704-33f1-41cd-82f7-1611de67d512">Ravenous Flesh Hounds</card>
+    <card qty="1" id="4fd7b078-9fa9-4cf7-aad7-46ffe157f542">Virulent Plague Squad</card>
+    <card qty="2" id="a92a8bd4-a2b2-4193-8abb-b2b149505a71">Chaos Fanatics</card>
+    <card qty="2" id="e244d3a8-e005-4069-aac2-1e6a419203d1">Soul Grinder</card>
+    <card qty="1" id="d5ff5747-b7bf-4674-b666-3d4ab02b7111">Xavaes Split-Tongue</card>
+  </section>
+  <section name="Attachments" shared="False">
+    <card qty="1" id="4a12e9a4-8775-4f28-95fe-1976a9a2dffb">Promotion</card>
+    <card qty="1" id="5ea90f71-cb8d-4644-afc0-871493f23e6b">Mark of Chaos</card>
+    <card qty="1" id="614d5a49-4df6-496e-8a60-da3c90337f6c">Rune-Encrusted Armor</card>
+    <card qty="1" id="c736a7da-b2b2-4c0c-8b0a-a0ce41074488">Dire Mutation</card>
+  </section>
+  <section name="Events" shared="False">
+    <card qty="1" id="35656adf-3ea3-4409-a152-7842f96ee23c">No Mercy</card>
+    <card qty="1" id="d68a7bff-59fc-44ad-a29e-bda96f705ac6">Fall Back!</card>
+    <card qty="2" id="8590bc5f-7e31-4e0b-95ca-ad63f55fafdf">Infernal Gateway</card>
+    <card qty="1" id="76d78c07-ac2d-454d-836e-e995215462a2">Warpstorm</card>
+    <card qty="1" id="c216387e-c2ea-45af-a12f-1ebb4599ccfa">Tzeentch's Firestorm</card>
+    <card qty="1" id="b04e3f03-21a4-4519-86e1-b1cd3bd3f112">Promise of Glory</card>
+  </section>
+  <section name="Supports" shared="False">
+    <card qty="1" id="8dc7d63b-d902-459d-8485-53c23884825d">Promethium Mine</card>
+    <card qty="1" id="252dae48-1ced-4599-9e1c-d2cd3edd44aa">Shrine of Warpflame</card>
+    <card qty="1" id="d2483d57-0e3c-445a-97e7-f881a87f5414">Fortress of Madness</card>
+    <card qty="1" id="93ba6aff-9371-496f-a74d-4d9d7ff01e52">Murder Cogitator</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

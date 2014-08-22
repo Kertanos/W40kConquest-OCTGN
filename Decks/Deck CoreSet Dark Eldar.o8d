@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="af04f855-58c4-4db3-a191-45fe33381679" sleeveid="0">
+  <section name="Warlord" shared="False">
+    <card qty="1" id="296b5042-953c-4164-a7c5-6b598ae6f439">Packmaster Kith</card>
+  </section>
+  <section name="Armies" shared="False">
+    <card qty="4" id="3fd031d5-146b-421f-952f-4b2fa3531a91">Kith's Khymeramasters</card>
+    <card qty="1" id="b7c996ce-018d-451c-8047-cb495d2d717f">Sybarite Marksman</card>
+    <card qty="1" id="a3fe98c9-00a5-4eae-be64-8acb9d86ff8f">Incubus Warrior</card>
+    <card qty="1" id="ea52d21e-5425-49f7-a090-cbc548e04b28">Haemonculus Tormentor</card>
+    <card qty="1" id="c4bfe072-73c5-4554-9b6d-e74f4e5dbdc3">Hellion Gang</card>
+    <card qty="1" id="ba86770f-d4ec-403d-9b40-06a4ee5cda9a">Beasthunter Wyches</card>
+    <card qty="1" id="398d6362-de4e-489b-8880-8201f69cb314">Baleful Mandrake</card>
+    <card qty="1" id="6e2817a9-190f-4c99-af04-6c04d83eebdf">Vile Raider</card>
+    <card qty="1" id="b0bb2622-9f64-4e51-b9c2-1147116eb22d">Black Heart Ravager</card>
+    <card qty="1" id="7e440d37-940b-4c68-8458-9e86f9982958">Murder of Razorwings</card>
+    <card qty="2" id="baa6de96-be47-4640-8e46-cf32dc85d005">Coliseum Fighters</card>
+    <card qty="1" id="15b08689-f005-45f2-a859-071cced57e84">Kabalite Strike force</card>
+    <card qty="1" id="a1e615d9-1f4a-4926-b598-a8cbd2694de0">Syren Zythlex</card>
+    <card qty="1" id="a54d839f-c330-4c3b-b8e2-ac77ac85d66a">Void Pirate</card>
+    <card qty="1" id="4c140bfb-6a94-4af4-8e7e-c4710f1e6e4d">Rogue Trader</card>
+  </section>
+  <section name="Attachments" shared="False">
+    <card qty="1" id="dc4d5ac1-b0a7-45e1-8900-94973530882b">Agonizer of Bren</card>
+    <card qty="1" id="23f2e6a5-3e5c-4856-833e-cd772e5395ed">Suffering</card>
+    <card qty="1" id="a9d92fcb-4b04-498c-a3ac-07c62e8fd86e">Hypex Injector</card>
+    <card qty="1" id="4a12e9a4-8775-4f28-95fe-1976a9a2dffb">Promotion</card>
+  </section>
+  <section name="Events" shared="False">
+    <card qty="2" id="c2b90e80-dd30-4e34-a0c3-95afc1454cca">Pact of the Haemonculi</card>
+    <card qty="2" id="18ec5d75-1017-4989-bace-ffe53032cdce">Power from Pain</card>
+    <card qty="1" id="664a2d8e-9cc2-4b10-9adf-ce4f1ba2e056">Archon's Terror</card>
+    <card qty="1" id="97582130-625a-4a99-818a-224bfb6ba2a3">Raid</card>
+    <card qty="1" id="d68a7bff-59fc-44ad-a29e-bda96f705ac6">Fall Back!</card>
+    <card qty="1" id="35656adf-3ea3-4409-a152-7842f96ee23c">No Mercy</card>
+  </section>
+  <section name="Supports" shared="False">
+    <card qty="1" id="3711655d-b2c9-4849-9d63-dcf90423d7ec">Khymera Den</card>
+    <card qty="1" id="025baea6-580e-4a46-831c-fe43c8ccedfe">Altar of Torment</card>
+    <card qty="1" id="8b25adab-ae1d-4cba-967c-f520afb63cc1">Twisted Laboratory</card>
+    <card qty="1" id="8dc7d63b-d902-459d-8485-53c23884825d">Promethium Mine</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

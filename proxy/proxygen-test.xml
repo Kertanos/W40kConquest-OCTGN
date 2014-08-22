@@ -1,0 +1,69 @@
+<root>
+  
+	<propertyset>
+	<name>Faction</name>	<value>Neutral</value>	</propertyset>
+
+	<propertyset>
+	<name>Type</name>
+	<value>Army</value>	</propertyset>
+	<propertyset>
+	<name>Text</name>	<value>Reaction: After this unit enters play, search the top 6 cards of your deck for an attachment or Drone card. Reveal it, add it to your hand, and place the remaining cards on the bottom of your deck in any order.</value>
+  </propertyset>
+	<propertyset>
+	<name>Keywords</name>	<value>No Wargear Attachments. Mobile.</value>	</propertyset>
+	<propertyset>
+	<name>Cost</name>
+	<value>3</value>
+	</propertyset>
+
+	<propertyset>
+	<name>Traits</name>
+	<value>Scholar. Ally. Drone. Wych.</value>
+	</propertyset>
+	<propertyset>
+	<name>Name</name>
+	<value>Earth Cast Technician</value>
+	</propertyset>
+
+	<propertyset>
+	<name>Unique</name>
+	<value>yes</value>
+	</propertyset>
+
+	<propertyset>
+	<name>Attack</name>	<value>1</value>
+	</propertyset>
+
+	<propertyset>
+	<name>Health</name>	<value>1</value>
+	</propertyset>
+
+	<propertyset>
+	<name>Command</name>	<value>1</value>
+	</propertyset>
+
+	<propertyset>
+	<name>Shield</name>	<value>1</value>
+	</propertyset>
+
+	<propertyset>
+	<name>ResourceBonus</name>	<value></value>
+	</propertyset>
+
+	<propertyset>
+	<name>CardBonus</name>	<value></value>
+	</propertyset>
+
+	<propertyset>
+	<name>PlanetMaterial</name>	<value>1</value>
+	</propertyset>
+
+	<propertyset>
+	<name>PlanetStrongpoint</name>	<value>1</value>
+	</propertyset>
+
+	<propertyset>
+	<name>PlanetTech</name>	<value>1</value>
+	</propertyset>
+
+</root>

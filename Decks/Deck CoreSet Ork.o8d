@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="af04f855-58c4-4db3-a191-45fe33381679" sleeveid="0">
+  <section name="Warlord" shared="False">
+    <card qty="1" id="efb52dfe-ede5-41aa-97ce-2f4e5e8d562c">Nazdreg</card>
+  </section>
+  <section name="Armies" shared="False">
+    <card qty="1" id="a54d839f-c330-4c3b-b8e2-ac77ac85d66a">Void Pirate</card>
+    <card qty="1" id="4c140bfb-6a94-4af4-8e7e-c4710f1e6e4d">Rogue Trader</card>
+    <card qty="4" id="55f3baf6-9c13-44d9-af8d-8f29a918d27d">Nazdreg's Flash Gitz</card>
+    <card qty="1" id="477a3841-cbb3-4be0-96b5-5c7b5de8da85">Sniveling Grot</card>
+    <card qty="1" id="74d07f14-b501-4231-bf33-dc90c220d7e0">Goff Nob</card>
+    <card qty="1" id="bbca0be6-0f2c-4c39-afc7-59513e286025">Weirdboy Maniak</card>
+    <card qty="1" id="81c92dee-542f-4980-b2dc-03b2af9a7cf5">Tankbusta Bommaz</card>
+    <card qty="1" id="5bcc575d-c0d9-4a73-92f6-d0280ef752b7">Rugged Killa Kans</card>
+    <card qty="1" id="f5df0e57-5626-45b6-ba66-3c4ea5d85b82">Enraged Ork</card>
+    <card qty="1" id="11b3c0af-d87b-4321-8944-58729634f828">Crushface</card>
+    <card qty="1" id="2d6f27eb-6911-47a6-bc3f-d9aa3317bccd">Bad Dok</card>
+    <card qty="1" id="36d772af-acc7-4c8d-a0b6-e49e487955ea">Rokkitboy</card>
+    <card qty="2" id="68ac369a-3e20-4ca6-81c3-cce74cb8f8b0">Goff Boyz</card>
+    <card qty="1" id="a557d417-27a9-4e4d-8548-652eec044c66">Shoota Mob</card>
+    <card qty="2" id="7ba827c4-b65c-4755-8fe6-95e07a2754f5">Burna Boyz</card>
+  </section>
+  <section name="Attachments" shared="False">
+    <card qty="1" id="4a12e9a4-8775-4f28-95fe-1976a9a2dffb">Promotion</card>
+    <card qty="1" id="abc84c34-23d9-495e-a29d-7bcef04ed180">Cybork Body</card>
+    <card qty="1" id="749374d5-0885-4d63-9498-d7be0e1ce90c">Rokkit Launcha</card>
+  </section>
+  <section name="Events" shared="False">
+    <card qty="1" id="d68a7bff-59fc-44ad-a29e-bda96f705ac6">Fall Back!</card>
+    <card qty="1" id="35656adf-3ea3-4409-a152-7842f96ee23c">No Mercy</card>
+    <card qty="2" id="4ca03430-4935-4f2e-b537-1e96b1177908">Bigga is Betta</card>
+    <card qty="1" id="7903c56f-12c8-4cc3-b430-513759728417">Battle Cry</card>
+    <card qty="1" id="c10768e9-6aa2-49fe-897a-91b124366821">Snotling Attack</card>
+    <card qty="1" id="b23532ec-701e-4d34-82db-817b6f6a11f7">Squig Bombin'</card>
+  </section>
+  <section name="Supports" shared="False">
+    <card qty="1" id="8dc7d63b-d902-459d-8485-53c23884825d">Promethium Mine</card>
+    <card qty="1" id="a3eb45a1-b3fc-48d7-81d0-aea8ffba9347">Kraktoof Hall</card>
+    <card qty="1" id="4cfac59f-0feb-415d-b02d-cc9a3e16fca4">Ork Kannon</card>
+    <card qty="1" id="51b33647-0253-44fb-8f10-e9566bddfd1d">Bigtoof Banna</card>
+    <card qty="1" id="d315572c-5297-437e-956b-bda857eb55dd">Tellyporta Pad</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="af04f855-58c4-4db3-a191-45fe33381679" sleeveid="0">
+  <section name="Warlord" shared="False">
+    <card qty="1" id="d8a1bb05-2b03-405b-aa32-4549b2d1d020">Captain Cato Sicarius</card>
+  </section>
+  <section name="Armies" shared="False">
+    <card qty="4" id="238ef37b-aed9-4e29-943a-173654955fe8">Sicarius's Chosen</card>
+    <card qty="1" id="a7ca6ea4-819d-4892-88e5-9af7187f632f">10th Company Scout</card>
+    <card qty="2" id="c2064bcf-4093-4b6d-bfc5-dceb167e94a3">Tactical Squad Cardinis</card>
+    <card qty="1" id="bd682398-d9eb-4815-9e7b-f1bc479c752e">Honored Librarian</card>
+    <card qty="2" id="4447cbf3-de37-40a6-92a1-17cc885f85be">Blood Angels Veterans</card>
+    <card qty="1" id="0e95550a-d75e-4e3c-b1c2-c464c7a167dc">Daring Assault Squad</card>
+    <card qty="1" id="463ac586-1979-49cb-8e1e-f41e40991baf">Land Raider</card>
+    <card qty="1" id="af63c352-05a5-4991-a5c1-15b3d24f67dd">Ultramarines Dreadnought</card>
+    <card qty="1" id="4f94a309-2bfa-4f0d-b3a4-616815deb316">Veteran Brother Maxos</card>
+    <card qty="1" id="30cf32f0-c024-4a15-9390-8f291f6cc64b">Eager Recruit</card>
+    <card qty="1" id="75bd7d73-c8b3-41e9-9de1-93b17bdb4e25">Iron Hands Techmarine</card>
+    <card qty="1" id="481fcfd4-2874-4b43-b0c4-be43fc24894f">Raven Guard Speeder</card>
+    <card qty="1" id="1a4c669a-2eff-4f33-9580-d49e820b76cc">Deathwing Guard</card>
+    <card qty="1" id="a54d839f-c330-4c3b-b8e2-ac77ac85d66a">Void Pirate</card>
+    <card qty="1" id="4c140bfb-6a94-4af4-8e7e-c4710f1e6e4d">Rogue Trader</card>
+  </section>
+  <section name="Attachments" shared="False">
+    <card qty="1" id="c6e6862d-85f3-4666-882c-ef7ec333c392">Tallassarian Tempest Blade</card>
+    <card qty="1" id="e9cf7f6e-35e9-4a66-8344-856598da5b10">Godwyn Pattern Bolter</card>
+    <card qty="1" id="2fd923cf-a639-4b47-bbc3-91cfddf429d6">Iron Halo</card>
+    <card qty="1" id="4a12e9a4-8775-4f28-95fe-1976a9a2dffb">Promotion</card>
+  </section>
+  <section name="Events" shared="False">
+    <card qty="2" id="062ac44d-4e71-4d41-b60e-72df94e71eb6">The Fury of Sicarius</card>
+    <card qty="1" id="57654a17-cd12-456b-9379-00b5b87de36a">Drop Pod Assault</card>
+    <card qty="1" id="9bb7fee7-1b1a-4e4a-acf1-d7deb14b6c7d">Indomitable</card>
+    <card qty="1" id="9ba6f965-7bb0-44d2-af8a-54175399a3c8">Exterminatus</card>
+    <card qty="1" id="35656adf-3ea3-4409-a152-7842f96ee23c">No Mercy</card>
+    <card qty="1" id="d68a7bff-59fc-44ad-a29e-bda96f705ac6">Fall Back!</card>
+  </section>
+  <section name="Supports" shared="False">
+    <card qty="1" id="b7e2135b-2e04-4d0b-a448-d548c1c5f4e8">Cato's Stronghold</card>
+    <card qty="1" id="588b2aa8-d5ab-4887-be7a-707d3db16775">Fortress-Monastery</card>
+    <card qty="1" id="3f8c1ccf-0b50-4931-8eca-2e72832ff8f5">Holy Sepulchre</card>
+    <card qty="1" id="8dc7d63b-d902-459d-8485-53c23884825d">Promethium Mine</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

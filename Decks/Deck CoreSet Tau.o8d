@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="af04f855-58c4-4db3-a191-45fe33381679" sleeveid="0">
+  <section name="Warlord" shared="False">
+    <card qty="1" id="dca1c8cd-4d4f-4414-9cf1-91554571b689">Commander Shadowsun</card>
+  </section>
+  <section name="Armies" shared="False">
+    <card qty="1" id="a54d839f-c330-4c3b-b8e2-ac77ac85d66a">Void Pirate</card>
+    <card qty="1" id="4c140bfb-6a94-4af4-8e7e-c4710f1e6e4d">Rogue Trader</card>
+    <card qty="2" id="31e3dee3-4fc5-41fb-b236-47532c0fa7a0">Experimental Devilfish</card>
+    <card qty="1" id="3acef22b-e5d3-4201-8623-32730b942f84">Fireblade Kais'vre</card>
+    <card qty="1" id="833868a7-4f25-4cb2-aa96-1f6d20553950">Stingwing Swarm</card>
+    <card qty="1" id="f4d9e0c1-1bfa-4bd9-8e7a-ab6ebddc0814">Gun Drones</card>
+    <card qty="2" id="5f867571-34b0-4fbc-bdec-b63e7d9b4f19">Earth Caste Technician</card>
+    <card qty="1" id="9e59b984-daff-4281-9f9e-d3ef8c93b73c">Crisis Battle Guard</card>
+    <card qty="1" id="8d59a7f9-75da-4afa-b551-ade3fab4d2f2">Fire Warrior Strike Team</card>
+    <card qty="1" id="f24058f0-a70b-4533-9316-d15e86ffe8a0">Fire Warrior Elite</card>
+    <card qty="1" id="0229ed87-fbbf-4d26-aeec-4fd4f56bd68a">Vash'ya Trailblazer</card>
+    <card qty="1" id="fb3f9168-a1c9-47eb-b367-91f4c3d07330">Carnivore Pack</card>
+    <card qty="1" id="5aef0594-b99b-4cc2-9d42-610f3d76ca42">Vior'la Marksman</card>
+    <card qty="1" id="b79defdf-d89a-48cc-b47e-ebf757760976">Recon Drone</card>
+    <card qty="4" id="78be656d-b008-48b5-9cf4-2f099df442fe">Shadowun's Stealth Cadre</card>
+  </section>
+  <section name="Attachments" shared="False">
+    <card qty="1" id="4a12e9a4-8775-4f28-95fe-1976a9a2dffb">Promotion</card>
+    <card qty="1" id="0c68e170-9754-4f25-a29e-cc92f1810b20">Ion Rifle</card>
+    <card qty="1" id="396fd155-9391-4d3a-b92e-640c9b13ce6c">Repulsor Impact Field</card>
+    <card qty="1" id="4671b572-73e6-48c4-860b-aa2d4c3dd186">Command-link Drone</card>
+  </section>
+  <section name="Events" shared="False">
+    <card qty="1" id="35656adf-3ea3-4409-a152-7842f96ee23c">No Mercy</card>
+    <card qty="1" id="d68a7bff-59fc-44ad-a29e-bda96f705ac6">Fall Back!</card>
+    <card qty="1" id="73ecedf6-b976-4dc9-8e30-2ceba2cc3191">Deception</card>
+    <card qty="1" id="b370e6d8-a71a-47ea-9a90-0d76d8ca19d5">Calculated Strike</card>
+    <card qty="1" id="d748c19e-6e72-4720-814d-e2c77b62de57">Even the Odds</card>
+    <card qty="2" id="270ad799-d10f-411a-8129-fe6333131940">Squadron Redeployment</card>
+  </section>
+  <section name="Supports" shared="False">
+    <card qty="1" id="8dc7d63b-d902-459d-8485-53c23884825d">Promethium Mine</card>
+    <card qty="1" id="414f89a5-14a6-454f-a1e2-4ea664bc5476">Ambush Platform</card>
+    <card qty="1" id="19d00f36-029f-4587-bd61-08e85d60ad35">Frontline Launch Bay</card>
+    <card qty="1" id="a3a8e07f-2255-49e0-b479-ce4a280e9a1d">Communications Relay</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

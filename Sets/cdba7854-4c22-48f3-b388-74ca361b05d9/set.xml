@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="00-Markers and Planets" id="cdba7854-4c22-48f3-b388-74ca361b05d9" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="0.0.0.4" version="1.0">
+	<markers>
+		<marker id="906bc3a2-9315-4473-8671-7ece287de4a8" name="resource"/>
+		<marker id="22adcef9-414c-4e96-8381-f155283e170e" name="damage"/>
+		<marker id="9e9aceca-516f-43f4-8590-48068298af6f" name="fstPlanet"/>
+	</markers>
+	<cards>
+		<card id="5e423620-6663-4198-8cdc-df0fabf876c8" name="Plannum">
+			<property name="Faction"        value=""/>
+			<property name="Type"           value="Planet"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value=""/>
+			<property name="Text"           value="Battle: Move a non-warlord unit you control
+to a planet of your choice."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value="1"/>
+			<property name="CardBonus"      value="1"/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="175"/>
+			<property name="PlanetMaterial" value=""/>
+			<property name="PlanetStrongpoint" value="1"/>
+			<property name="PlanetTech"     value="1"/>
+		</card>
+		<card id="12fea3b0-be4e-4142-89db-316c56956c8f" name="Atrox Prime">
+			<property name="Faction"        value=""/>
+			<property name="Type"           value="Planet"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value=""/>
+			<property name="Text"           value="Battle: Deal 1 damage to each enemy unit at a
+target HQ or adjacent planet."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value="1"/>
+			<property name="CardBonus"      value="1"/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="176"/>
+			<property name="PlanetMaterial" value="1"/>
+			<property name="PlanetStrongpoint" value=""/>
+			<property name="PlanetTech"     value="1"/>
+		</card>
+		<card id="89b18d3e-431e-4889-94d1-0948f73a4b2a" name="Barlus">
+			<property name="Faction"        value=""/>
+			<property name="Type"           value="Planet"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value=""/>
+			<property name="Text"           value="Battle: Discard 1 card at random from your
+opponent's hand."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value="0"/>
+			<property name="CardBonus"      value="2"/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="177"/>
+			<property name="PlanetMaterial" value=""/>
+			<property name="PlanetStrongpoint" value="1"/>
+			<property name="PlanetTech"     value=""/>
+		</card>
+		<card id="9657b143-06c2-45fe-bd6e-4a3d131e1689" name="Elouith">
+			<property name="Faction"        value=""/>
+			<property name="Type"           value="Planet"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value=""/>
+			<property name="Text"           value="Battle: Search the top 3 cards of your deck
+for a card. Add it to your hand, and place the
+remaining cards on the bottom of your deck
+in any order."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value="0"/>
+			<property name="CardBonus"      value="2"/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="178"/>
+			<property name="PlanetMaterial" value=""/>
+			<property name="PlanetStrongpoint" value=""/>
+			<property name="PlanetTech"     value="1"/>
+		</card>
+		<card id="8ec7354b-eef5-4997-82ed-d7ed66a93c15" name="Carnath">
+			<property name="Faction"        value=""/>
+			<property name="Type"           value="Planet"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value=""/>
+			<property name="Text"           value="Battle: Trigger the Battle ability of another
+planet in play."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value="1"/>
+			<property name="CardBonus"      value="1"/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="179"/>
+			<property name="PlanetMaterial" value="1"/>
+			<property name="PlanetStrongpoint" value=""/>
+			<property name="PlanetTech"     value="1"/>
+		</card>
+		<card id="8fcab463-9c8c-4745-a49e-38f56bc49e6d" name="Tarrus">
+			<property name="Faction"        value=""/>
+			<property name="Type"           value="Planet"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value=""/>
+			<property name="Text"           value="Battle: If you control fewer units than your
+opponent, gain 3[RESOURCE] or draw 3 cards."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value="1"/>
+			<property name="CardBonus"      value="1"/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="180"/>
+			<property name="PlanetMaterial" value="1"/>
+			<property name="PlanetStrongpoint" value="1"/>
+			<property name="PlanetTech"     value=""/>
+		</card>
+		<card id="1a35a54a-0f21-44d0-ab40-b3ec7ac5cadc" name="Osus IV">
+			<property name="Faction"        value=""/>
+			<property name="Type"           value="Planet"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value=""/>
+			<property name="Text"           value="Battle: Take 1 [RESOURCE] from your opponent."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value="2"/>
+			<property name="CardBonus"      value="0"/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="181"/>
+			<property name="PlanetMaterial" value=""/>
+			<property name="PlanetStrongpoint" value="1"/>
+			<property name="PlanetTech"     value=""/>
+		</card>
+		<card id="e0c7e2e6-711d-4704-8e38-182d113c6282" name="Ferrin">
+			<property name="Faction"        value=""/>
+			<property name="Type"           value="Planet"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value=""/>
+			<property name="Text"           value="Battle: Rout a target non-warlord unit."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value="2"/>
+			<property name="CardBonus"      value="0"/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="182"/>
+			<property name="PlanetMaterial" value="1"/>
+			<property name="PlanetStrongpoint" value=""/>
+			<property name="PlanetTech"     value=""/>
+		</card>
+		<card id="3e58dd21-00fe-499e-87e9-7bb52bb66b95" name="Y'varn">
+			<property name="Faction"        value=""/>
+			<property name="Type"           value="Planet"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value=""/>
+			<property name="Text"           value="Battle: Each player puts a unit into play from
+his hand at his HQ."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value="1"/>
+			<property name="CardBonus"      value="0"/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="183"/>
+			<property name="PlanetMaterial" value="1"/>
+			<property name="PlanetStrongpoint" value="1"/>
+			<property name="PlanetTech"     value="1"/>
+		</card>
+		<card id="36221c3a-591c-41e8-a4c9-fc71c89cac12" name="Iridial">
+			<property name="Faction"        value=""/>
+			<property name="Type"           value="Planet"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value=""/>
+			<property name="Text"           value="Battle: Remove all damage from a target unit."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value="0"/>
+			<property name="CardBonus"      value="1"/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="184"/>
+			<property name="PlanetMaterial" value="1"/>
+			<property name="PlanetStrongpoint" value="1"/>
+			<property name="PlanetTech"     value="1"/>
+		</card>
+		<card id="5c352ba9-9b70-4071-ae47-e2bed96d1e01" name="Servo-Skull">
+			<property name="Faction"        value=""/>
+			<property name="Type"           value="Skull"/>
+			<alternate name="Servo-Skull" type="Skull2">
+				<property name="Type"           value="Skull"/>
+			</alternate>
+			<alternate name="Servo-Skull" type="Skull3">
+				<property name="Type"           value="Skull"/>
+			</alternate>
+			<alternate name="Servo-Skull" type="Skull4">
+				<property name="Type"           value="Skull"/>
+			</alternate>
+			<alternate name="Servo-Skull" type="Skull5">
+				<property name="Type"           value="Skull"/>
+			</alternate>
+		</card>
+		<card id="29133845-cfae-4d83-ba1b-8c7dc3dbbabe" name="Initiative Token">
+			<property name="Type"           value="Initiative"/>
+		</card>
+		<card id="68be9030-f0db-4e9f-942f-77b91d115f24" name="Guardsman">
+			<property name="Faction"        value="Astra Militarum"/>
+			<property name="Type"           value="Token"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Soldier."/>
+			<property name="Text"           value=""/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value="1"/>
+			<property name="Health"         value="2"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="186"/>
+		</card>
+		<card id="177f3172-7098-4732-868e-afc9f0fb62fa" name="Snotlings">
+			<property name="Faction"        value="Ork"/>
+			<property name="Type"           value="Token"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Runt."/>
+			<property name="Text"           value=""/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value="1"/>
+			<property name="Health"         value="1"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="185"/>
+		</card>
+		<card id="532ecbb0-37cc-4805-a88e-5fd8495acbea" name="Cultist">
+			<property name="Faction"        value="Chaos"/>
+			<property name="Type"           value="Token"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Cultist."/>
+			<property name="Text"           value="Interrupt: When you
+deploy a Daemon unit,
+sacrifice this unit to
+reduce its cost by 1."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value="1"/>
+			<property name="Health"         value="1"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="187"/>
+		</card>
+		<card id="85f78832-49b5-4733-9315-7490c54132ec" name="Khymera">
+			<property name="Faction"        value="Dark Eldar"/>
+			<property name="Type"           value="Token"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Creature."/>
+			<property name="Text"           value=""/>
+			<property name="Keywords"       value="No Attachments."/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="1"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="188"/>
+		</card>
+	</cards>
+</set>

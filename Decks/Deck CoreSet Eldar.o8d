@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="af04f855-58c4-4db3-a191-45fe33381679" sleeveid="0">
+  <section name="Warlord" shared="False">
+    <card qty="1" id="68c515b1-a97a-4246-8de5-873a23f6fe0e">Eldorath Starbane</card>
+  </section>
+  <section name="Armies" shared="False">
+    <card qty="4" id="7915200e-786a-444a-ac12-3c47a49b705d">Starbane's Council</card>
+    <card qty="1" id="40e707c3-e723-415d-a4cb-ac991ce92014">Biel-Tan Guardians</card>
+    <card qty="1" id="2aefe4a2-1ae9-4a89-9181-2d02c15f7074">Altansar Rangers</card>
+    <card qty="2" id="455117a7-2ca7-4f5d-b0f1-8bb39f6959ef">Eldar Survivalist</card>
+    <card qty="1" id="cb08b7e3-d50b-4f33-97ae-0e983b48d3f5">Wildrider Squadron</card>
+    <card qty="1" id="b2beb715-dc6e-4670-a842-ed65f2290fcd">Soaring Falcon</card>
+    <card qty="1" id="41066b2a-20af-43d3-88c4-ddd8d79d37a0">Wailing Wraithfighter</card>
+    <card qty="1" id="645c82fc-a264-4d97-afec-487078f63ce6">Iyanden Wraithguard</card>
+    <card qty="2" id="a0ced109-a6c2-497b-8dbb-1c4032dbb27c">Shrouded Harlequin</card>
+    <card qty="1" id="b7d4c64c-2046-4306-81a8-0ec0e6f52247">Swordwind Farseer</card>
+    <card qty="1" id="faf04c7d-1e22-4d20-93ee-b5370f0b6025">Silvered Blade Avengers</card>
+    <card qty="1" id="15ac57ce-335a-4b0c-9bfc-750dca272d94">Biel-Tan Warp Spiders</card>
+    <card qty="1" id="4610c05a-fbbc-4e35-ab15-394e84750399">Spiritseer Erathal</card>
+    <card qty="1" id="a54d839f-c330-4c3b-b8e2-ac77ac85d66a">Void Pirate</card>
+    <card qty="1" id="4c140bfb-6a94-4af4-8e7e-c4710f1e6e4d">Rogue Trader</card>
+  </section>
+  <section name="Attachments" shared="False">
+    <card qty="1" id="8015f561-8d90-4a29-b5c5-fe9bfcbcd097">Mobility</card>
+    <card qty="1" id="9abff729-77c1-4032-bf25-504adf3ab819">Banshee Power Sword</card>
+    <card qty="1" id="4a12e9a4-8775-4f28-95fe-1976a9a2dffb">Promotion</card>
+  </section>
+  <section name="Events" shared="False">
+    <card qty="2" id="c362f9a8-600f-4cf6-a83e-db7bc9c638db">Foresight</card>
+    <card qty="1" id="1ebe553e-47b7-4494-acbd-a4263d5d7aba">Superiority</card>
+    <card qty="1" id="1195ad7e-02b5-492a-9d3d-a9f41607e99f">Nullify</card>
+    <card qty="1" id="6f23f0d0-5de4-4e84-9d37-8a99c19080b1">Doom</card>
+    <card qty="1" id="3d8ebf5b-f6cc-40b6-a3aa-5684f4aa0bb9">Gift of Isha</card>
+    <card qty="1" id="35656adf-3ea3-4409-a152-7842f96ee23c">No Mercy</card>
+    <card qty="1" id="d68a7bff-59fc-44ad-a29e-bda96f705ac6">Fall Back!</card>
+  </section>
+  <section name="Supports" shared="False">
+    <card qty="1" id="4444a9b2-eb7f-4240-845c-42df7a9b5d3d">Alaitoc Shrine</card>
+    <card qty="1" id="02810214-b950-41c7-a46f-5c2c6121035d">Corsair Trading Port</card>
+    <card qty="1" id="0192279f-edb3-41b0-a8ab-195bb33f0d89">Craftworld Gate</card>
+    <card qty="1" id="8dc7d63b-d902-459d-8485-53c23884825d">Promethium Mine</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
