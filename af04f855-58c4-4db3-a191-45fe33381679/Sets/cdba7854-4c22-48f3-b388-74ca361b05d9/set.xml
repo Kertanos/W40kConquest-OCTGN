@@ -4,6 +4,7 @@
 		<marker id="906bc3a2-9315-4473-8671-7ece287de4a8" name="resource"/>
 		<marker id="22adcef9-414c-4e96-8381-f155283e170e" name="damage"/>
 		<marker id="9e9aceca-516f-43f4-8590-48068298af6f" name="fstPlanet"/>
+		<marker id="8e41b199-b00c-4009-b94c-f10eb25cbaa2" name="sixPlanet"/>
 	</markers>
 	<cards>
 		<card id="5e423620-6663-4198-8cdc-df0fabf876c8" name="Plannum">

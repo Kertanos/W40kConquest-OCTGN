@@ -3,7 +3,7 @@
 <game name="Warhammer 40K Conquest LCG"
  id="af04f855-58c4-4db3-a191-45fe33381679"
  octgnVersion="3.1.0.0"
- version="1.0.0.3"
+ version="1.1.1.0"
  markersize="16"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  authors="Kertanos"
@@ -106,18 +106,17 @@
 
 <groupaction menu="Set up" execute="setup" shortcut="CTRL+SHIFT+S"/>
 <groupaction menu="Flip Coin" execute="flipCoin" shortcut ="CTRL+F"/>
-<groupaction menu="Ready all my cards" execute="restoreAll" shortcut ="F5"/>
+<groupaction menu="Win Command on Targets" execute="winC" shortcut ="F5"/>
 <groupaction menu="Set Servo-Skull" execute="ServoSkull" shortcut="F6"/>
 <groupaction menu="Capture planet" execute="capture" shortcut="F7"/>
+<groupaction menu="Ready all my cards" execute="restoreAll" shortcut ="F9"/>
 <groupaction menu="Create Token" execute="createToken" shortcut="F10"/>
 <groupaction menu="End Turn" execute="endTurn" shortcut="F12"/>
 <groupaction menu="STOP" execute="holdOn" shortcut ="ALT+S"/>
 <groupaction menu="I'm Done" execute="imDone" shortcut ="ALT+D"/>
 
-<cardaction menu="Exhaust/Ready" execute="kneel" shortcut="F9" default="True"/>
-
+<cardaction menu="Exhaust/Ready" execute="kneel" default="True"/>
 <cardaction menu="Flip Card" execute="flipcard" shortcut="F8"/>
-
 <cardaction menu="Add Damage" execute="addDamage" shortcut="F1"/>
 <cardaction menu="Sub Damage" execute="subDamage" shortcut="F2"/>
 <cardaction menu="Add Resource" execute="addResource" shortcut="F3"/>
@@ -150,10 +149,9 @@
 <hand name="Hand" icon="groups/hand.png" height="88" width="63" ordered="False" visibility="me">
 
 <groupaction menu="Random Discard" execute="randomDiscard" shortcut="ALT+R"/>
-
 <groupaction menu="Random Discard Many" execute="discardMany" shortcut="CTRL+R"/>
-
 <groupaction menu="Mulligan" execute="mulligan" shortcut="CTRL+SHIFT+M"/>
+
 <cardaction menu="Play Card" execute="play" default="True"/>
 <cardaction menu="Discard Card" execute="disc" shortcut="DEL" />
 
@@ -163,13 +161,9 @@
 <group name="Deck" icon="groups/deck.png" height="88" width="63" visibility="none">
 
 <groupaction menu="Shuffle" execute="shuffle" shortcut="CTRL+SHIFT+S"/>
-
 <groupaction menu="Draw" execute="draw" default="True"/>
-
 <groupaction menu="Draw Many" execute="drawMany" shortcut="CTRL+D"/>
-
 <groupaction menu="Search Top X Cards" execute="searchTop" shortcut="CTRL+S"/>
-
 <groupaction menu="Discard Many From Top" execute="discardManyFromTop" shortcut="CTRL+R"/>
 
 <cardaction menu="Discard Card" execute="disc" shortcut="DEL" />

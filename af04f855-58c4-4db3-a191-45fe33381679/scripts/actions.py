@@ -4,6 +4,7 @@
 Resource = ("Resource", "906bc3a2-9315-4473-8671-7ece287de4a8")
 Damage = ("Damage", "22adcef9-414c-4e96-8381-f155283e170e")
 FstPlanet = ("FstPlanet", "9e9aceca-516f-43f4-8590-48068298af6f")
+SixPlanet = ("SixPlanet", "8e41b199-b00c-4009-b94c-f10eb25cbaa2")
 #---------------------------------------------------------------------------
 # Table group actions
 #---------------------------------------------------------------------------
@@ -25,6 +26,7 @@ def setupPlanet(group):
 		card =group.random()
 		setGlobalVariable("Planet{}".format(k), card.name)
 		card.moveToTable(X,-43,True)
+		card.markers[SixPlanet] = k
 		k-=1		
 		X+=200
 	for i in range(5):
@@ -164,7 +166,7 @@ def capture(group, x=0, y=0):
 		if card.PlanetTech == "1" : me.counters['Tech'].value += 1
 		card.moveTo(me.Planets)
 		notify("**{} captures the first planet, {}**".format(me,card))
-	if me.counters['Tech'].value >= 3 or me.counters['Strongpoint'].value >= 3 or me.counters['Material'].value >= 3 : notify ("**{} HAS WON THE GAME ! CONGRATULATION ! **".format(me))
+	if me.counters['Tech'].value >= 3 or me.counters['Strongpoint'].value >= 3 or me.counters['Material'].value >= 3 : notify ("**{} HAS WON THE GAME ! CONGRATULATIONS ! **".format(me))
 
 def endTurn(group, x=0, y=0):
 	mute()
@@ -201,9 +203,11 @@ def endTurn(group, x=0, y=0):
 	for card in plan: card.markers[FstPlanet] = 1 
 	notify("** Turn {} HQ Phase Complete**".format(turn-1))
  	if turn <= 3 :
-		fstP= getGlobalVariable("Planet{}".format(turn+4))
-		notify("DON'T FORGET TO FLIP FACE UP THE {}th PLANET, {}.".format(turn+4,fstP))
-
+		fstP=(card for card in table if card.markers[SixPlanet] == turn+4)
+		for card in fstP: 
+			card.isFaceUp=True
+			card.markers[SixPlanet] = 0
+			notify("The 5th planet is now {}.".format(card))
 
 	
 def HQRes(turn):
@@ -215,16 +219,62 @@ def HQRes(turn):
 	notify("{} gains 4 resources.".format(me))
 	me.setGlobalVariable("Pturn",str(turn))
 
+
+def winC(group,x=0,y=0):
+	mute()
+	com=(card for card in table if card.targetedBy==me and (card.ResourceBonus!="" or card.CardBonus!=""))
+	conf=0
+	conf=askChoice("What do you want to do with targeted cards? ", ['Take all resources and draw bonuses.','Select for each.'])
+	resB=0
+	cardB=0
+	if conf==0:return
+	elif conf==1:
+		for card in com: 
+			if card.ResourceBonus!="": resB+=int(card.ResourceBonus)
+			if card.CardBonus!="": cardB+=int(card.CardBonus)
+		notify("{} chooses to take all bonuses".format(me))
+	else:
+		for card in com:
+			bon=askChoice("For {} : {} Resources, {} Cards".format(card.name,card.ResourceBonus,card.CardBonus), ['Resources','Draw','Both','None'])
+			if bon==1:
+				if card.ResourceBonus!="":resB+=int(card.ResourceBonus)
+				notify("{} chooses to only take resources from {}.".format(me,card))
+			elif bon==2:
+				if card.CardBonus!="":cardB+=int(card.CardBonus)
+				notify("{} chooses to only take draw from {}.".format(me,card))
+			elif bon==3:
+				if card.ResourceBonus!="":resB+=int(card.ResourceBonus)
+				if card.CardBonus!="":cardB+=int(card.CardBonus)
+				notify("{} chooses to take both resources and draw from {}.".format(me,card))
+			else: notify("{} chooses to take nothing from {}".format(me,card))
+	notify("{} draws {} cards and take {} resources.".format(me, cardB,resB))
+	if len(me.deck) <= cardB:
+		notify("**{} was lost in the warp, he looses the game (last card drawn).**".format(me))
+		return	
+	for card in me.deck.top(cardB):
+		card.moveTo(me.hand)
+	me.counters['Resources'].value += resB
+
+				
+
 #---------------------------------------------------------------------------
 # Table card actions
 #---------------------------------------------------------------------------
 
 def disc(card, x=0, y=0):
 	mute()
-	if not confirm("Discard {} ?".format(card.name)): return
-	group=card.group
-	card.moveTo(me.piles['Discard pile'])
-	notify("{} discards {} from his or her {}.".format(me, card,group.name))
+	if card.Type != "Planet":
+		if not confirm("Discard {} ?".format(card.name)): return
+		group=card.group
+		card.moveTo(me.piles['Discard pile'])
+		notify("{} discards {} from his or her {}.".format(me, card,group.name))
+	else:
+		turn= getGlobalVariable("Turn")
+		fstP= getGlobalVariable("Planet{}".format(turn))
+		if card.name!=fstP: return
+		if not confirm("Are you sure you want to destroy {} ? There is no going back !".format(card.name)): return
+		notify("{} destroys {}.".format(me,card))
+		card.delete()
 
 def addMarker(card, x=0, y=0):
 	mute()
@@ -384,7 +434,7 @@ def draw(group):
 	if len(group) == 0: return
 	group[0].moveTo(me.hand)
 	notify("{} draws a card.".format(me))
-	if len(group) == 0: notify("**{} was lost in the warp, he looses the game (last cards draw).**".format(me))
+	if len(group) == 0: notify("**{} was lost in the warp, he looses the game (last card drawn).**".format(me))
 	
 def drawRandom(group):
 	mute()
@@ -393,7 +443,7 @@ def drawRandom(group):
 	if card == None: return
 	card.moveTo(me.hand)
 	notify("{} randomly draws a plot card.".format(me))
-	if len(group) == 0: notify("**{} was lost in the warp, he looses the game (last cards draw).**".format(me))
+	if len(group) == 0: notify("**{} was lost in the warp, he looses the game (last card drawn).**".format(me))
 
 def drawMany(group):
 	drawAmount = None
@@ -409,7 +459,7 @@ def drawMany(group):
 	for card in group.top(drawAmount):
 		card.moveTo(me.hand)
 	notify("{} draws {} cards.".format(me, drawAmount))
-	if len(group) == 0: notify("**{} was lost in the warp, he looses the game (last cards draw).**".format(me))
+	if len(group) == 0: notify("**{} was lost in the warp, he looses the game (last card drawn).**".format(me))
  
 def discardManyFromTop(group):
 	count = 0
@@ -447,7 +497,7 @@ def searchTop(group):
 	group.removeViewer(me)	
 	for cards in group.top(searchAmount): cards.moveToBottom(group)
 	notify("{} placed the {} remaining cards to the bottom of his or her deck.".format(me,searchAmount))
-	if len(me.deck) == 0: notify("**{} was lost in the warp, he looses the game (last cards draw).**".format(me))
+	if len(me.deck) == 0: notify("**{} was lost in the warp, he looses the game (last card drawn).**".format(me))
 
 			
 
