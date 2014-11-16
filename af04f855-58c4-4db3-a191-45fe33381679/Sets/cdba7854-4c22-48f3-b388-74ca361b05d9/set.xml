@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="00-Markers and Planets" id="cdba7854-4c22-48f3-b388-74ca361b05d9" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="0.0.0.4" version="1.0">
+<set name="00-Markers and Planets" id="cdba7854-4c22-48f3-b388-74ca361b05d9" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.1.1.0" version="1.0">
 	<markers>
 		<marker id="906bc3a2-9315-4473-8671-7ece287de4a8" name="resource"/>
 		<marker id="22adcef9-414c-4e96-8381-f155283e170e" name="damage"/>

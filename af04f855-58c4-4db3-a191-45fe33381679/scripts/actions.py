@@ -22,9 +22,11 @@ def setupPlanet(group):
 	group.create("36221c3a-591c-41e8-a4c9-fc71c89cac12")
 	X =-682
 	k=7
+	notify("The planets for this game are :")
 	for i in range(2):
 		card =group.random()
 		setGlobalVariable("Planet{}".format(k), card.name)
+		notify("**{}**".format(card))
 		card.moveToTable(X,-43,True)
 		card.markers[SixPlanet] = k
 		k-=1		
@@ -32,6 +34,7 @@ def setupPlanet(group):
 	for i in range(5):
 		card =group.random()
 		setGlobalVariable("Planet{}".format(k), card.name)
+		notify("**{}**".format(card))
 		card.moveToTable(X,-43)
 		k-=1
 		X+=200
@@ -80,6 +83,7 @@ def setup(group, x = 0, y = 0):
 		me.counters['Resources'].value = int(card.StartingResources)
 		SHand=int(card.StartingHand)
 		me.deck.shuffle()
+		notify("**{}'s warlord is {}**".format(me,card))
 		card.moveToTable(X1, Y1)
 		table.create("5c352ba9-9b70-4071-ae47-e2bed96d1e01",668,Y2,persist=True)
 	for card in me.deck.top(SHand): card.moveTo(me.hand)

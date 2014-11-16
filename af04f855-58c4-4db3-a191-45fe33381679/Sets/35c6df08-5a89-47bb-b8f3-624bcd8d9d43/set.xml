@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="01-Core Set" id="35c6df08-5a89-47bb-b8f3-624bcd8d9d43" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="0.0.1.3" version="1.0">
+<set name="01-Core Set" id="35c6df08-5a89-47bb-b8f3-624bcd8d9d43" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.1.2.0" version="1.0">
 	<cards>
 		<card id="d8a1bb05-2b03-405b-aa32-4549b2d1d020" name="Captain Cato Sicarius">
 			<property name="Faction"        value="Space Marine"/>
@@ -2897,7 +2897,7 @@ Interrupt: When attached unit declares an attack against a non-warlord unit, dis
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="145"/>
 		</card>
-		<card id="78be656d-b008-48b5-9cf4-2f099df442fe" name="Shadowun's Stealth Cadre">
+		<card id="78be656d-b008-48b5-9cf4-2f099df442fe" name="Shadowsun's Stealth Cadre">
 			<property name="Faction"        value="Tau"/>
 			<property name="Type"           value="Army"/>
 			<property name="Loyalty"        value="Squad"/>
