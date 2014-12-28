@@ -26,7 +26,6 @@ def setupPlanet(group):
 	for i in range(2):
 		card =group.random()
 		setGlobalVariable("Planet{}".format(k), card.name)
-		notify("**{}**".format(card))
 		card.moveToTable(X,-43,True)
 		card.markers[SixPlanet] = k
 		k-=1		
