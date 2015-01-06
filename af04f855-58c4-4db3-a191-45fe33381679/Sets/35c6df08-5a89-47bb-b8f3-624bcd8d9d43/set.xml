@@ -300,7 +300,7 @@ at this planet."/>
 		<card id="238ef37b-aed9-4e29-943a-173654955fe8" name="Sicarius's Chosen">
 			<property name="Faction"        value="Space Marine"/>
 			<property name="Type"           value="Army"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (4)"/>
 			<property name="Traits"         value="Soldier. Ultramarines."/>
 			<property name="Text"           value="Reaction: After this unit enters play,
 move a target enemy army unit at an
@@ -321,7 +321,7 @@ adjacent planet to this planet and deal it
 		<card id="b7e2135b-2e04-4d0b-a448-d548c1c5f4e8" name="Cato's Stronghold">
 			<property name="Faction"        value="Space Marine"/>
 			<property name="Type"           value="Support"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Location."/>
 			<property name="Text"           value="Reaction: After an enemy unit is destroyed,
 exhaust this support to ready a target [SPACE MARINE] unit at
@@ -341,7 +341,7 @@ the same planet."/>
 		<card id="062ac44d-4e71-4d41-b60e-72df94e71eb6" name="The Fury of Sicarius">
 			<property name="Faction"        value="Space Marine"/>
 			<property name="Type"           value="Event"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (2)"/>
 			<property name="Traits"         value="Tactic."/>
 			<property name="Text"           value="Reaction: After a [SPACE MARINE] unit damages an enemy
 non-warlord unit by an attack, destroy the
@@ -361,7 +361,7 @@ attacked unit."/>
 		<card id="c6e6862d-85f3-4666-882c-ef7ec333c392" name="Tallassarian Tempest Blade">
 			<property name="Faction"        value="Space Marine"/>
 			<property name="Type"           value="Attachment"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Relic. Weapon."/>
 			<property name="Text"           value="Limit 1 Relic per player.
 Attach to a unique unit.
@@ -751,7 +751,7 @@ to your hand."/>
 		<card id="5a51f6fc-80ba-4888-b1c7-562301f5c55b" name="Straken's Command Squad">
 			<property name="Faction"        value="Astra Militarum"/>
 			<property name="Type"           value="Army"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (4)"/>
 			<property name="Traits"         value="Soldier. Catachan."/>
 			<property name="Text"           value="Interrupt: When this unit leaves play,
 put a Guardsman token into play at the
@@ -771,7 +771,7 @@ same planet."/>
 		<card id="9f3c57be-cd85-4204-9a24-8ebea32491db" name="Omega Zero Command">
 			<property name="Faction"        value="Astra Militarum"/>
 			<property name="Type"           value="Support"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Location."/>
 			<property name="Text"           value="Reaction: After you win a command struggle,
 put a Guardsman token into play at that planet."/>
@@ -790,7 +790,7 @@ put a Guardsman token into play at that planet."/>
 		<card id="f90b98e7-20ac-405d-86d6-d3b67fc7b5f3" name="Glorious Intervention">
 			<property name="Faction"        value="Astra Militarum"/>
 			<property name="Type"           value="Event"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (2)"/>
 			<property name="Traits"         value="Tactic."/>
 			<property name="Text"           value="Reaction: Reaction: After a unit is assigned damage by an
 attack, sacrifice a Soldier or Warrior unit at the
@@ -812,7 +812,7 @@ unit's printed ATK value."/>
 		<card id="00229e5d-e1c4-41b7-9f3b-11ab6e893255" name="Straken's Cunning">
 			<property name="Faction"        value="Astra Militarum"/>
 			<property name="Type"           value="Attachment"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Skill."/>
 			<property name="Text"           value="Attach to an army unit.
 Attached unit gets +1 ATK.
@@ -1202,7 +1202,7 @@ target unit +2 ATK for its next attack this phase."/>
 		<card id="55f3baf6-9c13-44d9-af8d-8f29a918d27d" name="Nazdreg's Flash Gitz">
 			<property name="Faction"        value="Ork"/>
 			<property name="Type"           value="Army"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (4)"/>
 			<property name="Traits"         value="Warrior. Nob."/>
 			<property name="Text"           value="Combat Action: Deal this unit 1 damage
 to ready it. (Limit once per phase.)"/>
@@ -1221,7 +1221,7 @@ to ready it. (Limit once per phase.)"/>
 		<card id="a3eb45a1-b3fc-48d7-81d0-aea8ffba9347" name="Kraktoof Hall">
 			<property name="Faction"        value="Ork"/>
 			<property name="Type"           value="Support"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Location."/>
 			<property name="Text"           value="Combat Action: Exhaust this support to move
 1 damage from a target unit you control to
@@ -1241,7 +1241,7 @@ another target unit at the same planet."/>
 		<card id="4ca03430-4935-4f2e-b537-1e96b1177908" name="Bigga is Betta">
 			<property name="Faction"        value="Ork"/>
 			<property name="Type"           value="Event"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (2)"/>
 			<property name="Traits"         value="Tactic."/>
 			<property name="Text"           value="Interrupt: When you deploy an [ORK] unit, reduce
 its cost by 2. Deal 1 damage to that unit after it
@@ -1261,7 +1261,7 @@ enters play."/>
 		<card id="abc84c34-23d9-495e-a29d-7bcef04ed180" name="Cybork Body">
 			<property name="Faction"        value="Ork"/>
 			<property name="Type"           value="Attachment"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Wargear. Bionics."/>
 			<property name="Text"           value="Attach to an army unit.
 Double attached unit's HP."/>
@@ -1640,7 +1640,7 @@ target [ORK] unit you control to the first planet."/>
 		<card id="ec87c046-f271-4d8d-8950-c94551a5c785" name="Zarathur's Flamers">
 			<property name="Faction"        value="Chaos"/>
 			<property name="Type"           value="Army"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (4)"/>
 			<property name="Traits"         value="Daemon.Tzeentch."/>
 			<property name="Text"           value="Action: Sacrifice this unit to deal 2 damage to a target non-warlord unit at the same planet. "/>
 			<property name="Keywords"       value=""/>
@@ -1658,7 +1658,7 @@ target [ORK] unit you control to the first planet."/>
 		<card id="252dae48-1ced-4599-9e1c-d2cd3edd44aa" name="Shrine of Warpflame">
 			<property name="Faction"        value="Chaos"/>
 			<property name="Type"           value="Support"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Location."/>
 			<property name="Text"           value="Reaction: After an enemy unit is destroyed, exhaust this support to return the topmost Tzeentch card from your discard pile to your hand."/>
 			<property name="Keywords"       value=""/>
@@ -1676,7 +1676,7 @@ target [ORK] unit you control to the first planet."/>
 		<card id="8590bc5f-7e31-4e0b-95ca-ad63f55fafdf" name="Infernal Gateway">
 			<property name="Faction"        value="Chaos"/>
 			<property name="Type"           value="Event"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (2)"/>
 			<property name="Traits"         value="Power. Tzeentch."/>
 			<property name="Text"           value="
 Combat Action: Put a [CHAOS] unit with printed cost 3 or lower into play from your hand at a planet. If that unit is still in play at the end of the phase, sacrifice it."/>
@@ -1695,7 +1695,7 @@ Combat Action: Put a [CHAOS] unit with printed cost 3 or lower into play from yo
 		<card id="5ea90f71-cb8d-4644-afc0-871493f23e6b" name="Mark of Chaos">
 			<property name="Faction"        value="Chaos"/>
 			<property name="Type"           value="Attachment"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Curse."/>
 			<property name="Text"           value="Attach to an army unit.
 Interrupt: When attached unit leaves play, deal 1 damage to each enemy unit at this planet."/>
@@ -2060,7 +2060,7 @@ Forced Interrupt: When attached unit exhausts, deal it 1 damage. "/>
 		<card id="3fd031d5-146b-421f-952f-4b2fa3531a91" name="Kith's Khymeramasters">
 			<property name="Faction"        value="Dark Eldar"/>
 			<property name="Type"           value="Army"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (4)"/>
 			<property name="Traits"         value="Warrior. Beastmaster. Wych."/>
 			<property name="Text"           value="Reaction: After this unit enters play, put a Khymera token into play at this planet."/>
 			<property name="Keywords"       value=""/>
@@ -2078,7 +2078,7 @@ Forced Interrupt: When attached unit exhausts, deal it 1 damage. "/>
 		<card id="3711655d-b2c9-4849-9d63-dcf90423d7ec" name="Khymera Den">
 			<property name="Faction"        value="Dark Eldar"/>
 			<property name="Type"           value="Support"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Location."/>
 			<property name="Text"           value="Action: Exhaust this support to move any number of Khymera tokens you control to a target planet"/>
 			<property name="Keywords"       value=""/>
@@ -2096,7 +2096,7 @@ Forced Interrupt: When attached unit exhausts, deal it 1 damage. "/>
 		<card id="c2b90e80-dd30-4e34-a0c3-95afc1454cca" name="Pact of the Haemonculi">
 			<property name="Faction"        value="Dark Eldar"/>
 			<property name="Type"           value="Event"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (2)"/>
 			<property name="Traits"         value="Tactic."/>
 			<property name="Text"           value="
 Deploy Action: Sacrifice a unit to discard 1 card at random from your opponent's hand. Then, draw 2 cards. "/>
@@ -2115,7 +2115,7 @@ Deploy Action: Sacrifice a unit to discard 1 card at random from your opponent's
 		<card id="dc4d5ac1-b0a7-45e1-8900-94973530882b" name="Agonizer of Bren">
 			<property name="Faction"        value="Dark Eldar"/>
 			<property name="Type"           value="Attachment"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Wargear. Weapon."/>
 			<property name="Text"           value="Attach to an army unit.
 Attached unit gets +1 ATK for each Khymera token you control. "/>
@@ -2480,7 +2480,7 @@ Reaction: After you play a [DARK ELDAR] event card, ready attached unit. "/>
 		<card id="7915200e-786a-444a-ac12-3c47a49b705d" name="Starbane's Council">
 			<property name="Faction"        value="Eldar"/>
 			<property name="Type"           value="Army"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (4)"/>
 			<property name="Traits"         value="Psyker. Alaitoc."/>
 			<property name="Text"           value="This unit gets +2 ATK while attacking an exhausted unit."/>
 			<property name="Keywords"       value=""/>
@@ -2498,7 +2498,7 @@ Reaction: After you play a [DARK ELDAR] event card, ready attached unit. "/>
 		<card id="4444a9b2-eb7f-4240-845c-42df7a9b5d3d" name="Alaitoc Shrine">
 			<property name="Faction"        value="Eldar"/>
 			<property name="Type"           value="Support"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Location."/>
 			<property name="Text"           value="Reaction: After an [ELDAR] unit moves to a planet, exhaust this support to ready that unit. "/>
 			<property name="Keywords"       value=""/>
@@ -2516,7 +2516,7 @@ Reaction: After you play a [DARK ELDAR] event card, ready attached unit. "/>
 		<card id="c362f9a8-600f-4cf6-a83e-db7bc9c638db" name="Foresight">
 			<property name="Faction"        value="Eldar"/>
 			<property name="Type"           value="Event"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (2)"/>
 			<property name="Traits"         value="Power."/>
 			<property name="Text"           value="Reaction: After your warlord commits to a planet, commit it to a different planet."/>
 			<property name="Keywords"       value=""/>
@@ -2534,7 +2534,7 @@ Reaction: After you play a [DARK ELDAR] event card, ready attached unit. "/>
 		<card id="8015f561-8d90-4a29-b5c5-fe9bfcbcd097" name="Mobility">
 			<property name="Faction"        value="Eldar"/>
 			<property name="Type"           value="Attachment"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Skill."/>
 			<property name="Text"           value="Attach to an army unit.
 Attached unit gains Mobile"/>
@@ -2900,7 +2900,7 @@ Interrupt: When attached unit declares an attack against a non-warlord unit, dis
 		<card id="78be656d-b008-48b5-9cf4-2f099df442fe" name="Shadowsun's Stealth Cadre">
 			<property name="Faction"        value="Tau"/>
 			<property name="Type"           value="Army"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (4)"/>
 			<property name="Traits"         value="Soldier. Pilot."/>
 			<property name="Text"           value="This card may enter play as an attachment with the text, 'Attach to a non-Vehicle army unit. Attached unit gets +2 ATK and +2 HP.' "/>
 			<property name="Keywords"       value=""/>
@@ -2918,7 +2918,7 @@ Interrupt: When attached unit declares an attack against a non-warlord unit, dis
 		<card id="a3a8e07f-2255-49e0-b479-ce4a280e9a1d" name="Communications Relay">
 			<property name="Faction"        value="Tau"/>
 			<property name="Type"           value="Support"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Upgrade."/>
 			<property name="Text"           value="Interrupt: When your opponent triggers an ability that targets a unit you control with 1 or more attachments, exhaust this support to cancel its effects."/>
 			<property name="Keywords"       value=""/>
@@ -2936,7 +2936,7 @@ Interrupt: When attached unit declares an attack against a non-warlord unit, dis
 		<card id="270ad799-d10f-411a-8129-fe6333131940" name="Squadron Redeployment">
 			<property name="Faction"        value="Tau"/>
 			<property name="Type"           value="Event"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (2)"/>
 			<property name="Traits"         value="Tactic."/>
 			<property name="Text"           value="Action: Exhaust an army unit with 1 or more attachments to move it to a planet of your choice."/>
 			<property name="Keywords"       value=""/>
@@ -2954,7 +2954,7 @@ Interrupt: When attached unit declares an attack against a non-warlord unit, dis
 		<card id="4671b572-73e6-48c4-860b-aa2d4c3dd186" name="Command-link Drone">
 			<property name="Faction"        value="Tau"/>
 			<property name="Type"           value="Attachment"/>
-			<property name="Loyalty"        value="Squad"/>
+			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Drone."/>
 			<property name="Text"           value="Attach to a unit.
 Attached unit gets +1 ATK.Action: Pay 1[RESOURCE] to attach this card to a different unit. "/>
