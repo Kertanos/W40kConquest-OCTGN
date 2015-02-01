@@ -3,7 +3,7 @@
 <game name="Warhammer 40K Conquest LCG"
  id="af04f855-58c4-4db3-a191-45fe33381679"
  octgnVersion="3.1.0.0"
- version="1.1.3.0"
+ version="1.1.4.0"
  markersize="16"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  authors="Kertanos"
@@ -97,6 +97,14 @@
 <property name="StartingHand" type="String"/>
 
 <property name="StartingResources" type="String"/>
+
+<size name="PlanetSize" width="88" height="63" back="cards/frontH.png" front="cards/frontH.png"/>
+
+<size name="SkullSize" width="63" height="63" back="cards/BackSkull.png" front="cards/BackSkull.png"/>
+
+<size name="InitSize" width="63" height="28" back="cards/BackInit.png" front="cards/BackInit.png"/>
+
+<size name="TokenSize" width="42" height="69" back="cards/front.png" front="cards/front.png"/>
 
 </card>
 

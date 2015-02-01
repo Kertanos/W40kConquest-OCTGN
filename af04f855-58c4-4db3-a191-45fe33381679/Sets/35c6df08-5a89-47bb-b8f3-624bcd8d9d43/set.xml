@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="01-Core Set" id="35c6df08-5a89-47bb-b8f3-624bcd8d9d43" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.1.2.0" version="1.0">
+<set name="01-Core Set" id="35c6df08-5a89-47bb-b8f3-624bcd8d9d43" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.1.4.0" version="1.0">
 	<cards>
 		<card id="d8a1bb05-2b03-405b-aa32-4549b2d1d020" name="Captain Cato Sicarius">
 			<property name="Faction"        value="Space Marine"/>

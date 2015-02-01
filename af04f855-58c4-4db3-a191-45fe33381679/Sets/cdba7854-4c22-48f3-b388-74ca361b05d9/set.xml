@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="00-Markers and Planets" id="cdba7854-4c22-48f3-b388-74ca361b05d9" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.1.1.0" version="1.0">
+<set name="00-Markers and Planets" id="cdba7854-4c22-48f3-b388-74ca361b05d9" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.1.4.0" version="1.0">
 	<markers>
 		<marker id="906bc3a2-9315-4473-8671-7ece287de4a8" name="resource"/>
 		<marker id="22adcef9-414c-4e96-8381-f155283e170e" name="damage"/>
@@ -7,7 +7,7 @@
 		<marker id="8e41b199-b00c-4009-b94c-f10eb25cbaa2" name="sixPlanet"/>
 	</markers>
 	<cards>
-		<card id="5e423620-6663-4198-8cdc-df0fabf876c8" name="Plannum">
+		<card id="5e423620-6663-4198-8cdc-df0fabf876c8" name="Plannum" size="PlanetSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Planet"/>
 			<property name="Loyalty"        value=""/>
@@ -29,7 +29,7 @@ to a planet of your choice."/>
 			<property name="PlanetStrongpoint" value="1"/>
 			<property name="PlanetTech"     value="1"/>
 		</card>
-		<card id="12fea3b0-be4e-4142-89db-316c56956c8f" name="Atrox Prime">
+		<card id="12fea3b0-be4e-4142-89db-316c56956c8f" name="Atrox Prime" size="PlanetSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Planet"/>
 			<property name="Loyalty"        value=""/>
@@ -51,7 +51,7 @@ target HQ or adjacent planet."/>
 			<property name="PlanetStrongpoint" value=""/>
 			<property name="PlanetTech"     value="1"/>
 		</card>
-		<card id="89b18d3e-431e-4889-94d1-0948f73a4b2a" name="Barlus">
+		<card id="89b18d3e-431e-4889-94d1-0948f73a4b2a" name="Barlus" size="PlanetSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Planet"/>
 			<property name="Loyalty"        value=""/>
@@ -73,7 +73,7 @@ opponent's hand."/>
 			<property name="PlanetStrongpoint" value="1"/>
 			<property name="PlanetTech"     value=""/>
 		</card>
-		<card id="9657b143-06c2-45fe-bd6e-4a3d131e1689" name="Elouith">
+		<card id="9657b143-06c2-45fe-bd6e-4a3d131e1689" name="Elouith" size="PlanetSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Planet"/>
 			<property name="Loyalty"        value=""/>
@@ -97,7 +97,7 @@ in any order."/>
 			<property name="PlanetStrongpoint" value=""/>
 			<property name="PlanetTech"     value="1"/>
 		</card>
-		<card id="8ec7354b-eef5-4997-82ed-d7ed66a93c15" name="Carnath">
+		<card id="8ec7354b-eef5-4997-82ed-d7ed66a93c15" name="Carnath" size="PlanetSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Planet"/>
 			<property name="Loyalty"        value=""/>
@@ -119,7 +119,7 @@ planet in play."/>
 			<property name="PlanetStrongpoint" value=""/>
 			<property name="PlanetTech"     value="1"/>
 		</card>
-		<card id="8fcab463-9c8c-4745-a49e-38f56bc49e6d" name="Tarrus">
+		<card id="8fcab463-9c8c-4745-a49e-38f56bc49e6d" name="Tarrus" size="PlanetSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Planet"/>
 			<property name="Loyalty"        value=""/>
@@ -141,7 +141,7 @@ opponent, gain 3[RESOURCE] or draw 3 cards."/>
 			<property name="PlanetStrongpoint" value="1"/>
 			<property name="PlanetTech"     value=""/>
 		</card>
-		<card id="1a35a54a-0f21-44d0-ab40-b3ec7ac5cadc" name="Osus IV">
+		<card id="1a35a54a-0f21-44d0-ab40-b3ec7ac5cadc" name="Osus IV" size="PlanetSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Planet"/>
 			<property name="Loyalty"        value=""/>
@@ -162,7 +162,7 @@ opponent, gain 3[RESOURCE] or draw 3 cards."/>
 			<property name="PlanetStrongpoint" value="1"/>
 			<property name="PlanetTech"     value=""/>
 		</card>
-		<card id="e0c7e2e6-711d-4704-8e38-182d113c6282" name="Ferrin">
+		<card id="e0c7e2e6-711d-4704-8e38-182d113c6282" name="Ferrin" size="PlanetSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Planet"/>
 			<property name="Loyalty"        value=""/>
@@ -183,7 +183,7 @@ opponent, gain 3[RESOURCE] or draw 3 cards."/>
 			<property name="PlanetStrongpoint" value=""/>
 			<property name="PlanetTech"     value=""/>
 		</card>
-		<card id="3e58dd21-00fe-499e-87e9-7bb52bb66b95" name="Y'varn">
+		<card id="3e58dd21-00fe-499e-87e9-7bb52bb66b95" name="Y'varn" size="PlanetSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Planet"/>
 			<property name="Loyalty"        value=""/>
@@ -205,7 +205,7 @@ his hand at his HQ."/>
 			<property name="PlanetStrongpoint" value="1"/>
 			<property name="PlanetTech"     value="1"/>
 		</card>
-		<card id="36221c3a-591c-41e8-a4c9-fc71c89cac12" name="Iridial">
+		<card id="36221c3a-591c-41e8-a4c9-fc71c89cac12" name="Iridial" size="PlanetSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Planet"/>
 			<property name="Loyalty"        value=""/>
@@ -226,26 +226,26 @@ his hand at his HQ."/>
 			<property name="PlanetStrongpoint" value="1"/>
 			<property name="PlanetTech"     value="1"/>
 		</card>
-		<card id="5c352ba9-9b70-4071-ae47-e2bed96d1e01" name="Servo-Skull">
+		<card id="5c352ba9-9b70-4071-ae47-e2bed96d1e01" name="Servo-Skull" size="SkullSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Skull"/>
-			<alternate name="Servo-Skull" type="Skull2">
+			<alternate name="Servo-Skull" type="Skull2" size="SkullSize">
 				<property name="Type"           value="Skull"/>
 			</alternate>
-			<alternate name="Servo-Skull" type="Skull3">
+			<alternate name="Servo-Skull" type="Skull3" size="SkullSize">
 				<property name="Type"           value="Skull"/>
 			</alternate>
-			<alternate name="Servo-Skull" type="Skull4">
+			<alternate name="Servo-Skull" type="Skull4" size="SkullSize">
 				<property name="Type"           value="Skull"/>
 			</alternate>
-			<alternate name="Servo-Skull" type="Skull5">
+			<alternate name="Servo-Skull" type="Skull5" size="SkullSize">
 				<property name="Type"           value="Skull"/>
 			</alternate>
 		</card>
-		<card id="29133845-cfae-4d83-ba1b-8c7dc3dbbabe" name="Initiative Token">
+		<card id="29133845-cfae-4d83-ba1b-8c7dc3dbbabe" name="Initiative Token" size="InitSize">
 			<property name="Type"           value="Initiative"/>
 		</card>
-		<card id="68be9030-f0db-4e9f-942f-77b91d115f24" name="Guardsman">
+		<card id="68be9030-f0db-4e9f-942f-77b91d115f24" name="Guardsman" size="TokenSize">
 			<property name="Faction"        value="Astra Militarum"/>
 			<property name="Type"           value="Token"/>
 			<property name="Loyalty"        value=""/>
@@ -263,7 +263,7 @@ his hand at his HQ."/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="186"/>
 		</card>
-		<card id="177f3172-7098-4732-868e-afc9f0fb62fa" name="Snotlings">
+		<card id="177f3172-7098-4732-868e-afc9f0fb62fa" name="Snotlings" size="TokenSize">
 			<property name="Faction"        value="Ork"/>
 			<property name="Type"           value="Token"/>
 			<property name="Loyalty"        value=""/>
@@ -281,7 +281,7 @@ his hand at his HQ."/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="185"/>
 		</card>
-		<card id="532ecbb0-37cc-4805-a88e-5fd8495acbea" name="Cultist">
+		<card id="532ecbb0-37cc-4805-a88e-5fd8495acbea" name="Cultist" size="TokenSize">
 			<property name="Faction"        value="Chaos"/>
 			<property name="Type"           value="Token"/>
 			<property name="Loyalty"        value=""/>
@@ -302,7 +302,7 @@ reduce its cost by 1."/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="187"/>
 		</card>
-		<card id="85f78832-49b5-4733-9315-7490c54132ec" name="Khymera">
+		<card id="85f78832-49b5-4733-9315-7490c54132ec" name="Khymera" size="TokenSize">
 			<property name="Faction"        value="Dark Eldar"/>
 			<property name="Type"           value="Token"/>
 			<property name="Loyalty"        value=""/>
