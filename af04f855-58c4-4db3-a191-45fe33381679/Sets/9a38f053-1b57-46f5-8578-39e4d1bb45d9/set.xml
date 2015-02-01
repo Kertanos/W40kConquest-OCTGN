@@ -1091,7 +1091,7 @@ Forced Reaction: After this warlord resolves its attack, move it to your HQ. "/>
 			<property name="Loyalty"        value="Squad (1)"/>
 			<property name="Traits"         value="Wargear. Weapon."/>
 			<property name="Text"           value="Attach to an Ethereal unit.
-Attached unit gains: “Each other [Tau] unit you control at this planet gets +1 ATK.” "/>
+Attached unit gains: 'Each other [Tau] unit you control at this planet gets +1 ATK.' "/>
 			<property name="Keywords"       value=""/>
 			<property name="Unique"         value=""/>
 			<property name="Cost"           value="1"/>

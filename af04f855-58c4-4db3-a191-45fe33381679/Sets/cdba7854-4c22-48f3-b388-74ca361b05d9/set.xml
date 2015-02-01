@@ -229,16 +229,16 @@ his hand at his HQ."/>
 		<card id="5c352ba9-9b70-4071-ae47-e2bed96d1e01" name="Servo-Skull" size="SkullSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Skull"/>
-			<alternate name="Servo-Skull" type="Skull2" size="SkullSize">
+			<alternate name="Servo-Skull" type="Skull2">
 				<property name="Type"           value="Skull"/>
 			</alternate>
-			<alternate name="Servo-Skull" type="Skull3" size="SkullSize">
+			<alternate name="Servo-Skull" type="Skull3">
 				<property name="Type"           value="Skull"/>
 			</alternate>
-			<alternate name="Servo-Skull" type="Skull4" size="SkullSize">
+			<alternate name="Servo-Skull" type="Skull4">
 				<property name="Type"           value="Skull"/>
 			</alternate>
-			<alternate name="Servo-Skull" type="Skull5" size="SkullSize">
+			<alternate name="Servo-Skull" type="Skull5">
 				<property name="Type"           value="Skull"/>
 			</alternate>
 		</card>
