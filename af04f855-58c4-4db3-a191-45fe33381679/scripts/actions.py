@@ -345,6 +345,7 @@ def bloodied(card, x = 0, y = 0):
 	notify("{} is now Bloodied.".format(card))
 	card.switchTo('bloodied')
 	card.markers[Damage] = 0
+	card.orientation = Rot90
 
 
 def restore(card, x = 0, y = 0):
