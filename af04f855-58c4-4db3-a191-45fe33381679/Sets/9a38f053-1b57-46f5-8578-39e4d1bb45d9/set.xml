@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="02- Warlord Cycle" id="9a38f053-1b57-46f5-8578-39e4d1bb45d9" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.1.7.0" version="1.6">
+<set name="02- Warlord Cycle" id="9a38f053-1b57-46f5-8578-39e4d1bb45d9" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.2.0.0" version="1.6">
 	<cards>
 		<card id="87d27e71-9203-4bd1-b725-1b390ed73278" name="Ragnar Blackmane">
 			<property name="Faction"        value="Space Marine"/>

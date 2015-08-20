@@ -69,22 +69,28 @@ def setup(group, x = 0, y = 0):
 	var="1"
 	me.setGlobalVariable("setupOk", var)
 	notify("**{} has started setup, please wait**".format(me))
-	set=(card for card in me.hand if card.Type == "Warlord" )
+	set=(card for card in me.hand)
 	if me.hasInvertedTable(): 
 		X1=-532
+		X2=-432
 		Y1=-288
 		Y2=-88
 	else:
 		X1=468
+		X2=368
 		Y1=200
 		Y2=0
 	for card in set: 
-		me.counters['Resources'].value = int(card.StartingResources)
-		SHand=int(card.StartingHand)
-		me.deck.shuffle()
-		notify("**{}'s warlord is {}**".format(me,card))
-		card.moveToTable(X1, Y1)
-		table.create("5c352ba9-9b70-4071-ae47-e2bed96d1e01",668,Y2,persist=True)
+		if card.Type == "Warlord":
+			me.counters['Resources'].value = int(card.StartingResources)
+			SHand=int(card.StartingHand)
+			me.deck.shuffle()
+			notify("**{}'s warlord is {}**".format(me,card))
+			card.moveToTable(X1, Y1)
+		if card.Type == "Synapse":
+			notify("**{}'s Synapse is {}**".format(me,card))
+			card.moveToTable(X2, Y1)
+	table.create("5c352ba9-9b70-4071-ae47-e2bed96d1e01",668,Y2,persist=True)
 	for card in me.deck.top(SHand): card.moveTo(me.hand)
 	notify("**{} is ready**".format(me))
 	if not me.hasInvertedTable():setupPlanet(me.Planets)		
@@ -131,11 +137,17 @@ def createToken(group, x = 0, y = 0):
 	mute()
 	guid,quantity=askCard({'Type':'Token'})
 	if guid == None: return
-	if me.hasInvertedTable(): cards=table.create(guid, 0, -288, quantity)	
-	else : cards=table.create(guid, 0, 200, quantity)
-	if quantity == 1: notify("{} creates a {} Token(s)".format(me,cards))
-	else: 
-		for card in cards : notify("{} creates a {} Token(s)".format(me,card))
+	if me.hasInvertedTable(): 
+		X1=-150
+		for i in range(quantity):
+			cards=table.create(guid, X1, -288)
+			X1+=50	
+	else:
+		X1=150
+		for i in range(quantity):
+			cards=table.create(guid, X1, 200)
+			X1-=50
+	notify("{} creates {} {} Token(s)".format(me,quantity,cards))
 
 def ServoSkull(group, x=0,y=0):
 	mute()

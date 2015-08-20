@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="00-Markers and Planets" id="cdba7854-4c22-48f3-b388-74ca361b05d9" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.1.4.0" version="1.0">
+<set name="00-Markers and Planets" id="cdba7854-4c22-48f3-b388-74ca361b05d9" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.2.0.0" version="1.1">
 	<markers>
 		<marker id="906bc3a2-9315-4473-8671-7ece287de4a8" name="resource"/>
 		<marker id="22adcef9-414c-4e96-8381-f155283e170e" name="damage"/>
@@ -319,6 +319,24 @@ reduce its cost by 1."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="188"/>
+		</card>
+		<card id="36d606a9-3d24-441e-87f1-b5ed9aea5bce" name="Termagant" size="TokenSize">
+			<property name="Faction"        value="Tyranid"/>
+			<property name="Type"           value="Token"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Creature. Termagant."/>
+			<property name="Text"           value=""/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value="1"/>
+			<property name="Health"         value="1"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="64"/>
 		</card>
 	</cards>
 </set>
