@@ -3,7 +3,7 @@
 <game name="Warhammer 40K Conquest LCG"
  id="af04f855-58c4-4db3-a191-45fe33381679"
  octgnVersion="3.1.0.0"
- version="1.2.0.0"
+ version="1.2.0.1"
  markersize="16"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  authors="Kertanos"
@@ -125,6 +125,8 @@
 
 <cardaction menu="Exhaust/Ready" execute="kneel" default="True"/>
 <cardaction menu="Flip Card" execute="flipcard" shortcut="F8"/>
+<cardaction menu="Infest Planet" execute="infest" shortcut="CTRL+I"/>
+<cardaction menu="Clear Infestation" execute="uninfest" shortcut="ALT+I"/>
 <cardaction menu="Add Damage" execute="addDamage" shortcut="F1"/>
 <cardaction menu="Sub Damage" execute="subDamage" shortcut="F2"/>
 <cardaction menu="Add Resource" execute="addResource" shortcut="F3"/>
