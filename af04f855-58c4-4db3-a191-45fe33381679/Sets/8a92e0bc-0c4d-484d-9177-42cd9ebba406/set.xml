@@ -938,7 +938,7 @@ Combat Action: Attached unit, until the end of the phase, gains either (choose o
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="49"/>
 		</card>
-		<card id="e24e8822-06bf-468f-b6a7-006588a8efb6" name="Veteran Barbus">
+		<card id="e24e8822-06bf-468f-b6a7-006588a8efb6" name="Veteran Barbrus">
 			<property name="Faction"        value="Space Marine"/>
 			<property name="Type"           value="Army"/>
 			<property name="Loyalty"        value="Loyal"/>
