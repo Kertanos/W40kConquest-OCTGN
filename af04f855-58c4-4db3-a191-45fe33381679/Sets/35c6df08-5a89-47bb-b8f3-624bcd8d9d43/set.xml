@@ -809,7 +809,7 @@ unit's printed ATK value."/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="33"/>
 		</card>
-		<card id="00229e5d-e1c4-41b7-9f3b-11ab6e893255" name="Straken's Cunning">
+		<card id="00229e5d-e1c4-41b7-9f3b-11ab6e893255" name="Strakens Cunning">
 			<property name="Faction"        value="Astra Militarum"/>
 			<property name="Type"           value="Attachment"/>
 			<property name="Loyalty"        value="Squad (1)"/>
