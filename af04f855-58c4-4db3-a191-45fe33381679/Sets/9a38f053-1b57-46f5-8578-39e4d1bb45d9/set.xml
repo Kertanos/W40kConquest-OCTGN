@@ -221,7 +221,7 @@ enemy support card."/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
 		</card>
-		<card id="42608ca7-9068-4e3f-8b05-d093db615295" name="Smash'n Bash">
+		<card id="42608ca7-9068-4e3f-8b05-d093db615295" name="Smash 'n Bash">
 			<property name="Faction"        value="Ork"/>
 			<property name="Type"           value="Event"/>
 			<property name="Loyalty"        value=""/>
@@ -1543,7 +1543,7 @@ Forced Reaction: After the combat phase ends, destroy each Snotlings token in pl
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="69"/>
 		</card>
-		<card id="5ad52e9a-9145-448a-b0fb-fb6b0b7df13f" name="Weirdboy Stikk">
+		<card id="5ad52e9a-9145-448a-b0fb-fb6b0b7df13f" name="Wyrdboy Stikk">
 			<property name="Faction"        value="Ork"/>
 			<property name="Type"           value="Attachment"/>
 			<property name="Loyalty"        value="Squad (1)"/>
@@ -1967,7 +1967,7 @@ unit."/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="91"/>
 		</card>
-		<card id="c317c444-1a7c-4551-8df0-8b8a19863a3f" name="The Glodovan Eagle">
+		<card id="c317c444-1a7c-4551-8df0-8b8a19863a3f" name="The Glovodan Eagle">
 			<property name="Faction"        value="Astra Militarum"/>
 			<property name="Type"           value="Attachment"/>
 			<property name="Loyalty"        value="Squad (1)"/>
@@ -2070,7 +2070,7 @@ unit at the same planet."/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="96"/>
 		</card>
-		<card id="11501d87-40cd-4940-a043-91cb004fe932" name="Shakebite Thug">
+		<card id="11501d87-40cd-4940-a043-91cb004fe932" name="Snakebite Thug">
 			<property name="Faction"        value="Ork"/>
 			<property name="Type"           value="Army"/>
 			<property name="Loyalty"        value=""/>
