@@ -1201,8 +1201,8 @@ Attached unit gains: 'Each other [Tau] unit you control at this planet gets +1 A
 			<property name="Shield"         value=""/>
 			<property name="ResourceBonus"  value=""/>
 			<property name="CardBonus"      value=""/>
-			<property name="ErrataText"     value="53"/>
-			<property name="CardNumber"	value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="53"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
 		</card>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set name="01-Core Set" id="35c6df08-5a89-47bb-b8f3-624bcd8d9d43" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.2.0.0" version="1.0">
 	<cards>
 		<card id="d8a1bb05-2b03-405b-aa32-4549b2d1d020" name="Captain Cato Sicarius">
@@ -809,7 +809,7 @@ unit's printed ATK value."/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="33"/>
 		</card>
-		<card id="00229e5d-e1c4-41b7-9f3b-11ab6e893255" name="Strakens Cunning">
+		<card id="00229e5d-e1c4-41b7-9f3b-11ab6e893255" name="Straken's Cunning">
 			<property name="Faction"        value="Astra Militarum"/>
 			<property name="Type"           value="Attachment"/>
 			<property name="Loyalty"        value="Squad (1)"/>

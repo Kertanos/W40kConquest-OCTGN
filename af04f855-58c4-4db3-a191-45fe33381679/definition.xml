@@ -3,7 +3,7 @@
 <game name="Warhammer 40K Conquest LCG"
  id="af04f855-58c4-4db3-a191-45fe33381679"
  octgnVersion="3.1.0.0"
- version="1.2.0.2"
+ version="1.3.1.0"
  markersize="16"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  authors="Kertanos"
@@ -38,7 +38,7 @@
 				  image="cards/advanced.png"
 				  playerCount="2" />
 		<gameMode name="Casual Play"
-				  shortDescription="Use this matchmaking to find casual an new players."
+				  shortDescription="Use this matchmaking to find casual or new players."
 				  image="cards/casual.png"
 				  playerCount="2" />
 	</gameModes>
@@ -143,7 +143,7 @@
 
 
 
-<player summary="{#Resources} Resources/ {#Hand} Cards/ {#Initiative} Initiative/ {#Material} Material/ {#Strongpoint} Strongpoint/ {#Tech} Tech/">
+<player summary="{#Resources} Resources/ {#Hand} Cards/ {#Initiative} Initiative/ {#Material} Material(Red)/ {#Strongpoint} Strongpoint(Green)/ {#Tech} Tech(Blue)/">
 
 <globalvariable name="setupOk" value="0" />
 <globalvariable name="Pturn" value="1" /> 
