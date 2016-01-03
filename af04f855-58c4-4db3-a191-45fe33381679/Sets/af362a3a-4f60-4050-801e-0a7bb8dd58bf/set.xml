@@ -111,7 +111,7 @@ Attached unit gets +1 ATK
 Reaction: After an army unit you control at this planet leaves play, deal 1 damage to a target army unit at this planet."/>
 			<property name="Keywords"       value=""/>
 			<property name="Unique"         value=""/>
-			<property name="Cost"           value="3"/>
+			<property name="Cost"           value="1"/>
 			<property name="Attack"         value=""/>
 			<property name="Health"         value=""/>
 			<property name="Command"        value=""/>
