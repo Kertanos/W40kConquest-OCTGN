@@ -3,7 +3,7 @@
 <game name="Warhammer 40K Conquest LCG"
  id="af04f855-58c4-4db3-a191-45fe33381679"
  octgnVersion="3.1.0.0"
- version="1.3.2.1"
+ version="1.3.3.2"
  markersize="16"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  authors="Kertanos"
@@ -12,12 +12,16 @@
  gameurl="http://octgn.gamersjudgement.com/wordpress/wh40kc/"
  tags="OCTGN Warhammer w40k 40k LCG Conquest"
  iconurl="http://i39.servimg.com/u/f39/18/93/93/88/whk01_10.jpg"
- scriptVersion="3.1.0.1"
+ scriptVersion="3.1.0.2"
  usetwosidedtable="True">
 
 <scripts>
 <script src="scripts/actions.py"/>
 </scripts>
+
+<events>
+<event name="OnTableLoaded" action="wilkommen" />
+</events>
 
 <proxygen definitionsrc="proxy/proxydef.xml">
 </proxygen>

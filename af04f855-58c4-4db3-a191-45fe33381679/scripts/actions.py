@@ -10,6 +10,11 @@ Infest = ("Infest", "5b35b6b8-aa47-4e70-934c-db3b7e64941a")
 # Table group actions
 #---------------------------------------------------------------------------
 
+def wilkommen():
+	notify("Hi, i'm updating conquest to the new octgn API, if you get any error message, please copy and paste it on my blog : http://octgngames.com/wh40kc/ or my github : https://github.com/Kertanos/W40kConquest-OCTGN/    Enjoy your game, good luck and have fun !")
+
+
+
 def setupPlanet(group):
 	group.create("5e423620-6663-4198-8cdc-df0fabf876c8")
 	group.create("12fea3b0-be4e-4142-89db-316c56956c8f")
@@ -48,11 +53,11 @@ def setupPlanet(group):
 	if len(getPlayers()) == 1 : fp =1
 	if fp==1: 
 		play=me
-		if me.hasInvertedTable():Y2=-176
+		if me.isInverted:Y2=-176
 		else: Y2=88
 	else : 
 		play=players[1]
-		if me.hasInvertedTable():Y2=88
+		if me.isInverted:Y2=88
 		else: Y2=-176
 	table.create("29133845-cfae-4d83-ba1b-8c7dc3dbbabe",668,Y2,persist=True)
 	play.counters['Initiative'].value=1
@@ -71,7 +76,7 @@ def setup(group, x = 0, y = 0):
 	me.setGlobalVariable("setupOk", var)
 	notify("**{} has started setup, please wait**".format(me))
 	set=(card for card in me.hand)
-	if me.hasInvertedTable(): 
+	if me.isInverted: 
 		X1=-532
 		X2=-432
 		X3=694
@@ -101,7 +106,7 @@ def setup(group, x = 0, y = 0):
 			card.moveToTable(X2, Y1)
 	for card in me.deck.top(SHand): card.moveTo(me.hand)
 	notify("**{} is ready**".format(me))
-	if not me.hasInvertedTable():setupPlanet(me.Planets)		
+	if not me.isInverted:setupPlanet(me.Planets)		
 
 def flipCoin(group, x = 0, y = 0):
 	mute()
@@ -145,7 +150,7 @@ def createToken(group, x = 0, y = 0):
 	mute()
 	guid,quantity=askCard({'Type':'Token'})
 	if guid == None: return
-	if me.hasInvertedTable(): 
+	if me.isInverted: 
 		X1=-150
 		for i in range(quantity):
 			cards=table.create(guid, X1, -288)
@@ -170,11 +175,11 @@ def ServoSkull(group, x=0,y=0):
 		if choice == 0 : 
 			notify("{} didn't change his or her Skull".format(me))
 			return		
-		elif choice == 1 : card.switchTo()
-		elif choice == 2 : card.switchTo('Skull2')
-		elif choice == 3 : card.switchTo('Skull3')
-		elif choice == 4 : card.switchTo('Skull4')
-		else : card.switchTo('Skull5')
+		elif choice == 1 : card.alternate=""
+		elif choice == 2 : card.alternate="Skull2"
+		elif choice == 3 : card.alternate="Skull3"
+		elif choice == 4 : card.alternate="Skull4"
+		else : card.alternate="Skull5"
 		notify("{} has chosen where to commit his or her {}".format(me,unit))
 		unit = "synapse"
 		
@@ -204,7 +209,7 @@ def endTurn(group, x=0, y=0):
 	turn+=1
 	setGlobalVariable("Turn",str(turn))
 	HQRes(turn)
-	if me.hasInvertedTable():Y= -176
+	if me.isInverted:Y= -176
 	else:Y= 88
 	if len(getPlayers()) != 1 :
 		remoteCall(players[1],"HQRes",turn)
@@ -378,7 +383,7 @@ def bloodied(card, x = 0, y = 0):
 	mute()
 	if card.Type != "Warlord" or card.alternate == "bloodied" : return
 	notify("{} is now Bloodied.".format(card))
-	card.switchTo('bloodied')
+	card.alternate="bloodied"
 	card.markers[Damage] = 0
 	card.orientation = Rot90
 
@@ -387,7 +392,7 @@ def restore(card, x = 0, y = 0):
 	mute()
 	if card.Type != "Warlord" or card.alternate != "bloodied": return
 	notify("{} is no longer Bloodied.".format(card))
-	card.switchTo()
+	card.alternate=""
 	card.markers[Damage] = 0
 	
 
@@ -456,7 +461,7 @@ def play(card, x=0, y=0):
 	if me.counters['Resources'].value < cost :
 		whisper("You don't have enough Resources to pay for {}.".format(card.name))
 		return		
-	if me.hasInvertedTable(): card.moveToTable(0,-288)
+	if me.isInverted: card.moveToTable(0,-288)
 	else : 	card.moveToTable(0,200)
 	notify("{} plays {} for {} resources (Cost reduced by {}).".format(me,card,cost,reduc))
 	me.counters['Resources'].value -= cost
@@ -527,7 +532,7 @@ def searchTop(group):
 	for card in group.top(searchAmount): list.append(card)
 	card=askCard(list)
 	if card!=None:		
-		if me.hasInvertedTable(): card.moveToTable(0,-288,True)
+		if me.isInverted: card.moveToTable(0,-288,True)
 		else: card.moveToTable(0,200,True)
 		card.peek()
 		notify("{} chose his or her card".format(me))
