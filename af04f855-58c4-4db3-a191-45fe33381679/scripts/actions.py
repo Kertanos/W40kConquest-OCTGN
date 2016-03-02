@@ -6,6 +6,8 @@ Damage = ("Damage", "22adcef9-414c-4e96-8381-f155283e170e")
 FstPlanet = ("FstPlanet", "9e9aceca-516f-43f4-8590-48068298af6f")
 SixPlanet = ("SixPlanet", "8e41b199-b00c-4009-b94c-f10eb25cbaa2")
 Infest = ("Infest", "5b35b6b8-aa47-4e70-934c-db3b7e64941a")
+Snots = ("Snotlings", "177f3172-7098-4732-868e-afc9f0fb62fa")
+
 #---------------------------------------------------------------------------
 # Table group actions
 #---------------------------------------------------------------------------
@@ -147,7 +149,7 @@ def imDone(group, x = 0, y = 0):
 	notify("***{} is Done.***".format(me))
 
 def createToken(group, x = 0, y = 0):
-	mute()
+	mute()	
 	guid,quantity=askCard({'Type':'Token'})
 	if guid == None: return
 	if me.isInverted: 
@@ -528,17 +530,29 @@ def searchTop(group):
 	if searchAmount == 0 : return
 	notify("{} is searching the top {} card(s) of his or her {}".format(me,searchAmount,group.name))
 	list=[]
-	group.addViewer(me)
 	for card in group.top(searchAmount): list.append(card)
-	card=askCard(list)
-	if card!=None:		
-		if me.isInverted: card.moveToTable(0,-288,True)
-		else: card.moveToTable(0,200,True)
-		card.peek()
-		notify("{} chose his or her card".format(me))
-		searchAmount-=1
+	dlg = cardDlg(list)
+	dlg.min=0
+	dlg.max=searchAmount
+	dlg.title = "Select a card"
+	cards = dlg.show()
+	if me.isInverted:
+		x1=-150
+		y1=-288
+		i=50
+	else: 
+		x1=150
+		y1=200
+		i=-50
+	if cards != None:
+		for card in cards :
+			card.moveToTable(x1,y1,True)
+			x1+=i
+			card.peek()
+			searchAmount-=1
+			card.select()
+		notify("{} picked {} cards".format(me,len(cards)))
 	else:notify("{} didn't find what he or she was looking for.".format(me))
-	group.removeViewer(me)	
 	for cards in group.top(searchAmount): cards.moveToBottom(group)
 	notify("{} placed the {} remaining cards to the bottom of his or her deck.".format(me,searchAmount))
 	if len(me.deck) == 0: notify("**{} was lost in the warp, he looses the game (last card drawn).**".format(me))
