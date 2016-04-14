@@ -27,6 +27,7 @@ at that planet."/>
 			<property name="CardNumber"	value="1"/>
 			<property name="StartingHand" 	value="7"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="8"/>
         		<alternate name="Ragnar Blackmane" type="bloodied">
 				<property name="Faction"        value="Space Marine"/>
 				<property name="Type"           value="Warlord"/>
@@ -66,6 +67,8 @@ to a planet, move this unit to that planet."/>
 			<property name="CardNumber"	value="2"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="8"/>
 		</card>
 		<card id="1960cb66-823d-4d30-b2ea-693cb8df58da" name="Frostfang">
 			<property name="Faction"        value="Space Marine"/>
@@ -89,6 +92,8 @@ it is at a planet with an enemy warlord."/>
 			<property name="CardNumber"	value="3"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="8"/>
 		</card>
 		<card id="f961ee9e-2da5-42d9-a1c0-62269f8ede65" name="Ragnar's Warcamp">
 			<property name="Faction"        value="Space Marine"/>
@@ -111,6 +116,8 @@ attacking an enemy warlord."/>
 			<property name="CardNumber"	value="4"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="8"/>
 		</card>
 		<card id="21bb26cb-ccca-47f2-aa66-bd7c4e508632" name="Blackmane's Hunt">
 			<property name="Faction"        value="Space Marine"/>
@@ -133,6 +140,8 @@ planet."/>
 			<property name="CardNumber"	value="5"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="8"/>
 		</card>
 		<card id="fc937a11-740c-47b4-afd0-55d44198e4c1" name="Interrogator Acolyte">
 			<property name="Faction"        value="Astra Militarum"/>
@@ -527,6 +536,7 @@ another unit at this planet."/>
 			<property name="CardNumber"	value="23"/>
 			<property name="StartingHand" 	value="7"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="9"/>
         		<alternate name="Ku'gath Plaguefather" type="bloodied">
 				<property name="Faction"        value="Chaos"/>
 				<property name="Type"           value="Warlord"/>
@@ -566,6 +576,8 @@ this planet, deal it 1 damage."/>
 			<property name="CardNumber"	value="24"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="9"/>
 		</card>
 		<card id="3f0d1d22-3d8d-4cba-ba85-763efc607f91" name="Vile Laboratory">
 			<property name="Faction"        value="Chaos"/>
@@ -589,6 +601,8 @@ adjacent planet of his choice."/>
 			<property name="CardNumber"	value="25"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="9"/>
 		</card>
 		<card id="edadf771-1bc3-4c7d-9ed9-71c90d86af7a" name="The Plaguefather's Banner">
 			<property name="Faction"        value="Chaos"/>
@@ -613,6 +627,8 @@ another unit at this planet."/>
 			<property name="CardNumber"	value="26"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="9"/>
 		</card>
 		<card id="6e87f7fa-e7b1-4949-b66f-5a6939b9e6f5" name="Fetid Haze">
 			<property name="Faction"        value="Chaos"/>
@@ -637,6 +653,8 @@ he controls at the same planet."/>
 			<property name="CardNumber"	value="27"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="9"/>
 		</card>
 		<card id="d3d5f46e-c211-4726-abfb-251422b16665" name="Morkai Rune Priest">
 			<property name="Faction"        value="Space Marine"/>
@@ -1026,6 +1044,7 @@ Forced Reaction: After this warlord resolves its attack, move it to your HQ. "/>
 			<property name="CardNumber"	value="45"/>
 			<property name="StartingHand" 	value="7"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="10"/>
         		<alternate name="Aun'shi" type="bloodied">
 				<property name="Faction"        value="Tau"/>
 				<property name="Type"           value="Warlord"/>
@@ -1064,6 +1083,8 @@ Forced Reaction: After this warlord resolves its attack, move it to your HQ. "/>
 			<property name="CardNumber"	value="46"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="10"/>
 		</card>
 		<card id="c590d2da-383b-4525-9b83-8f9409eace6a" name="Aun'shi's Sanctum">
 			<property name="Faction"        value="Tau"/>
@@ -1084,6 +1105,8 @@ Forced Reaction: After this warlord resolves its attack, move it to your HQ. "/>
 			<property name="CardNumber"	value="47"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="10"/>
 		</card>
 		<card id="c71d64a1-5406-4363-9a83-fcbddcc808e4" name="Honor Blade">
 			<property name="Faction"        value="Tau"/>
@@ -1105,6 +1128,8 @@ Attached unit gains: 'Each other [Tau] unit you control at this planet gets +1 A
 			<property name="CardNumber"	value="48"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="10"/>
 		</card>
 		<card id="52f3a180-b530-458c-8531-8cf1bbfa7214" name="Ethereal Wisdom">
 			<property name="Faction"        value="Tau"/>
@@ -1125,6 +1150,8 @@ Attached unit gains: 'Each other [Tau] unit you control at this planet gets +1 A
 			<property name="CardNumber"	value="49"/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="10"/>
 		</card>
 		<card id="71ee6eb9-8573-4599-80dd-93c385b7c84a" name="White Scars Bikers">
 			<property name="Faction"        value="Space Marine"/>
@@ -1488,6 +1515,7 @@ Forced Reaction: After the combat phase ends, destroy each Snotlings token in pl
 			<property name="CardNumber"	value="67"/>
 			<property name="StartingHand" 	value="7"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="11"/>
         		<alternate name="Old Zogwort" type="bloodied">
 				<property name="Faction"        value="Ork"/>
 				<property name="Type"           value="Warlord"/>
@@ -1524,6 +1552,8 @@ Forced Reaction: After the combat phase ends, destroy each Snotlings token in pl
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="68"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="11"/>
 		</card>
 		<card id="2af2bacf-6bb4-41c9-a6b9-1baca2964778" name="Zogwort's Hovel">
 			<property name="Faction"        value="Ork"/>
@@ -1542,6 +1572,8 @@ Forced Reaction: After the combat phase ends, destroy each Snotlings token in pl
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="69"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="11"/>
 		</card>
 		<card id="5ad52e9a-9145-448a-b0fb-fb6b0b7df13f" name="Wyrdboy Stikk">
 			<property name="Faction"        value="Ork"/>
@@ -1561,6 +1593,8 @@ Reaction: After a Snotlings token is destroyed, exhaust this attachment to put a
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="70"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="11"/>
 		</card>
 		<card id="5cdc0808-0fae-4cee-8d37-7caee52921bf" name="Launch Da Snots">
 			<property name="Faction"        value="Ork"/>
@@ -1579,6 +1613,8 @@ Reaction: After a Snotlings token is destroyed, exhaust this attachment to put a
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="71"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="11"/>
 		</card>
 		<card id="1f4c923c-a415-4c18-88c9-5330da27f0b0" name="Blood Claw Pack">
 			<property name="Faction"        value="Space Marine"/>
@@ -1908,6 +1944,7 @@ Double damage dealt to attached unit. "/>
 			<property name="CardNumber"	value="89"/>
 			<property name="StartingHand" 	value="8"/>
 			<property name="StartingResources" value="8"/>
+			<property name="Squad" 		value="12"/>
         		<alternate name="Torquemada Coteaz" type="bloodied">
 				<property name="Faction"        value="Astra Militarum"/>
 				<property name="Type"           value="Warlord"/>
@@ -1945,6 +1982,8 @@ ready your warlord."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="90"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="12"/>
 		</card>
 		<card id="3a15c553-8e51-4896-a890-24210ce55b59" name="Formosan Black Ship">
 			<property name="Faction"        value="Astra Militarum"/>
@@ -1966,6 +2005,8 @@ unit."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="91"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="12"/>
 		</card>
 		<card id="c317c444-1a7c-4551-8df0-8b8a19863a3f" name="The Glovodan Eagle">
 			<property name="Faction"        value="Astra Militarum"/>
@@ -1989,6 +2030,8 @@ your hand.'"/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="92"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="12"/>
 		</card>
 		<card id="8c364060-b171-44f3-8e38-e5550773bcb8" name="The Emperor Protects">
 			<property name="Faction"        value="Astra Militarum"/>
@@ -2009,6 +2052,8 @@ to your hand instead."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="93"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="12"/>
 		</card>
 		<card id="69ee65e3-8e87-4eb7-a052-dd49041a8d0d" name="Firedrake Terminators">
 			<property name="Faction"        value="Space Marine"/>
@@ -2362,6 +2407,7 @@ Then, ready that unit."/>
 			<property name="CardNumber"	value="111"/>
 			<property name="StartingHand" 	value="7"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="13"/>
         		<alternate name="Baharroth" type="bloodied">
 				<property name="Faction"        value="Eldar"/>
 				<property name="Type"           value="Warlord"/>
@@ -2399,6 +2445,8 @@ planet with your warlord."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="112"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="13"/>
 		</card>
 		<card id="2744182e-15e0-41a9-b96e-b8266964b066" name="Banner of the Ashen Sky">
 			<property name="Faction"        value="Eldar"/>
@@ -2419,6 +2467,8 @@ to another, exhaust this support to give that unit
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="113"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="13"/>
 		</card>
 		<card id="3a56b4f2-0e75-48da-8f75-cb811c006c40" name="The Shining Blade">
 			<property name="Faction"        value="Eldar"/>
@@ -2441,6 +2491,8 @@ unit at an adjacent planet instead."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="114"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="13"/>
 		</card>
 		<card id="53470884-9e62-49df-ae6f-d5dc07898138" name="Cry of the Wind">
 			<property name="Faction"        value="Eldar"/>
@@ -2460,6 +2512,8 @@ to another, move that unit to an adjacent planet."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="115"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="13"/>
 		</card>
 		<card id="517bc608-595b-4090-a303-ecf0f898ccad" name="Urien Rakarth">
 			<property name="Faction"        value="Dark Eldar"/>
@@ -2477,9 +2531,10 @@ to another, move that unit to an adjacent planet."/>
 			<property name="ResourceBonus"  value=""/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
-			<property name="CardNumber"	value="1"/>
+			<property name="CardNumber"	value="116"/>
 			<property name="StartingHand" 	value="8"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="14"/>
         		<alternate name="Urien Rakarth" type="bloodied">
 				<property name="Faction"        value="Dark Eldar"/>
 				<property name="Type"           value="Warlord"/>
@@ -2517,6 +2572,8 @@ your hand to ready this unit."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="117"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="14"/>
 		</card>
 		<card id="ad74d292-28fa-40dc-bfdc-835126136468" name="Rakarth's Experimentations">
 			<property name="Faction"        value="Dark Eldar"/>
@@ -2538,6 +2595,8 @@ discard 1 card of that type from his hand or deal
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="118"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="14"/>
 		</card>
 		<card id="0f9cf5af-9188-424f-8179-91149b3ab4e5" name="Ichor Gauntlet">
 			<property name="Faction"        value="Dark Eldar"/>
@@ -2559,6 +2618,8 @@ You may choose new targets."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="119"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="14"/>
 		</card>
 		<card id="56f78418-7cff-478b-8d05-992e0547ff21" name="Urien's Oubliette">
 			<property name="Faction"        value="Dark Eldar"/>
@@ -2577,6 +2638,8 @@ You may choose new targets."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="120"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="14"/>
 		</card>
 		<card id="aded9eb6-6b5c-4a42-bb14-4331753ec6ac" name="Space Wolves Predator">
 			<property name="Faction"        value="Space Marine"/>

@@ -7,15 +7,11 @@ FstPlanet = ("FstPlanet", "9e9aceca-516f-43f4-8590-48068298af6f")
 SixPlanet = ("SixPlanet", "8e41b199-b00c-4009-b94c-f10eb25cbaa2")
 Infest = ("Infest", "5b35b6b8-aa47-4e70-934c-db3b7e64941a")
 Snots = ("Snotlings", "177f3172-7098-4732-868e-afc9f0fb62fa")
+PlanetList=[]
 
 #---------------------------------------------------------------------------
 # Table group actions
 #---------------------------------------------------------------------------
-
-def wilkommen():
-	notify("Hi, i'm updating conquest to the new octgn API, if you get any error message, please copy and paste it on my blog : http://octgngames.com/wh40kc/ or my github : https://github.com/Kertanos/W40kConquest-OCTGN/    Enjoy your game, good luck and have fun !")
-
-
 
 def setupPlanet(group):
 	group.create("5e423620-6663-4198-8cdc-df0fabf876c8")
@@ -46,7 +42,9 @@ def setupPlanet(group):
 		k-=1
 		X+=200
 	card.markers[FstPlanet] = 1
-	for card in group: card.delete()
+	for card in group:
+		PlanetList.append(card.model)
+		card.delete()
 	fp=askChoice("Who'll be the first player ? ",['Me','My opponent'], customButtons =["Let the Chaos Gods decide"])
 	if fp != 1 and fp!=2 : 
 		fp = rnd(1,2)
@@ -64,6 +62,9 @@ def setupPlanet(group):
 	table.create("29133845-cfae-4d83-ba1b-8c7dc3dbbabe",668,Y2,persist=True)
 	play.counters['Initiative'].value=1
 	notify("{} as the first player.".format(play))
+	setGlobalVariable("OutPlanets",str(PlanetList))
+
+
 
 def setup(group, x = 0, y = 0):
 	mute()
@@ -307,6 +308,9 @@ def disc(card, x=0, y=0):
 		if card.name!=fstP: return
 		if not confirm("Are you sure you want to destroy {} ? There is no going back !".format(card.name)): return
 		notify("{} destroys {}.".format(me,card))
+		PlanetList=eval(getGlobalVariable("OutPlanets"))		
+		PlanetList.append(card.model)
+		setGlobalVariable("OutPlanets",str(PlanetList))
 		card.delete()
 
 def addMarker(card, x=0, y=0):
@@ -396,6 +400,30 @@ def restore(card, x = 0, y = 0):
 	notify("{} is no longer Bloodied.".format(card))
 	card.alternate=""
 	card.markers[Damage] = 0
+
+def replace(card, x =0, y = 0):
+	mute()
+	if card.Type != "Planet" : return
+	if not card.isFaceUp : return
+	x,y=card.position
+	PlanetList=eval(getGlobalVariable("OutPlanets"))
+	notify("{} is choosing a new planet to replace {}.".format(me,card))
+	guid,quantity=askCard({'Model':PlanetList})
+	if guid == None: 
+		notify("{} didn't replace {}".format(me,card))
+		return
+	PlanetList.append(card.model)
+	PlanetList.remove(guid)
+	planet=table.create(guid,x,y,persist=True)
+	notify("{} is now replacing {}".format(planet,card))	
+	for i in range(7):
+		if card.name==getGlobalVariable("Planet{}".format(i+1)) : setGlobalVariable("Planet{}".format(i+1),planet.name)
+	card.delete()
+	setGlobalVariable("OutPlanets",str(PlanetList))
+
+
+	
+	
 	
 
 #---------------------------

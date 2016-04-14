@@ -20,6 +20,7 @@
 			<property name="CardNumber"	value="1"/>
 			<property name="StartingHand" 	value="6"/>
 			<property name="StartingResources" value="6"/>
+			<property name="Squad" 		value="15"/>
         		<alternate name="Old One Eye" type="bloodied">
 				<property name="Faction"        value="Tyranid"/>
 				<property name="Type"           value="Warlord"/>
@@ -56,6 +57,8 @@
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="2"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="15"/>
 		</card>
 		<card id="552668b2-777d-4e4b-a650-802fc60c13e9" name="Awakening Cavern">
 			<property name="Faction"        value="Tyranid"/>
@@ -74,6 +77,8 @@
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="3"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="15"/>
 		</card>
 		<card id="e6e575d1-cbd7-4ca8-baf5-93b64c49813e" name="Ferocious Strength">
 			<property name="Faction"        value="Tyranid"/>
@@ -92,6 +97,8 @@
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="4"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="15"/>
 		</card>
 		<card id="c3cd85ab-8d37-48fc-8ac9-40442a766663" name="Great Scything Talons">
 			<property name="Faction"        value="Tyranid"/>
@@ -112,6 +119,8 @@ Reaction: After damage is removed from attached unit, it gets +X ATK for its nex
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="5"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="15"/>
 		</card>
 		<card id="408fdd61-f29d-424a-8f43-04ebf03620dc" name="The Swarmlord">
 			<property name="Faction"        value="Tyranid"/>
@@ -132,6 +141,7 @@ Reaction: After damage is removed from attached unit, it gets +X ATK for its nex
 			<property name="CardNumber"	value="6"/>
 			<property name="StartingHand" 	value="6"/>
 			<property name="StartingResources" value="6"/>
+			<property name="Squad" 		value="16"/>
         		<alternate name="The Swarmlord" type="bloodied">
 				<property name="Faction"        value="Tyranid"/>
 				<property name="Type"           value="Warlord"/>
@@ -168,6 +178,8 @@ Reaction: After damage is removed from attached unit, it gets +X ATK for its nex
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="7"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="16"/>
 		</card>
 		<card id="76bdcc04-6734-4e71-82f1-f9976eb9fb1c" name="Leviathan Hive Ship">
 			<property name="Faction"        value="Tyranid"/>
@@ -186,6 +198,8 @@ Reaction: After damage is removed from attached unit, it gets +X ATK for its nex
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="8"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="16"/>
 		</card>
 		<card id="c82f6a38-b832-4167-a46b-1515a8c33745" name="Indescribable Horror">
 			<property name="Faction"        value="Tyranid"/>
@@ -204,6 +218,8 @@ Reaction: After damage is removed from attached unit, it gets +X ATK for its nex
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="9"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="16"/>
 		</card>
 		<card id="bed92eb5-57f1-421a-95f7-1ae15eeb65ab" name="Bone Sabres">
 			<property name="Faction"        value="Tyranid"/>
@@ -224,6 +240,8 @@ Reaction: After attached unit destroys an enemy army unit by an attack, put 1 Te
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="10"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="16"/>
 		</card>
 		<card id="42645c30-8ca9-447e-8275-5f3b3f75c4da" name="Savage Warrior Prime">
 			<property name="Faction"        value="Tyranid"/>

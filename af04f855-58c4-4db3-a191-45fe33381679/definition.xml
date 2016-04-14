@@ -3,7 +3,7 @@
 <game name="Warhammer 40K Conquest LCG"
  id="af04f855-58c4-4db3-a191-45fe33381679"
  octgnVersion="3.1.0.0"
- version="1.3.4.1"
+ version="1.3.5.1"
  markersize="16"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  authors="Kertanos"
@@ -17,10 +17,12 @@
 
 <scripts>
 <script src="scripts/actions.py"/>
+<script src="scripts/autos.py"/>
 </scripts>
 
 <events>
 <event name="OnTableLoaded" action="wilkommen" />
+<event name="OnDeckLoaded" action="deckCheck" />
 </events>
 
 <proxygen definitionsrc="proxy/proxydef.xml">
@@ -56,6 +58,7 @@
 <globalvariable name="Planet5" value="" />
 <globalvariable name="Planet6" value="" />
 <globalvariable name="Planet7" value="" />
+<globalvariable name="OutPlanets" value="" />
 </globalvariables>
 
 <card height="88" width="63" front="cards/front.png" back="cards/front.png">
@@ -90,13 +93,17 @@
 
 <property name="CardNumber" type="String"/>
 
+<property name="Copies" type="String" hidden="True"/>
+
+<property name="Squad" type="String"/>
+
 <property name="ErrataText" type="String"/>
 
-<property name="PlanetMaterial" type="String"/>
+<property name="PlanetMaterial" type="String" hidden="True"/>
 
-<property name="PlanetStrongpoint" type="String"/>
+<property name="PlanetStrongpoint" type="String" hidden="True"/>
 
-<property name="PlanetTech" type="String"/>
+<property name="PlanetTech" type="String" hidden="True"/>
 
 <property name="StartingHand" type="String"/>
 
@@ -140,6 +147,7 @@
 <cardaction menu="Discard Card" execute="disc" shortcut="DEL" />
 <cardaction menu="Bloody Warrior" execute="bloodied" shortcut="CTRL+B"/>
 <cardaction menu="Restore Warrior" execute="restore" shortcut="ALT+B"/>
+<cardaction menu="Replace Planet" execute="replace"/>
 
 
 

@@ -23,6 +23,7 @@ gain 1 [RESOURCE]."/>
 			<property name="CardNumber"	value="1"/>
 			<property name="StartingHand" 	value="7"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="1"/>
         		<alternate name="Captain Cato Sicarius" type="bloodied">
 				<property name="Faction"        value="Space Marine"/>
 				<property name="Type"           value="Warlord"/>
@@ -63,6 +64,7 @@ this planet gets +1 ATK."/>
 			<property name="CardNumber"	value="2"/>
 			<property name="StartingHand" 	value="7"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="2"/>
         		<alternate name="Colonel Straken" type="bloodied">
 				<property name="Faction"        value="Astra Militarum"/>
 				<property name="Type"           value="Warlord"/>
@@ -103,6 +105,7 @@ gains Brutal."/>
 			<property name="CardNumber"	value="3"/>
 			<property name="StartingHand" 	value="7"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="3"/>
         		<alternate name="Nazdreg" type="bloodied">
 				<property name="Faction"        value="Ork"/>
 				<property name="Type"           value="Warlord"/>
@@ -145,6 +148,7 @@ damage by 1."/>
 			<property name="CardNumber"	value="4"/>
 			<property name="StartingHand" 	value="7"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="4"/>
         		<alternate name="Zarathur, High Sorcerer" type="bloodied">
 				<property name="Faction"        value="Chaos"/>
 				<property name="Type"           value="Warlord"/>
@@ -187,6 +191,7 @@ play at this planet."/>
 			<property name="CardNumber"	value="5"/>
 			<property name="StartingHand" 	value="7"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="5"/>
         		<alternate name="Packmaster Kith" type="bloodied">
 				<property name="Faction"        value="Dark Eldar"/>
 				<property name="Type"           value="Warlord"/>
@@ -229,6 +234,7 @@ that planet."/>
 			<property name="CardNumber"	value="6"/>
 			<property name="StartingHand" 	value="7"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="6"/>
         		<alternate name="Eldorath Starbane" type="bloodied">
 				<property name="Faction"        value="Eldar"/>
 				<property name="Type"           value="Warlord"/>
@@ -278,6 +284,7 @@ at this planet."/>
 			<property name="CardNumber"	value="7"/>
 			<property name="StartingHand" 	value="7"/>
 			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="7"/>
         		<alternate name="Commander Shadowsun" type="bloodied">
 				<property name="Faction"        value="Tau"/>
 				<property name="Type"           value="Warlord"/>
@@ -317,6 +324,8 @@ adjacent planet to this planet and deal it
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="8"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="1"/>
 		</card>
 		<card id="b7e2135b-2e04-4d0b-a448-d548c1c5f4e8" name="Cato's Stronghold">
 			<property name="Faction"        value="Space Marine"/>
@@ -337,6 +346,8 @@ the same planet."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="9"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="1"/>
 		</card>
 		<card id="062ac44d-4e71-4d41-b60e-72df94e71eb6" name="The Fury of Sicarius">
 			<property name="Faction"        value="Space Marine"/>
@@ -357,6 +368,8 @@ attacked unit."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="10"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="1"/>
 		</card>
 		<card id="c6e6862d-85f3-4666-882c-ef7ec333c392" name="Tallassarian Tempest Blade">
 			<property name="Faction"        value="Space Marine"/>
@@ -378,6 +391,8 @@ Armorbane."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="11"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="1"/>
 		</card>
 		<card id="a7ca6ea4-819d-4892-88e5-9af7187f632f" name="10th Company Scout">
 			<property name="Faction"        value="Space Marine"/>
@@ -767,6 +782,8 @@ same planet."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="31"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="2"/>
 		</card>
 		<card id="9f3c57be-cd85-4204-9a24-8ebea32491db" name="Omega Zero Command">
 			<property name="Faction"        value="Astra Militarum"/>
@@ -786,6 +803,8 @@ put a Guardsman token into play at that planet."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="32"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="2"/>
 		</card>
 		<card id="f90b98e7-20ac-405d-86d6-d3b67fc7b5f3" name="Glorious Intervention">
 			<property name="Faction"        value="Astra Militarum"/>
@@ -808,6 +827,8 @@ unit's printed ATK value."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="33"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="2"/>
 		</card>
 		<card id="00229e5d-e1c4-41b7-9f3b-11ab6e893255" name="Straken's Cunning">
 			<property name="Faction"        value="Astra Militarum"/>
@@ -829,6 +850,8 @@ draw 3 cards."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="34"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="2"/>
 		</card>
 		<card id="9f84295c-aae1-46c9-84c5-dd366d0e5aa6" name="Ratling Deadeye">
 			<property name="Faction"        value="Astra Militarum"/>
@@ -1217,6 +1240,8 @@ to ready it. (Limit once per phase.)"/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="54"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="3"/>
 		</card>
 		<card id="a3eb45a1-b3fc-48d7-81d0-aea8ffba9347" name="Kraktoof Hall">
 			<property name="Faction"        value="Ork"/>
@@ -1237,6 +1262,8 @@ another target unit at the same planet."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="55"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="3"/>
 		</card>
 		<card id="4ca03430-4935-4f2e-b537-1e96b1177908" name="Bigga is Betta">
 			<property name="Faction"        value="Ork"/>
@@ -1257,6 +1284,8 @@ enters play."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="56"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="3"/>
 		</card>
 		<card id="abc84c34-23d9-495e-a29d-7bcef04ed180" name="Cybork Body">
 			<property name="Faction"        value="Ork"/>
@@ -1276,6 +1305,8 @@ Double attached unit's HP."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="57"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="3"/>
 		</card>
 		<card id="477a3841-cbb3-4be0-96b5-5c7b5de8da85" name="Sniveling Grot">
 			<property name="Faction"        value="Ork"/>
@@ -1654,6 +1685,8 @@ target [ORK] unit you control to the first planet."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="77"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="4"/>
 		</card>
 		<card id="252dae48-1ced-4599-9e1c-d2cd3edd44aa" name="Shrine of Warpflame">
 			<property name="Faction"        value="Chaos"/>
@@ -1672,6 +1705,8 @@ target [ORK] unit you control to the first planet."/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="78"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="4"/>
 		</card>
 		<card id="8590bc5f-7e31-4e0b-95ca-ad63f55fafdf" name="Infernal Gateway">
 			<property name="Faction"        value="Chaos"/>
@@ -1691,6 +1726,8 @@ Combat Action: Put a [CHAOS] unit with printed cost 3 or lower into play from yo
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="79"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="4"/>
 		</card>
 		<card id="5ea90f71-cb8d-4644-afc0-871493f23e6b" name="Mark of Chaos">
 			<property name="Faction"        value="Chaos"/>
@@ -1710,6 +1747,8 @@ Interrupt: When attached unit leaves play, deal 1 damage to each enemy unit at t
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="80"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="4"/>
 		</card>
 		<card id="c8a0cd97-3e59-447e-bca9-1efcca575085" name="Alpha Legion Infiltrator">
 			<property name="Faction"        value="Chaos"/>
@@ -2074,6 +2113,8 @@ Forced Interrupt: When attached unit exhausts, deal it 1 damage. "/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="100"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="5"/>
 		</card>
 		<card id="3711655d-b2c9-4849-9d63-dcf90423d7ec" name="Khymera Den">
 			<property name="Faction"        value="Dark Eldar"/>
@@ -2092,6 +2133,8 @@ Forced Interrupt: When attached unit exhausts, deal it 1 damage. "/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="101"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="5"/>
 		</card>
 		<card id="c2b90e80-dd30-4e34-a0c3-95afc1454cca" name="Pact of the Haemonculi">
 			<property name="Faction"        value="Dark Eldar"/>
@@ -2111,6 +2154,8 @@ Deploy Action: Sacrifice a unit to discard 1 card at random from your opponent's
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="102"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="5"/>
 		</card>
 		<card id="dc4d5ac1-b0a7-45e1-8900-94973530882b" name="Agonizer of Bren">
 			<property name="Faction"        value="Dark Eldar"/>
@@ -2130,6 +2175,8 @@ Attached unit gets +1 ATK for each Khymera token you control. "/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="103"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="5"/>
 		</card>
 		<card id="b7c996ce-018d-451c-8047-cb495d2d717f" name="Sybarite Marksman">
 			<property name="Faction"        value="Dark Eldar"/>
@@ -2494,6 +2541,8 @@ Reaction: After you play a [DARK ELDAR] event card, ready attached unit. "/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="123"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="6"/>
 		</card>
 		<card id="4444a9b2-eb7f-4240-845c-42df7a9b5d3d" name="Alaitoc Shrine">
 			<property name="Faction"        value="Eldar"/>
@@ -2512,6 +2561,8 @@ Reaction: After you play a [DARK ELDAR] event card, ready attached unit. "/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="124"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="6"/>
 		</card>
 		<card id="c362f9a8-600f-4cf6-a83e-db7bc9c638db" name="Foresight">
 			<property name="Faction"        value="Eldar"/>
@@ -2530,6 +2581,8 @@ Reaction: After you play a [DARK ELDAR] event card, ready attached unit. "/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="125"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="6"/>
 		</card>
 		<card id="8015f561-8d90-4a29-b5c5-fe9bfcbcd097" name="Mobility">
 			<property name="Faction"        value="Eldar"/>
@@ -2549,6 +2602,8 @@ Attached unit gains Mobile"/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="126"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="6"/>
 		</card>
 		<card id="40e707c3-e723-415d-a4cb-ac991ce92014" name="Biel-Tan Guardians">
 			<property name="Faction"        value="Eldar"/>
@@ -2914,6 +2969,8 @@ Interrupt: When attached unit declares an attack against a non-warlord unit, dis
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="146"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="7"/>
 		</card>
 		<card id="a3a8e07f-2255-49e0-b479-ce4a280e9a1d" name="Communications Relay">
 			<property name="Faction"        value="Tau"/>
@@ -2932,6 +2989,8 @@ Interrupt: When attached unit declares an attack against a non-warlord unit, dis
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="147"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="7"/>
 		</card>
 		<card id="270ad799-d10f-411a-8129-fe6333131940" name="Squadron Redeployment">
 			<property name="Faction"        value="Tau"/>
@@ -2950,6 +3009,8 @@ Interrupt: When attached unit declares an attack against a non-warlord unit, dis
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="148"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="7"/>
 		</card>
 		<card id="4671b572-73e6-48c4-860b-aa2d4c3dd186" name="Command-link Drone">
 			<property name="Faction"        value="Tau"/>
@@ -2969,6 +3030,8 @@ Attached unit gets +1 ATK.Action: Pay 1[RESOURCE] to attach this card to a diffe
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="149"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="7"/>
 		</card>
 		<card id="b79defdf-d89a-48cc-b47e-ebf757760976" name="Recon Drone">
 			<property name="Faction"        value="Tau"/>
