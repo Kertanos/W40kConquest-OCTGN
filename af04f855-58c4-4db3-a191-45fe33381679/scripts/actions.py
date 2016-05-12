@@ -406,25 +406,48 @@ def replace(card, x =0, y = 0):
 	if card.Type != "Planet" : return
 	if not card.isFaceUp : return
 	x,y=card.position
-	PlanetList=eval(getGlobalVariable("OutPlanets"))
-	notify("{} is choosing a new planet to replace {}.".format(me,card))
-	guid,quantity=askCard({'Model':PlanetList})
-	if guid == None: 
-		notify("{} didn't replace {}".format(me,card))
-		return
-	PlanetList.append(card.model)
-	PlanetList.remove(guid)
-	planet=table.create(guid,x,y,persist=True)
-	notify("{} is now replacing {}".format(planet,card))	
-	for i in range(7):
-		if card.name==getGlobalVariable("Planet{}".format(i+1)) : setGlobalVariable("Planet{}".format(i+1),planet.name)
-	card.delete()
-	setGlobalVariable("OutPlanets",str(PlanetList))
-
-
-	
-	
-	
+	choice=askChoice("What do you want to do with {} ?".format(card.Name),["Declare the Crusade","Warp Rift"])
+	if choice == 0: return
+	elif choice == 1 :
+		PlanetList=eval(getGlobalVariable("OutPlanets"))
+		notify("{} is choosing a new planet to replace {}.".format(me,card))
+		guid,quantity=askCard({'Model':PlanetList})
+		if guid == None: 
+			notify("{} didn't replace {}".format(me,card))
+			return
+		PlanetList.append(card.model)
+		PlanetList.remove(guid)
+		planet=table.create(guid,x,y,persist=True)
+		notify("{} is now replacing {}".format(planet,card))	
+		for i in range(7):
+			if card.name==getGlobalVariable("Planet{}".format(i+1)) : setGlobalVariable("Planet{}".format(i+1),planet.name)
+		card.delete()
+		setGlobalVariable("OutPlanets",str(PlanetList))
+	elif choice == 2 :
+		for i in range(7):
+			if card.name==getGlobalVariable("Planet{}".format(i+1)) : plan=i+1
+		notify("{} is choosing with which planet to switch {}.".format(me,card))
+		plan1=""
+		plan2=""
+		if plan!=1 : 
+			plan1=getGlobalVariable("Planet{}".format(plan-1))
+		if plan!=7 : 
+			plan2=getGlobalVariable("Planet{}".format(plan+1))
+		PlanetList=(card for card in table if (card.Name==plan1 or card.Name==plan2) and card.isFaceUp)
+		dlg = cardDlg(PlanetList)
+		dlg.title = "With which planet do you want to switch {} ?".format(card.Name)
+		planets = dlg.show()
+		if planets != None:
+			for p in planets :
+				x1,y1=p.position
+				p.moveToTable(x,y)
+				setGlobalVariable("Planet{}".format(plan),p.Name)
+				if p.Name==plan1: plan=plan-1
+				if p.Name==plan2: plan=plan+1
+				notify("{} switched place with {}".format(p,card))
+			card.moveToTable(x1,y1)
+			setGlobalVariable("Planet{}".format(plan),card.Name)		
+		else : notify("{} didn't move anything.".format(me))
 
 #---------------------------
 #movement actions

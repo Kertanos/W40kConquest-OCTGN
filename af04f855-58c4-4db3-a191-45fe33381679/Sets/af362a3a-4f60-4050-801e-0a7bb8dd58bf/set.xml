@@ -2529,5 +2529,500 @@ Attached unit gets +3 ATK."/>
 			<property name="StartingHand" 	value=""/>
 			<property name="StartingResources" value=""/>
 		</card>
+		<card id="2d326e82-9543-4811-8f90-d149ec9f0c46" name="Talyesin Fharenal">
+			<property name="Faction"        value="Eldar"/>
+			<property name="Type"           value="Warlord"/>
+			<property name="Loyalty"        value="Squad"/>
+			<property name="Traits"         value="Autarch. Saim-Hann."/>
+			<property name="Text"           value="Each unit you control at this planet with the Psyker or Warrior trait gets +1 HP.
+While you control a Psyker unit and a Warrior unit at this planet, each unit you control at this planet with the Psyker or Warrior trait gets +1 ATK."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value="yes"/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="6"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="116"/>
+			<property name="StartingHand" 	value="7"/>
+			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="24"/>
+        		<alternate name="Talyesin Fharenal" type="bloodied">
+				<property name="Faction"        value="Eldar"/>
+				<property name="Type"           value="Warlord"/>
+				<property name="Loyalty"        value="Squad"/>
+				<property name="Traits"         value="Autarch. Saim-Hann."/>
+				<property name="Text"           value=""/>
+				<property name="Keywords"       value="Bloodied."/>
+				<property name="Unique"         value="yes"/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value="2"/>
+				<property name="Health"         value="5"/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value=""/>
+				<property name="CardBonus"      value=""/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="116"/>
+        		</alternate>
+		</card>
+		<card id="a3204132-6706-4eaf-98f7-6af79be90c0c" name="Talyesin's Spiders">
+			<property name="Faction"        value="Eldar"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value="Squad (2)"/>
+			<property name="Traits"         value="Warrior. Saim-Hann."/>
+			<property name="Text"           value="Reaction: After a Psyker unit you control is declared as an attacker, move this unit to the same planet as that unit."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="3"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="117"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="24"/>
+		</card>
+		<card id="6f6df4bf-80ca-4c5e-8314-3f3c69afc9ae" name="Talyesin's Warlocks">
+			<property name="Faction"        value="Eldar"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value="Squad (2)"/>
+			<property name="Traits"         value="Psyker. Saim-Hann."/>
+			<property name="Text"           value="Combat Action: Discard a Warrior card from your hand to ready this unit. (Limit once per combat round.)"/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value="3"/>
+			<property name="Health"         value="2"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="118"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="24"/>
+		</card>
+		<card id="ab57dc7a-96f9-4e53-8763-809e5cac8b43" name="Wisdom of the Serpent">
+			<property name="Faction"        value="Eldar"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value="Squad (1)"/>
+			<property name="Traits"         value="Upgrade."/>
+			<property name="Text"           value="Headquarters Action: Exhaust this support to choose Psyker or Warrior. Then, search the top 3 cards of your deck for a unit with the named Trait. Reveal it, add it to your hand, and place the remaining cards on the bottom of your deck in any order."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="119"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="24"/>
+		</card>
+		<card id="709b79fb-566b-421a-837b-f898f9515df5" name="Path of the Leader">
+			<property name="Faction"        value="Eldar"/>
+			<property name="Type"           value="Event"/>
+			<property name="Loyalty"        value="Squad (2)"/>
+			<property name="Traits"         value="Tactic."/>
+			<property name="Text"           value="ction: Either (choose one): gain 1[Resource], have a Warrior unit you control get +1 ATK until the end of the phase, or exhaust a Psyker unit you control and move it from one planet to another."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="0"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="120"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="24"/>
+		</card>
+		<card id="db278246-5a5d-4e34-8f2c-11a9711c5032" name="Autarch Powersword">
+			<property name="Faction"        value="Eldar"/>
+			<property name="Type"           value="Attachment"/>
+			<property name="Loyalty"        value="Squad (1)"/>
+			<property name="Traits"         value="Wargear. Weapon."/>
+			<property name="Text"           value="Attach to a unit you control.
+Attached unit gets +1 ATK and +1 HP.
+If attached unit is an army unit it, gains the Warrior and Psyker traits."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="3"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="121"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="24"/>
+		</card>
+		<card id="24d38a37-220d-4913-b7cf-070ded6e462b" name="Reliquary Techmarine">
+			<property name="Faction"        value="Space Marine"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Soldier. Black Templars. Ally."/>
+			<property name="Text"           value="While this unit is at a [Tech] planet (blue), it gains:"/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="4"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value="1"/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="122"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="0178d545-372b-494a-b5e2-8b293c1588f1" name="Crypt of Saint Camila">
+			<property name="Faction"        value="Space Marine"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value="Loyal"/>
+			<property name="Traits"         value="Location. Ecclesiarchy."/>
+			<property name="Text"           value="Deploy Action: Exhaust this support to put a non-Elite [Space Marine] unit into play from your hand at a [Tech] planet (blue). (Limit once per phase.)"/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value="yes"/>
+			<property name="Cost"           value="4"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="123"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="b47e2879-0ffb-4771-95e8-63bf47877e24" name="Leman Russ Conqueror">
+			<property name="Faction"        value="Astra Militarum"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Vehicle. Tank. Elite."/>
+			<property name="Text"           value="Reaction: After this unit resolves an attack, it gets +3 ATK until the end of the phase."/>
+			<property name="Keywords"       value="No Wargear Attachments."/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="6"/>
+			<property name="Attack"         value="3"/>
+			<property name="Health"         value="7"/>
+			<property name="Command"        value="3"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="124"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="f5f0d55d-dc2d-40e8-aaf6-f3e606dd73cc" name="Bolster the Defense">
+			<property name="Faction"        value="Astra Militarum"/>
+			<property name="Type"           value="Event"/>
+			<property name="Loyalty"        value="Loyal"/>
+			<property name="Traits"         value="Tactic."/>
+			<property name="Text"           value="Combat Action: Put a support card into play from your hand with printed cost equal to or lower than the highest number of army units you control at a planet."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="0"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="2"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="125"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="dc5b6e43-0297-4bfd-81c2-f52173b718f9" name="Imperial Rally Point">
+			<property name="Faction"        value="Astra Militarum"/>
+			<property name="Type"           value="Attachment"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Location."/>
+			<property name="Text"           value="Attach to a [Strongpoint] planet (green).
+Reduce the cost of each [Astra Militarum] unit you deploy at this planet by 1 (to a minimum of 1). "/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="126"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="a2a72f7a-ea29-46c9-9669-e17f77e454c6" name="Corpulent Ork">
+			<property name="Faction"        value="Ork"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Warrior."/>
+			<property name="Text"           value="While a battle is being resolved at a planet where you are the only player to control a unit named 'Corpulent Ork', your opponent is considered to have the initiative for the purposes of card abilities. (Initiative for determining combat turn order does not change.)"/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value="1"/>
+			<property name="Health"         value="5"/>
+			<property name="Command"        value="2"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="127"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="3958d46c-27c4-442d-880d-03d02ef7ee48" name="Painboy Tent">
+			<property name="Faction"        value="Ork"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value="Loyal"/>
+			<property name="Traits"         value="Location."/>
+			<property name="Text"           value="Each damaged [Ork] army unit you control gains 1 command icon."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value="yes"/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="128"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="8c192f09-3b95-4e61-b934-63b12bb3e526" name="Frenzied Bloodthirster">
+			<property name="Faction"        value="Chaos"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value="Loyal"/>
+			<property name="Traits"         value="Daemon. Khorne. Elite."/>
+			<property name="Text"           value="Bloodthirst - During a combat round in which 1 or more units have been destroyed at this planet, this unit gains Armorbane, Brutal, and Flying."/>
+			<property name="Keywords"       value="No Wargear Attachments. Immune to Power events."/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="10"/>
+			<property name="Attack"         value="8"/>
+			<property name="Health"         value="8"/>
+			<property name="Command"        value="2"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="129"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="f4088de2-b9a4-436c-94f3-90a4a0ead369" name="Warp Rift">
+			<property name="Faction"        value="Chaos"/>
+			<property name="Type"           value="Event"/>
+			<property name="Loyalty"        value="Loyal"/>
+			<property name="Traits"         value="Power. Tzeentch."/>
+			<property name="Text"           value="Headquarters Action: Switch a target planet with an adjacent planet. (Units that were at a switched-out planet are now at the switched-in planet.)"/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="2"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="130"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="307b2d67-b66c-4dee-8811-b9b799baa5be" name="Flayed Skull Slaver">
+			<property name="Faction"        value="Dark Eldar"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Warrior. Kabalite. Ally."/>
+			<property name="Text"           value="While this unit is at a [Material] planet (red), it gains:"/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="3"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value="2"/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="131"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="4f2a2ce5-6379-46f5-b9bd-c235fd225318" name="Raiding Portal">
+			<property name="Faction"        value="Dark Eldar"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Upgrade."/>
+			<property name="Text"           value="Reaction: After you win a command struggle, exhaust this support to move a target Kabalite army unit you control at that planet to a [Material] planet (red). That unit gains 1 command icon until the end of the phase."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="132"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="55555907-79d7-4c9c-9c17-2c0d4a8743e3" name="Hallucinogen Grenade">
+			<property name="Faction"        value="Dark Eldar"/>
+			<property name="Type"           value="Attachment"/>
+			<property name="Loyalty"        value="Loyal"/>
+			<property name="Traits"         value="Wargear."/>
+			<property name="Text"           value="Attach to a Kabalite army unit you control.
+Combat Action: Sacrifice this attachment to exhaust a target enemy non-Elite army unit at this planet. Then, deal damage to that unit equal to its printed ATK value."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="2"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="133"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="2a2ca64d-4315-46a9-bc5a-d92d26323c00" name="Kroot Hunter">
+			<property name="Faction"        value="Tau"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Scout. Ally."/>
+			<property name="Text"           value="Reaction: After you deploy this unit at a [Material] planet (red), gain 1[Resource]."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="2"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="134"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="dc77eb3e-e0b9-40f0-bf32-daf77136ace6" name="War of Ideas">
+			<property name="Faction"        value="Tau"/>
+			<property name="Type"           value="Event"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Tactic."/>
+			<property name="Text"           value="Interrupt: When a command struggle resolves at a planet, exhausted army units you control count their command icons during that command struggle."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="0"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="135"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="b3766767-087c-4b72-9565-1876d0822aaf" name="Genestealer Harvesters">
+			<property name="Faction"        value="Tyranid"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Creature. Genestealer."/>
+			<property name="Text"           value="While this unit is at an infested planet, it gains:"/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="2"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value="1"/>
+			<property name="CardBonus"      value="1"/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="136"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="11356b25-c62e-4f81-994d-268bbc7b20db" name="Nesting Chamber">
+			<property name="Faction"        value="Tyranid"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Upgrade."/>
+			<property name="Text"           value="Action: Exhaust this support to infest the planet with 2 or more Genestealer units at it."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="137"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
+		<card id="0d6b09c8-fd87-4fa3-b271-39dde3ecab38" name="Ymgarl Factor">
+			<property name="Faction"        value="Tyranid"/>
+			<property name="Type"           value="Attachment"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Skill. Genestealer."/>
+			<property name="Text"           value="Attach to an army unit you control.
+Action: Pay 1[Resource] to have attached unit get, until the end of the phase, either: +2 ATK or +2 HP."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="2"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="138"/>
+			<property name="StartingHand" 	value=""/>
+			<property name="StartingResources" value=""/>
+		</card>
 	</cards>
 </set>
