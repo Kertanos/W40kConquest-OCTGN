@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="05-Legions of Death" id="fb709383-72fd-4452-97d6-d87be6571169" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.4.0.0" version="1.1">
+	<cards>
+		<card id="3fdc9d9d-1666-4a44-972f-b511408fa8c0" name="Nahumekh">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Warlord"/>
+			<property name="Loyalty"        value="Squad"/>
+			<property name="Traits"         value="Warrior. Sautekh."/>
+			<property name="Text"           value="Reaction: After the
+combat phase begins,
+a target army unit
+at this planet gets
+-X HP until the end
+of the phase. X is the
+number of non-[NECRON]
+factions among units
+you control."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value="yes"/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="6"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="1"/>
+			<property name="StartingHand" 	value="7"/>
+			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="25"/>
+        	<alternate name="Nahumekh" type="bloodied">
+				<property name="Faction"        value="Necron"/>
+				<property name="Type"           value="Warlord"/>
+				<property name="Loyalty"        value="Squad"/>
+				<property name="Traits"         value="Warrior. Sautekh."/>
+				<property name="Text"           value=""/>
+				<property name="Keywords"       value="Bloodied."/>
+				<property name="Unique"         value="yes"/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value="1"/>
+				<property name="Health"         value="6"/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value=""/>
+				<property name="CardBonus"      value=""/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="1"/>
+        	</alternate>
+		</card>
+		<card id="b5ed0c92-31a0-488f-bcf7-882ddecb072a" name="Destroyer Cultist">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value="Squad (4)"/>
+			<property name="Traits"         value="Warrior. Sautekh."/>
+			<property name="Text"           value="This unit gets +1 ATK for each
+non-[NECRON] faction among units you control."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value="1"/>
+			<property name="Health"         value="4"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="2"/>
+			<property name="Copies" 	value="4"/>
+			<property name="Squad" 		value="25"/>
+		</card>
+		<card id="7935678d-ff11-401f-a3ff-19ab329028aa" name="Obedience">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value="Squad (1)"/>
+			<property name="Traits"         value="Upgrade."/>
+			<property name="Text"           value="Reaction: After a phase begins, exhaust this
+support to move a non-[NECRON] unit you control to a
+target planet."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="3"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="25"/>
+		</card>
+		<card id="4c655499-a622-4972-971c-7fc3529901ad" name="Hate">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Event"/>
+			<property name="Loyalty"        value="Squad (2)"/>
+			<property name="Traits"         value="Tactic."/>
+			<property name="Text"           value="Deploy Action: Destroy a target army unit with
+a faction symbol that matches your enslaved
+faction. X is that unit's printed cost."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="X"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="4"/>
+			<property name="Copies" 	value="2"/>
+			<property name="Squad" 		value="25"/>
+		</card>
+		<card id="68468cc4-bd97-4386-9c80-6b4bcd6fe77a" name="The Staff of Command">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Attachment"/>
+			<property name="Loyalty"        value="Squad (1)"/>
+			<property name="Traits"         value="Wargear. Weapon."/>
+			<property name="Text"           value="Attach to your warlord.
+Action: Exhaust this attachment to set your
+enslavement dial to another faction."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value="yes"/>
+			<property name="Cost"           value="0"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="3"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="5"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="25"/>
+		</card>
+		<card id="1f0cfea8-52e9-4052-9349-17b724b5eabf" name="Anrakyr the Traveller">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Warlord"/>
+			<property name="Loyalty"        value="Squad"/>
+			<property name="Traits"         value="Soldier."/>
+			<property name="Text"           value="Deploy Action:
+Deploy the topmost
+unit card in a target
+discard pile. (Limit
+once per phase.)"/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value="yes"/>
+			<property name="Cost"           value=""/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="7"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="6"/>
+			<property name="StartingHand" 	value="7"/>
+			<property name="StartingResources" value="7"/>
+			<property name="Squad" 		value="26"/>
+        	<alternate name="Anrakyr the Traveller" type="bloodied">
+				<property name="Faction"        value="Necron"/>
+				<property name="Type"           value="Warlord"/>
+				<property name="Loyalty"        value="Squad"/>
+				<property name="Traits"         value="Soldier."/>
+				<property name="Text"           value=""/>
+				<property name="Keywords"       value="Bloodied."/>
+				<property name="Unique"         value="yes"/>
+				<property name="Cost"           value=""/>
+			<property name="Attack"         value="1"/>
+				<property name="Health"         value="6"/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value=""/>
+				<property name="CardBonus"      value=""/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="6"/>
+        	</alternate>
+		</card>
+		<card id="e6289856-3cca-4972-b58c-4ada88b069fd" name="Pyrrhian Eternals">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value="Squad (5)"/>
+			<property name="Traits"         value="Soldier."/>
+			<property name="Text"           value="For each card named Pyrrhian Eternals
+in your discard pile, this unit gets
++1 ATK and +1 HP."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value="1"/>
+			<property name="Health"         value="1"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+		<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="7"/>
+			<property name="Copies" 	value="5"/>
+			<property name="Squad" 		value="26"/>
+		</card>
+		<card id="0c6e905e-3175-476b-905a-6ec98ecc22bd" name="Slumbering Tomb">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value="Squad (1)"/>
+			<property name="Traits"         value="Location."/>
+			<property name="Text"           value="Action: Exhaust this support to draw 2 cards.
+Then, discard 2 cards from your hand."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="8"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="26"/>
+		</card>
+		<card id="92df6d36-08df-4dd3-a121-a2017938f1fa" name="Awake the Sleepers">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Event"/>
+			<property name="Loyalty"        value="Squad (1)"/>
+			<property name="Traits"         value="Tactic."/>
+			<property name="Text"           value="Action: Shuffle any number of [NECRON] cards from
+			your discard pile into your deck."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="9"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="26"/>
+		</card>
+		<card id="2f4226a7-fe3c-42fd-9bbe-c231e2d1f631" name="Pyrrhian Warscythe">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Attachment"/>
+			<property name="Loyalty"        value="Squad (1)"/>
+			<property name="Traits"         value="Wargear. Weapon."/>
+			<property name="Text"           value="Attach to your warlord.
+Attached unit gets +1 ATK.
+Reaction: After attached unit is declared as an
+attacker, discard the top 2 cards of your deck."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="3"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="10"/>
+			<property name="Copies" 	value="1"/>
+			<property name="Squad" 		value="26"/>
+		</card>
+		<card id="d6ab9733-9c54-4e2e-9d9a-3340e0f25ee7" name="Canoptek Scarab Swarm">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Drone."/>
+			<property name="Text"           value="Interrupt: When this unit is destroyed,
+return a target [NECRON] unit from your discard
+pile to your hand."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="2"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="11"/>
+		</card>
+		<card id="3b5dc43a-c312-4c20-8b45-d342c9c9d0f8" name="Warriors of Gidrim">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Warrior. Sautekh."/>
+			<property name="Text"           value="This unit gains 1 command icon while
+you have 2 or more non-[NECRON] factions
+among units you control."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value="1"/>
+			<property name="Health"         value="1"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="12"/>
+		</card>
+		<card id="9e2cd58e-744d-492c-a796-d55f47c309ee" name="Flayed Ones Pack">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Warrior."/>
+			<property name="Text"           value="Forced Reaction: After this unit is
+declared as an attacker, discard the top
+3 cards of your deck."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value="3"/>
+			<property name="Health"         value="2"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="13"/>
+		</card>
+		<card id="55826c07-b908-47c0-bc53-106082e49c43" name="Immortal Vanguard">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Soldier. Novokh."/>
+			<property name="Text"           value="Each non-[NECRON] Warrior unit you control at
+this planet gets +1 ATK and +1 HP."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value="1"/>
+			<property name="Health"         value="3"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="14"/>
+		</card>
+		<card id="af3b7cf0-3984-4f37-8c36-48992002f9df" name="Patrolling Wraith">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Drone."/>
+			<property name="Text"           value="Reaction: After this unit destroys an
+enemy unit by an attack, your opponent
+must reveal his hand and discard each
+revealed card with the same name as the
+destroyed unit."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="3"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="15"/>
+		</card>
+		<card id="f66b6a8f-92a1-4543-b756-f24682ed7007" name="Decaying Warrior Squad">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Warrior."/>
+			<property name="Text"           value="Combat Action: Deploy this card from
+your discard pile at a planet."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="2"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="16"/>
+		</card>
+		<card id="db9008c9-0714-4c86-b253-27047aef976a" name="Deathmark Assassins">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Scout."/>
+			<property name="Text"           value="Reaction: After the combat phase
+begins, discard the top card of your deck.
+This unit gets +X ATK until the end of
+the phase. X is the printed cost of the
+discarded card."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="3"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="17"/>
+		</card>
+		<card id="907f51c9-d089-4f94-9243-8f2049aa70ab" name="Mandragoran Immortals">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Warrior. Sautekh."/>
+			<property name="Text"           value="Action: Sacrifice a non-[NECRON] Soldier unit at
+this planet to ready this unit. (Limit once
+per phase.)"/>
+			<property name="Keywords"       value="Ranged."/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="3"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="18"/>
+		</card>
+		<card id="6b40fd26-2868-44b8-947e-7fcd817b7ba6" name="Tomb Blade Squadron">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Vehicle. Sautekh."/>
+			<property name="Text"           value="Reaction: After you deploy a
+non-[NECRON] Scout unit, move this unit to a
+planet. Then, a target non-warlord unit
+at this planet gets -1 HP until the end of
+the phase."/>
+			<property name="Keywords"       value="No Wargear Attachments."/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value="0"/>
+			<property name="Health"         value="2"/>
+			<property name="Command"        value="2"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="19"/>
+		</card>
+		<card id="ccceba3c-b689-409d-89c9-b3fe898c80f6" name="Reanimating Warriors">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Warrior."/>
+			<property name="Text"           value="Interrupt: When this unit would be
+destroyed by taking damage, remove all
+damage from it and move this unit to
+an adjacent planet instead. (Limit once
+per phase.)"/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="2"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="20"/>
+		</card>
+		<card id="676688d8-f297-4a06-943d-3c6c12f97ec2" name="Canoptek Spyder">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Drone."/>
+			<property name="Text"           value="Combat Action: During a battle at this
+planet, discard a unit card from your hand
+to remove 2 damage from a [NECRON] army unit
+you control at this planet. (Limit once per
+combat round.)"/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="4"/>
+			<property name="Attack"         value="4"/>
+			<property name="Health"         value="3"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="21"/>
+		</card>
+		<card id="064750f4-923d-456c-8c81-695080c46ab4" name="Immortal Legion">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Soldier. Sautekh."/>
+			<property name="Text"           value="Combat Action: Exhaust this unit to
+move it to a planet with an enemy warlord
+with a faction that matches your
+enslaved faction."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="4"/>
+			<property name="Attack"         value="4"/>
+			<property name="Health"         value="4"/>
+			<property name="Command"        value="2"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="22"/>
+		</card>
+		<card id="30ca0582-8e90-45d0-86b9-d05510ac5688" name="Praetorian Ancient">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Soldier."/>
+			<property name="Text"           value="While you have 6 or more units in your
+discard pile, this unit gets +2 ATK and
+gains Armorbane."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="4"/>
+			<property name="Attack"         value="3"/>
+			<property name="Health"         value="4"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="23"/>
+		</card>
+		<card id="356f1a29-86d5-435d-bf50-5be3ebda0537" name="Harbinger of Eternity">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Scholar. Elite."/>
+			<property name="Text"           value="You may play each [NECRON] event card
+from your discard pile as if it were in
+your hand.
+Forced Reaction: After you play a
+[NECRON] event card from your discard pile,
+remove that card from the game."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="5"/>
+			<property name="Attack"         value="3"/>
+			<property name="Health"         value="5"/>
+			<property name="Command"        value="3"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="24"/>
+		</card>
+		<card id="1ec70f79-2a2f-41b4-8965-9387e656fc8d" name="Lynchguard Sentinel">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Soldier. Elite."/>
+			<property name="Text"           value="While you have 6 or more units in your
+discard pile, this unit gets +4 HP.
+Your opponent must declare a ready unit
+named Lynchguard Sentinel as a defender,
+if able."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="5"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="6"/>
+			<property name="Command"        value="2"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="25"/>
+		</card>
+		<card id="c2c44c26-0ec3-40bd-a594-cb2e7eb5513e" name="Doom Scythe Invader">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Vehicle. Sautekh. Elite."/>
+			<property name="Text"           value="Reaction: After you deploy this unit, put
+a non-Elite Vehicle unit into play from
+your discard pile at this planet."/>
+			<property name="Keywords"       value="No Wargear Attachments. Flying."/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="6"/>
+			<property name="Attack"         value="4"/>
+			<property name="Health"         value="4"/>
+			<property name="Command"        value="2"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="26"/>
+		</card>
+		<card id="6d7f711d-68dd-42db-9ed4-70b7499e0661" name="Doomsday Ark">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Vehicle. Elite."/>
+			<property name="Text"           value="X is the number of non-[NECRON] factions among
+			units you control."/>
+			<property name="Keywords"       value="No Wargear Attachments.
+Area Effect (X)."/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="6"/>
+			<property name="Attack"         value="5"/>
+			<property name="Health"         value="5"/>
+			<property name="Command"        value="2"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="27"/>
+		</card>
+		<card id="f7b4f072-7f94-4763-a042-1f75653e62f2" name="Dread Monolith">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Vehicle. Elite."/>
+			<property name="Text"           value="Combat Action: Discard the top 3 cards
+of your deck. Then, put a non-Vehicle
+[NECRON] unit discarded by this effect into play
+at this planet. (Limit once per round.)"/>
+			<property name="Keywords"       value="No Wargear Attachments."/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="8"/>
+			<property name="Attack"         value="5"/>
+			<property name="Health"         value="7"/>
+			<property name="Command"        value="5"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="28"/>
+		</card>
+		<card id="de81149b-3244-4974-b629-3dfa93aa0f9e" name="Reanimation Protocol">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Event"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Tactic."/>
+			<property name="Text"           value="Action: Remove up to 2 damage from a [NECRON] unit
+you control. Max 1 per round."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="0"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="29"/>
+		</card>
+		<card id="0732f84e-4662-4771-b1f7-d5cb7c5e358d" name="Recycle">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Event"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Power."/>
+			<property name="Text"           value="Action: Discard 2 cards from your hand. Then,
+draw 3 cards."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="30"/>
+		</card>
+		<card id="1e48e347-b161-4b47-ba0d-b14158e091cf" name="Mechanical Enhancement">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Event"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Tactic."/>
+			<property name="Text"           value="Combat Action: Each [NECRON] unit you control at a
+target planet gets +2 HP until the end of the phase."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="2"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="31"/>
+		</card>
+		<card id="71e32bef-9faf-4902-b7df-8bdbd09bc5c1" name="Drudgery">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Event"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Tactic."/>
+			<property name="Text"           value="Action: Put a target non-[NECRON] unit with printed cost
+3 or lower into play from your discard pile at
+a planet."/>
+			<property name="Keywords"       value="Limited."/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="32"/>
+		</card>
+		<card id="4c921cbf-64b7-456e-b30b-9c414a53151b" name="Extermination">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Event"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Tactic."/>
+			<property name="Text"           value="Deploy Action: Each non-unique  non-[NECRON] unit at a
+target planet gets -3 HP until the end of the phase.
+You must pass during your next deployment turn."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="5"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="33"/>
+		</card>
+		<card id="b5a02a3e-ac85-4117-a3f1-c80b9b462188" name="Gauss Flayer">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Attachment"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Wargear. Weapon."/>
+			<property name="Text"           value="Attach to a [NECRON] army unit.
+Combat Action: During a battle at this planet,
+Exhaust attached unit to give a target enemy
+unit at this planet -2 HP until the end of
+the phase."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="34"/>
+		</card>
+		<card id="09230059-d4e7-4e98-97b0-1cbf472a1ac8" name="Royal Phylactery">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Attachment"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Wargear."/>
+			<property name="Text"           value="Attach to a [NECRON] army unit.
+Rection: After a phase begins or a combat
+round at this planet begins, remove 1 damage
+from attached unit."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="2"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="35"/>
+		</card>
+		<card id="29d71635-81be-4070-a0c5-2feea3820ded" name="Hyperphase Sword">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Attachment"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Wargear. Weapon."/>
+			<property name="Text"           value="Attach to a [NECRON] army unit.
+Attached unit gets +1 ATK and gains
+Armorbane.
+Action: Discard a card from your hand to
+attach this card to another eligible unit at
+this planet."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="36"/>
+		</card>
+		<card id="6e5f8b3c-4c83-4147-9289-e0736bd931b9" name="Resurrection Orb">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Attachment"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Wargear."/>
+			<property name="Text"           value="Attach to an Elite [NECRON] unit you control.
+Reaction: After a combat round at this planet
+begins, if the topmost card of your discard
+pile is a non-Elite [NECRON] unit, put it into play at
+this planet."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="2"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="37"/>
+		</card>
+		<card id="7fbf375f-4764-4fb3-bc78-673b12036805" name="Mind Shackle Scarab">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Attachment"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Drone."/>
+			<property name="Text"           value="Attach to a non-Elite army unit.
+Action: If attached unit's faction symbol
+matches your enslaved faction, exhaust this
+attachment to gain control of attached unit
+until the end of the phase."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="38"/>
+		</card>
+		<card id="923d7d17-552d-469a-b1e4-e2402e363262" name="Timeworn Stasis-Crypt">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Location."/>
+			<property name="Text"           value="Interrupt: When you deploy a [NECRON] card, exhaust
+this support to reduce that card's cost by 1."/>
+			<property name="Keywords"       value="Limited."/>
+			<property name="Unique"         value="yes"/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="39"/>
+		</card>
+		<card id="be5c5523-75d0-4300-a931-f4dbc63156aa" name="Weight of the Aeons">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Upgrade."/>
+			<property name="Text"           value="Reaction: After a phase begins, exhaust this
+support to have each player discard the top 2 cards
+of his deck."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="40"/>
+		</card>
+		<card id="e7bd9557-8f04-4b02-b26a-8520296b1c5b" name="Eternity Gate">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Upgrade."/>
+			<property name="Text"           value="Action: Exhaust this support to choose a card in a
+target player's discard pile and place it on top of
+that discard pile."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="41"/>
+		</card>
+		<card id="91654ef6-a727-4507-8fe4-a7238658330a" name="Sautekh Complex">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Location."/>
+			<property name="Text"           value="Reaction: After you deploy a unit from a 
+non-[NECRON] faction, if you control no other units from
+that faction, gain 1 [RESOURCE] or draw 1 card."/>
+			<property name="Keywords"       value="Limited."/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="42"/>
+		</card>
+		<card id="ab681b65-0c09-486a-b694-4478b338f102" name="Master Program">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Upgrade."/>
+			<property name="Text"           value="Action: Exhaust this support and sacrifice a Drone
+card to remove all damage from a target [NECRON] army
+unit you control and ready it."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value="yes"/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="43"/>
+		</card>
+		<card id="4d22e782-c179-42de-942c-0af50379d5ef" name="Particle Whip">
+			<property name="Faction"        value="Necron"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Artillery. Upgrade."/>
+			<property name="Text"           value="Headquarters Action: Exhaust this support and
+shuffle any number of unit cards from your discard
+pile into your deck to deal X damage to a target
+non-Elite army unit. X is the number of cards
+shuffled into your deck."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="44"/>
+		</card>
+		<card id="b374427a-0427-4d13-a58f-be89c67017ae" name="Freebooter Kaptain">
+			<property name="Faction"        value="Neutral"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Ally."/>
+			<property name="Text"           value="Army units with printed cost 2 or lower
+do not count their command icons during
+command struggles at this planet."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value="3"/>
+			<property name="Health"         value="3"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="45"/>
+		</card>
+		<card id="9825eab3-a6ca-4af8-b89e-b3fcfa14b715" name="Backlash">
+			<property name="Faction"        value="Neutral"/>
+			<property name="Type"           value="Event"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Tactic."/>
+			<property name="Text"           value="Interrupt: When your opponent triggers an ability
+that targets an Elite unit you control, cancel its
+effects. Then, if that ability was triggered from an
+army unit, destroy it."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="46"/>
+		</card>
+		<card id="7fdfb736-a7e2-4b25-bc5b-4475700992e5" name="Defense Battery">
+			<property name="Faction"        value="Neutral"/>
+			<property name="Type"           value="Attachment"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Artillery."/>
+			<property name="Text"           value="Attach to a planet.
+Reaction: After an enemy army unit moves
+to or from attached planet, exhaust this
+attachment to deal 2 damage to that unit."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value="1"/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="47"/>
+		</card>
+		<card id="01a2f132-2e66-4837-ab1d-03e1ac7da458" name="STC Fragment">
+			<property name="Faction"        value="Neutral"/>
+			<property name="Type"           value="Support"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Relic."/>
+			<property name="Text"           value="Limit 1 Relic per player.
+Interrupt: When you deploy an Elite unit,
+exhaust this support to reduce the cost of that unit
+by 2."/>
+			<property name="Keywords"       value="Limited."/>
+			<property name="Unique"         value="yes"/>
+			<property name="Cost"           value="1"/>
+			<property name="Attack"         value=""/>
+			<property name="Health"         value=""/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="48"/>
+		</card>
+		<card id="011e7023-dea6-4914-b074-b4252ae09d14" name="Ravenwing Escort">
+			<property name="Faction"        value="Space Marine"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Scout. Dark Angels."/>
+			<property name="Text"           value="While you control a non-[SPACE MARINE] warlord, this
+unit gains Mobile.
+Combat Action: Exhaust this unit to
+move an army unit you control at this
+planet to another planet."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="4"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="3"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="49"/>
+		</card>
+		<card id="3d93a49f-0dff-4f9a-b03d-441318c52969" name="Standard Bearer">
+			<property name="Faction"        value="Astra Militarum"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Soldier."/>
+			<property name="Text"           value="While you control a non-[ASTRA MILITARUM] warlord, you
+may deploy this unit from your hand as if
+it had Ambush.
+Reaction: After this unit enters play,
+ready an army unit you control at
+this planet."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="3"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="2"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="50"/>
+		</card>
+		<card id="7d5ffe8f-a1e6-4e2f-9d98-a7a032e7d18c" name="Goff Brawlers">
+			<property name="Faction"        value="Ork"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Warrior. Boyz."/>
+			<property name="Text"           value="While you control a non-[ORK] warlord, this
+unit gains 1 command icon.
+Reaction: After this unit readies, each
+player deals 1 indirect damage among
+units he controls at this planet."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value="2"/>
+			<property name="Health"         value="3"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="51"/>
+		</card>
+		<card id="38006d4a-76c2-426d-9430-d29f39e3fb7c" name="Venomous Fiend">
+			<property name="Faction"        value="Chaos"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Daemon. Slaanesh. Elite."/>
+			<property name="Text"           value="While you control a non-[CHAOS] warlord, this
+unit gains Mobile.
+Reaction: After this unit moves to a
+planet, deal X damage to a target enemy
+army unit at that planet. X is the number
+of command icons the target unit has."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="5"/>
+			<property name="Attack"         value="3"/>
+			<property name="Health"         value="5"/>
+			<property name="Command"        value="2"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="52"/>
+		</card>
+		<card id="9e2f9564-2ddd-47b0-9363-4d52df0e02ca" name="Treacherous Lhammaean">
+			<property name="Faction"        value="Dark Eldar"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Warrior."/>
+			<property name="Text"           value="While you control a non-[DARK ELDAR] warlord, this
+unit gains Armorbane.
+Forced Interrupt: When this unit is
+destroyed, sacrifice another army unit at this planet."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value="4"/>
+			<property name="Health"         value="1"/>
+			<property name="Command"        value=""/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="53"/>
+		</card>
+		<card id="8ad671be-e6ae-4769-9b1e-c89c75734150" name="Nightshade Interceptor">
+			<property name="Faction"        value="Eldar"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Vehicle. Elite."/>
+			<property name="Text"           value="While you control a non-[ELDAR] warlord, this
+unit gains Area Effect (2).
+Combat Action: Exhaust this unit to
+move an army unit you control at this
+planet to another planet."/>
+			<property name="Keywords"       value="No Wargear Attachments. Flying."/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="6"/>
+			<property name="Attack"         value="4"/>
+			<property name="Health"         value="4"/>
+			<property name="Command"        value="2"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="54"/>
+		</card>
+		<card id="dbc442f3-eec8-48bd-9ef6-9884b357c69c" name="Air Caste Courier">
+			<property name="Faction"        value="Tau"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Scout. Pilot."/>
+			<property name="Text"           value="While you control a non-[TAU] warlord, this
+unit gains Flying.
+Combat Action: Exhaust this unit to
+move an attachment from a unit you
+control at this planet to another eligible
+unit you control."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value="1"/>
+			<property name="Health"         value="3"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="55"/>
+		</card>
+		<card id="9f864364-9239-406f-bfea-490fe8fb06a4" name="Swarmling Termagants">
+			<property name="Faction"        value="Tyranid"/>
+			<property name="Type"           value="Army"/>
+			<property name="Loyalty"        value=""/>
+			<property name="Traits"         value="Creature. Leviathan. Termagant."/>
+			<property name="Text"           value="Interrupt: When this unit is destroyed,
+put X Termagant tokens into play at this
+planet. X is the number of factions among
+enemy units at this planet."/>
+			<property name="Keywords"       value=""/>
+			<property name="Unique"         value=""/>
+			<property name="Cost"           value="2"/>
+			<property name="Attack"         value="1"/>
+			<property name="Health"         value="1"/>
+			<property name="Command"        value="1"/>
+			<property name="Shield"         value=""/>
+			<property name="ResourceBonus"  value=""/>
+			<property name="CardBonus"      value=""/>
+			<property name="ErrataText"     value=""/>
+			<property name="CardNumber"	value="56"/>
+		</card>
+		<card id="86fd3c0f-d1a0-4ded-a1a6-ec9ffc90f7f9" name="Enslavement Dial" size="SkullSize">
+			<property name="Faction"        value=""/>
+			<property name="Type"           value="Dial"/>
+			<alternate name="Enslavement Dial" type="Chaos">
+				<property name="Type"           value="Dial"/>
+			</alternate>
+			<alternate name="Enslavement Dial" type="Dark">
+				<property name="Type"           value="Dial"/>
+			</alternate>
+			<alternate name="Enslavement Dial" type="Eldar">
+				<property name="Type"           value="Dial"/>
+			</alternate>
+			<alternate name="Enslavement Dial" type="Marine">
+				<property name="Type"           value="Dial"/>
+			</alternate>
+			<alternate name="Enslavement Dial" type="Ork">
+				<property name="Type"           value="Dial"/>
+			</alternate>
+			<alternate name="Enslavement Dial" type="Tau">
+				<property name="Type"           value="Dial"/>
+			</alternate>
+		</card>
+	</cards>
+</set>

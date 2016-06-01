@@ -77,12 +77,16 @@ def deckCheck(groups):
 				deckOk=False
 				continue
 			if card.Type =="Army" and faction=="Tyranid":
-				whisper("Deck error, you can't include neutral army unit like {}".format(card.Name))
+				whisper("Deck error, you can't include neutral army card like {}".format(card.Name))
 				deckOk=False
 				continue
 			if card.Faction !="Neutral":
+				if card.Type!="Army" and faction=="Necron":
+					whisper("Deck error, you can't include non-army card from other faction like {}".format(card.Name))
+					deckOk=False
+					continue
 				if (card.Type!="Army" or "Vehicle." not in card.Traits) and lord=="Gorzod":
-					whisper("Deck error, {} is not a SM or AM vehicle army unit".format(card.Name))
+					whisper("Deck error, {} is not a SM or AM vehicle army card".format(card.Name))
 					deckOk=False
 					continue
 				alliance[card.Faction]+=1

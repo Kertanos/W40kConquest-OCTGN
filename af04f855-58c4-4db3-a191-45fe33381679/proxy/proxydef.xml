@@ -1053,7 +1053,92 @@
 			</link>
 		</textblocks>
 	</template>
+
+	<!-- Necron Attachment Card template -->
+	<template src="proxy/proxyImages/Attachments/attach_Necron.png" default="False">
+		<matches>
+			<match name="Type" value="Attachment"/>
+			<match name="Faction" value="Necron"/>
+		</matches>
 		
+		<overlayblocks>		
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="AttachmentUnique"/> </if>
+			</conditional>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+
+		
+		</overlayblocks>
+		
+		<textblocks>
+			<!-- Card Cost -->
+			<link block="AttachmentCardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="AttachmentCardType">
+				<property name="Type"/>
+			</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="dummyOverlay"/>
+			<link block="AttachmentCardName">
+				<property name="Name"/>
+			</link>
+			<link block="AttachmentCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="AttachmentCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="AttachmentCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>		
 	
 <!-- EVENT CARD TEMPLATE -->
 	<!-- Marine Event Card template -->
@@ -1518,6 +1603,56 @@
 	</template>
 
 
+	<!-- Necron Event Card template -->
+	<template src="proxy/proxyImages/Events/event_Necron.png" default="False">
+		<matches>
+			<match name="Type" value="Event"/>
+			<match name="Faction" value="Necron"/>
+		</matches>
+		
+		<overlayblocks>	
+			<!-- Unique test -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="EventUniqueYes"/> </if>
+			</conditional>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/></if>
+				<else> <link block="cardShield"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+			
+		<textblocks>
+			<conditional>
+				<if property="Shield" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textShield" >
+						<property name="Shield"/>
+					</link> </else>
+			</conditional>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<link block="eventCardTitle">
+				<property name="Name"/>
+			</link>
+			<link block="eventTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="eventCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="eventCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
 
 
 
@@ -2141,7 +2276,76 @@
 			</link>
 		</textblocks>
 	</template>
-	
+
+
+	<!-- Necron Support Card template -->
+	<template src="proxy/proxyImages/Supports/support_Necron.png" default="False">
+		<matches>
+			<match name="Type" value="Support"/>
+			<match name="Faction" value="Necron"/>
+		</matches>
+		
+		<overlayblocks>			
+			<!-- Unique -->
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="SupportUniqueYes"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="cardCost">
+				<property name="Cost"/>
+			</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+		
+			<link block="SupportCardName">
+				<property name="Name"/>
+			</link>
+			<link block="SupportCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="SupportCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="SupportCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+		
 
 	
 <!-- Token CARD TEMPLATE -->
@@ -3212,6 +3416,96 @@
 		</textblocks>
 	</template>
 
+	<!-- Necron Army Card template -->
+	<template src="proxy/proxyImages/Armies/army_Necron.png" default="False">
+		<matches>
+			<match name="Type" value="Army"/>
+			<match name="Faction" value="Necron"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
+
 <!-- WARLORD CARD TEMPLATE -->
 
 	
@@ -3931,6 +4225,96 @@
 		</textblocks>
 	</template>
 	
+	
+	<!-- Necron Warlord Card template -->
+	<template src="proxy/proxyImages/Armies/army_Necron.png" default="False">
+		<matches>
+			<match name="Type" value="Warlord"/>
+			<match name="Faction" value="Necron"/>
+		</matches>
+		
+		<overlayblocks>	
+			<conditional>
+				<if property="Unique" value="yes">
+					<link block="ArmyUnique"/> </if>
+			</conditional>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardResourceBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardDrawBonus"/> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="cardCommand"/> </else>
+			</conditional>
+			<link block="dummyOverlay"/>
+		</overlayblocks>
+		
+		<textblocks>
+					<link block="cardCost">
+						<property name="Cost"/>
+					</link>
+			<link block="cardType">
+				<property name="Type"/>
+			</link>
+			
+					<link block="textATK">
+						<property name="Attack"/>
+					</link>
+					<link block="textHP">
+						<property name="Health"/>
+					</link>
+			
+			<conditional>
+				<if property="ResourceBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textResource" >
+						<property name="ResourceBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="CardBonus" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textDrawBonus" >
+						<property name="CardBonus"/>
+					</link> </else>
+			</conditional>
+			<conditional>
+				<if property="Command" value="">
+					<link block="dummyOverlay"/> </if>
+				<else>
+					<link block="textCommand" >
+						<property name="Command"/>
+					</link> </else>
+			</conditional>
+			
+			<link block="ArmyCardName">
+				<property name="Name"/>
+			</link>
+			<link block="ArmyCardTraits">
+				<property name="Traits"/>
+			</link>
+			<link block="ArmyCardKeywords">
+				<property name="Keywords"/>
+			</link>
+			<link block="ArmyCardText">
+				<property name="Text"/>
+			</link>
+		</textblocks>
+	</template>
+
 
 <!-- SYNAPSE CARD TEMPLATE -->
 	<!-- Tyranid Synapse Card template -->

@@ -3,7 +3,7 @@
 <game name="Warhammer 40K Conquest LCG"
  id="af04f855-58c4-4db3-a191-45fe33381679"
  octgnVersion="3.1.0.0"
- version="1.3.6.0"
+ version="1.4.0.0"
  markersize="16"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  authors="Kertanos"
@@ -127,6 +127,7 @@
 <groupaction menu="Flip Coin" execute="flipCoin" shortcut ="CTRL+F"/>
 <groupaction menu="Win Command on Targets" execute="winC" shortcut ="F5"/>
 <groupaction menu="Set Servo-Skull" execute="ServoSkull" shortcut="F6"/>
+<groupaction menu="Set Enslavement Dial" execute="NecronDial" shortcut="ALT+F6"/>
 <groupaction menu="Capture planet" execute="capture" shortcut="F7"/>
 <groupaction menu="Ready all my cards" execute="restoreAll" shortcut ="F9"/>
 <groupaction menu="Create Token" execute="createToken" shortcut="F10"/>

@@ -103,6 +103,9 @@ def setup(group, x = 0, y = 0):
 			if card.Faction == "Tyranid" : 
 				table.create("124d3e0b-621a-4eb7-bb34-e4163794989f",X3,Y2,persist=True)
 				table.create("a53b9f48-6ae2-4cd7-ba8a-6bfcf47bca3c",X4,Y2,persist=True)
+			elif card.Faction == "Necron" :
+				table.create("86fd3c0f-d1a0-4ded-a1a6-ec9ffc90f7f9",X3,Y2,persist=True)
+				table.create("5c352ba9-9b70-4071-ae47-e2bed96d1e01",X4,Y2,persist=True)
 			else : table.create("5c352ba9-9b70-4071-ae47-e2bed96d1e01",668,Y2,persist=True)
 		if card.Type == "Synapse":
 			notify("**{}'s Synapse is {}**".format(me,card))
@@ -185,6 +188,39 @@ def ServoSkull(group, x=0,y=0):
 		else : card.alternate="Skull5"
 		notify("{} has chosen where to commit his or her {}".format(me,unit))
 		unit = "synapse"
+
+def NecronDial(group, x=0,y=0):
+	mute()
+	dial= (card for card in table if card.controller == me and card.Name == "Enslavement Dial")
+	notify("{} is choosing his or her Enslaved Faction.".format(me))
+	choiceList = ['Astra Militarum', 'Chaos', 'Dark Eldar', 'Eldar', 'Space Marine', 'Ork', 'Tau']
+	for card in dial:		
+		choice = askChoice("Which faction do you want to enslave ? ", choiceList)			
+		if choice == 1 : 
+			card.alternate=""
+			fact="the soldiers of the Astra Militarum"
+		elif choice == 2 : 
+			card.alternate="Chaos"
+			fact="the dark servants of Chaos"
+		elif choice == 3 : 
+			card.alternate="Dark"
+			fact="the sadistic Dark Eldars"
+		elif choice == 4 : 
+			card.alternate="Eldar"
+			fact="the prideful Eldars"
+		elif choice == 5 : 
+			card.alternate="Marine"
+			fact="the righteous Space Marines"
+		elif choice == 6 : 
+			card.alternate="Ork"
+			fact="the brutal Orks"
+		elif choice == 7 : 
+			card.alternate="Tau"
+			fact="the Tau conquerors"			
+		else : 
+			notify("{} didn't change his or her enslavement dial".format(me))
+			return	
+		notify("{} enslaved {}".format(me,fact))
 		
 	
 def capture(group, x=0, y=0):
