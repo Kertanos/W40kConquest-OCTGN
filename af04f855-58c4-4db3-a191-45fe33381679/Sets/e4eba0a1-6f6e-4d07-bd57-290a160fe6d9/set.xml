@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="05-Legions of Death" id="fb709383-72fd-4452-97d6-d87be6571169" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.4.0.0" version="1.1">
+<set name="05-Legions of Death" id="e4eba0a1-6f6e-4d07-bd57-290a160fe6d9" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.4.0.0" version="1.1">
 	<cards>
 		<card id="3fdc9d9d-1666-4a44-972f-b511408fa8c0" name="Nahumekh">
 			<property name="Faction"        value="Necron"/>
@@ -557,7 +557,7 @@ remove that card from the game."/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="24"/>
 		</card>
-		<card id="1ec70f79-2a2f-41b4-8965-9387e656fc8d" name="Lynchguard Sentinel">
+		<card id="1ec70f79-2a2f-41b4-8965-9387e656fc8d" name="Lychguard Sentinel">
 			<property name="Faction"        value="Necron"/>
 			<property name="Type"           value="Army"/>
 			<property name="Loyalty"        value=""/>
@@ -765,7 +765,7 @@ the phase."/>
 			<property name="Loyalty"        value=""/>
 			<property name="Traits"         value="Wargear."/>
 			<property name="Text"           value="Attach to a [NECRON] army unit.
-Rection: After a phase begins or a combat
+Reaction: After a phase begins or a combat
 round at this planet begins, remove 1 damage
 from attached unit."/>
 			<property name="Keywords"       value=""/>

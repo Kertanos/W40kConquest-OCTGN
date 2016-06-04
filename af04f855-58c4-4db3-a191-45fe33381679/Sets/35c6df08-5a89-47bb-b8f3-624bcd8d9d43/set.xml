@@ -1804,7 +1804,7 @@ Interrupt: When attached unit leaves play, deal 1 damage to each enemy unit at t
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="83"/>
 		</card>
-		<card id="6bf564cb-87f8-4af7-8338-5cb6c262cbb2" name="Khorne Berserker">
+		<card id="6bf564cb-87f8-4af7-8338-5cb6c262cbb2" name="Khorne Berzerker">
 			<property name="Faction"        value="Chaos"/>
 			<property name="Type"           value="Army"/>
 			<property name="Loyalty"        value=""/>
