@@ -372,12 +372,23 @@ def displayErrata(card, x = 0, y = 0):
 	
 	
 def kneel(card, x = 0, y = 0):
-    mute()
-    card.orientation ^= Rot90
-    if card.orientation & Rot90 == Rot90:
-        notify('{} exhausts {}.'.format(me, card))
-    else:
-        notify('{} readies {}.'.format(me, card))
+	mute()
+	key=card.Keywords
+	if not card.isFaceUp and "Deep Strike" in key:
+		cost=int(key[13])
+		if not confirm("Deep strike {} ?".format(card.name)): return
+		if me.counters['Resources'].value < cost :
+			whisper("You don't have enough Resources to deep strike {}.".format(card.name))
+			return		
+		card.isFaceUp=True
+		notify("{} deep strikes {} for {} resources).".format(me,card,cost))
+		me.counters['Resources'].value -= cost
+		return
+	card.orientation ^= Rot90
+	if card.orientation & Rot90 == Rot90:
+		notify('{} exhausts {}.'.format(me, card))
+	else:
+		notify('{} readies {}.'.format(me, card))
 
 def flipcard(card, x = 0, y = 0):
     mute()
@@ -538,6 +549,17 @@ def mulligan(group):
 
 def play(card, x=0, y=0):
 	mute()
+	if "Deep Strike" in card.Keywords:
+		if confirm("Do you want to put {} into reserve ? ".format(card.name)):
+			if me.counters['Resources'].value < 1 :
+				whisper("You don't have enough Resources to put {} into reserve.".format(card.name))
+				return		
+			if me.isInverted: card.moveToTable(0,-288,True)
+			else : 	card.moveToTable(0,200,True)
+			notify("{} puts a card into reserve).".format(me))
+			card.peek()
+			me.counters['Resources'].value -= 1
+			return
 	if card.cost == "" : 
 		whisper("You can't play this card")
 		return

@@ -168,7 +168,7 @@ once per phase.)"/>
 				<property name="Keywords"       value="Bloodied."/>
 				<property name="Unique"         value="yes"/>
 				<property name="Cost"           value=""/>
-			<property name="Attack"         value="1"/>
+				<property name="Attack"         value="1"/>
 				<property name="Health"         value="6"/>
 				<property name="Command"        value=""/>
 				<property name="Shield"         value=""/>
@@ -441,7 +441,7 @@ the phase."/>
 			<property name="Unique"         value=""/>
 			<property name="Cost"           value="3"/>
 			<property name="Attack"         value="0"/>
-			<property name="Health"         value="2"/>
+			<property name="Health"         value="3"/>
 			<property name="Command"        value="2"/>
 			<property name="Shield"         value=""/>
 			<property name="ResourceBonus"  value=""/>
@@ -745,7 +745,7 @@ You must pass during your next deployment turn."/>
 			<property name="Text"           value="Attach to a [NECRON] army unit.
 Combat Action: During a battle at this planet,
 Exhaust attached unit to give a target enemy
-unit at this planet -2 HP until the end of
+army unit at this planet -2 HP until the end of
 the phase."/>
 			<property name="Keywords"       value=""/>
 			<property name="Unique"         value=""/>
@@ -1141,7 +1141,7 @@ of command icons the target unit has."/>
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="52"/>
 		</card>
-		<card id="9e2f9564-2ddd-47b0-9363-4d52df0e02ca" name="Treacherous Lhammaean">
+		<card id="9e2f9564-2ddd-47b0-9363-4d52df0e02ca" name="Treacherous Lhamaean">
 			<property name="Faction"        value="Dark Eldar"/>
 			<property name="Type"           value="Army"/>
 			<property name="Loyalty"        value=""/>
