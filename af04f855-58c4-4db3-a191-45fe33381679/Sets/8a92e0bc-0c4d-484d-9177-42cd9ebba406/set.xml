@@ -645,7 +645,7 @@ This unit gets +2 HP while it is at a planet with a synapse unit."/>
 			<property name="Faction"        value="Tyranid"/>
 			<property name="Type"           value="Army"/>
 			<property name="Loyalty"        value=""/>
-			<property name="Traits"         value=""/>
+			<property name="Traits"         value="Creature. Behemoth. Elite."/>
 			<property name="Text"           value="Reduce the cost to deploy this unit by X. X is the highest number of Termagant tokens you control at a single planet."/>
 			<property name="Keywords"       value=""/>
 			<property name="Unique"         value=""/>

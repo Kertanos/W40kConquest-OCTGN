@@ -2454,7 +2454,7 @@ Flying."/>
 			<property name="Faction"        value="Dark Eldar"/>
 			<property name="Type"           value="Attachment"/>
 			<property name="Loyalty"        value="Loyal"/>
-			<property name="Traits"         value="Condition."/>
+			<property name="Traits"         value="Condition. Torture."/>
 			<property name="Text"           value="Attach to an army unit.
 Attached unit gets -2 ATK. "/>
 			<property name="Keywords"       value=""/>
@@ -2755,7 +2755,7 @@ Flying."/>
 			<property name="Faction"        value="Eldar"/>
 			<property name="Type"           value="Army"/>
 			<property name="Loyalty"        value="Loyal"/>
-			<property name="Traits"         value="Pysker. Biel-Tan."/>
+			<property name="Traits"         value="Psyker. Biel-Tan."/>
 			<property name="Text"           value="Reaction: After this unit enters play, search the top 6 cards of your deck for a card. Add it to your hand, and place the remaining cards on the bottom of your deck in any order."/>
 			<property name="Keywords"       value=""/>
 			<property name="Unique"         value=""/>

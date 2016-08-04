@@ -532,9 +532,7 @@ def mulligan(group):
 	count = None
 	draw = None
 	mute()
-	
-	if not confirm("Are you sure you want to Mulligan?"): return
-	if draw == None: draw = askInteger("How many cards would you like to draw for your Mulligan?", len(me.hand))
+	draw = askInteger("How many cards would you like to draw for your Mulligan?", len(me.hand))
 	if draw == None: return
 	
 	for card in group:
