@@ -168,6 +168,24 @@ def createToken(group, x = 0, y = 0):
 			X1-=50
 	notify("{} creates {} {} Token(s)".format(me,quantity,cards))
 
+def createSynapse(group, x = 0, y = 0):
+	mute()	
+	guid,quantity=askCard({'Type':'Synapse'})
+	if guid == None: return
+	if me.isInverted: 
+		X1=-150
+		for i in range(quantity):
+			cards=table.create(guid, X1, -288)
+			X1+=50	
+	else:
+		X1=150
+		for i in range(quantity):
+			cards=table.create(guid, X1, 200)
+			X1-=50
+	notify("{} creates {} Token(s)".format(me,cards))
+
+
+
 def ServoSkull(group, x=0,y=0):
 	mute()
 	servo= (card for card in table if card.controller == me and card.Type == "Skull")
