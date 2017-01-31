@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="04- Planetfall Cycle" id="af362a3a-4f60-4050-801e-0a7bb8dd58bf" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.3.1.0" version="1.5">
+<set name="04- Planetfall Cycle" id="af362a3a-4f60-4050-801e-0a7bb8dd58bf" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.3.1.0" version="1.0">
 	<cards>
 		<card id="f4746fbc-739e-4146-8bee-71d56102c769" name="Broderick Worr">
 			<property name="Faction"        value="Astra Militarum"/>
