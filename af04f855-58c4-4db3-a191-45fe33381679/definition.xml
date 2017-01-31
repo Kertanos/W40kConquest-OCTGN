@@ -1,222 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<game name="Warhammer 40K Conquest LCG"
- id="af04f855-58c4-4db3-a191-45fe33381679"
- octgnVersion="3.1.0.0"
- version="1.5.4.0"
- markersize="16"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- authors="Kertanos"
- description="In the grim darkness of the far future there is only War...&#10;&#10; Warhammer 40k Conquest is a 2 players Living Card Game based on the Warhammer40000 Game Workshop universe and edited by Fantasy Flight Games.&#10; &#10;Automation rank: C&#10;(This game definition contains automation of common actions to reduce tediousness amd speed up play.)"
- setsurl="http://tinyurl.com/kt7b6o9"
- gameurl="http://octgngames.com/wh40kc/"
- tags="OCTGN Warhammer w40k 40k LCG Conquest"
- iconurl="http://i39.servimg.com/u/f39/18/93/93/88/whk01_10.jpg"
- scriptVersion="3.1.0.2"
- usetwosidedtable="True">
-
-<scripts>
-<script src="scripts/actions.py"/>
-<script src="scripts/autos.py"/>
-</scripts>
-
-<events>
-<event name="OnTableLoaded" action="wilkommen" />
-<event name="OnDeckLoaded" action="deckCheck" />
-</events>
-
-<proxygen definitionsrc="proxy/proxydef.xml">
-</proxygen>
-
-    <documents>				  
-		<document name="Keyboard Shortcuts"
-				  icon="Documents/blank.png"
-				  src="Documents/Shortcuts.html"/>
-				  
-		<document name="ChangeLog"
-				  icon="Documents/blank.png"
-				  src="Documents/ChangeLog.html"/>
-	</documents>
-
-	<gameModes>
-		<gameMode name="Advanced Play"
-				  shortDescription="Use this matchmaking to find advanced players."
-				  image="cards/advanced.png"
-				  playerCount="2" />
-		<gameMode name="Casual Play"
-				  shortDescription="Use this matchmaking to find casual or new players."
-				  image="cards/casual.png"
-				  playerCount="2" />
-	</gameModes>
-
-<globalvariables>
-<globalvariable name="Turn" value="1" />
-<globalvariable name="Planet1" value="" />
-<globalvariable name="Planet2" value="" />
-<globalvariable name="Planet3" value="" />
-<globalvariable name="Planet4" value="" />
-<globalvariable name="Planet5" value="" />
-<globalvariable name="Planet6" value="" />
-<globalvariable name="Planet7" value="" />
-<globalvariable name="OutPlanets" value="" />
-</globalvariables>
-
-<card height="88" width="63" front="cards/front.png" back="cards/front.png">
-
-<property name="Faction" type="String"/>
-
-<property name="Loyalty" type="String"/>
-
-<property name="Type" type="String"/>
-
-<property name="Traits" type="String"/>
-
-<property name="Keywords" type="String"/>
-
-<property name="Text" type="String"/>
-
-<property name="Unique" type="String"/>
-
-<property name="Cost" type="String"/>
-
-<property name="Attack" type="String"/>
-
-<property name="Health" type="String"/>
-
-<property name="Command" type="String"/>
-
-<property name="Shield" type="String"/>
-
-<property name="ResourceBonus" type="String"/>
-
-<property name="CardBonus" type="String"/>
-
-<property name="CardNumber" type="String"/>
-
-<property name="Copies" type="String" hidden="True"/>
-
-<property name="Squad" type="String"/>
-
-<property name="ErrataText" type="String"/>
-
-<property name="PlanetMaterial" type="String" hidden="True"/>
-
-<property name="PlanetStrongpoint" type="String" hidden="True"/>
-
-<property name="PlanetTech" type="String" hidden="True"/>
-
-<property name="StartingHand" type="String"/>
-
-<property name="StartingResources" type="String"/>
-
-<size name="PlanetSize" width="88" height="63" back="cards/frontH.png" front="cards/frontH.png"/>
-
-<size name="SkullSize" width="63" height="63" back="cards/BackSkull.png" front="cards/BackSkull.png"/>
-
-<size name="InitSize" width="63" height="28" back="cards/BackInit.png" front="cards/BackInit.png"/>
-
-<size name="TokenSize" width="42" height="69" back="cards/front.png" front="cards/front.png"/>
-
-</card>
-
-
-
-<table name="Table" height="700" width="1250" board="background/background.jpg" backgroundStyle="uniformToFill" background="background/background.jpg" ordered="False" visibility="undefined">
-
-<groupaction menu="Set up" execute="setup" shortcut="CTRL+SHIFT+S"/>
-<groupaction menu="Flip Coin" execute="flipCoin" shortcut ="CTRL+F"/>
-<groupaction menu="Win Command on Targets" execute="winC" shortcut ="F5"/>
-<groupaction menu="Set Servo-Skull" execute="ServoSkull" shortcut="F6"/>
-<groupaction menu="Set Enslavement Dial" execute="NecronDial" shortcut="ALT+F6"/>
-<groupaction menu="Capture planet" execute="capture" shortcut="F7"/>
-<groupaction menu="Ready all my cards" execute="restoreAll" shortcut ="F9"/>
-<groupaction menu="Create Token" execute="createToken" shortcut="F10"/>
-<groupaction menu="End Turn" execute="endTurn" shortcut="F12"/>
-<groupaction menu="STOP" execute="holdOn" shortcut ="ALT+S"/>
-<groupaction menu="I'm Done" execute="imDone" shortcut ="ALT+D"/>
-
-<cardaction menu="Exhaust/Ready/Deep strike" execute="kneel" default="True"/>
-<cardaction menu="Flip Card" execute="flipcard" shortcut="F8"/>
-<cardaction menu="Infest Planet" execute="infest" shortcut="CTRL+I"/>
-<cardaction menu="Clear Infestation" execute="uninfest" shortcut="ALT+I"/>
-<cardaction menu="Add Damage" execute="addDamage" shortcut="F1"/>
-<cardaction menu="Sub Damage" execute="subDamage" shortcut="F2"/>
-<cardaction menu="Add Resource" execute="addResource" shortcut="F3"/>
-<cardaction menu="sub Resource" execute="subResource" shortcut="F4"/>
-<cardaction menu="Add Marker(s)" execute="addMarker" shortcut="CTRL+M"/>
-<cardaction menu="Sub Marker(s)" execute="subMarker" shortcut="ALT+M"/>
-<cardaction menu="Discard Card" execute="disc" shortcut="DEL" />
-<cardaction menu="Bloody Warrior" execute="bloodied" shortcut="CTRL+B"/>
-<cardaction menu="Restore Warrior" execute="restore" shortcut="ALT+B"/>
-<cardaction menu="Switch/Replace Planet" execute="replace"/>
-
-
-
-</table>
-
-
-
-<player summary="{#Resources} Resources/ {#Hand} Cards/ {#Initiative} Initiative/ {#Material} Material(Red)/ {#Strongpoint} Strongpoint(Green)/ {#Tech} Tech(Blue)/">
-
-<globalvariable name="setupOk" value="0" />
-<globalvariable name="Pturn" value="1" /> 
-
-<counter name="Resources" icon="counters/Resources.png"/>
-<counter name="Initiative" icon="counters/Initiative.png"/>
-<counter name="Material" icon="counters/Material.png"/>
-<counter name="Strongpoint" icon="counters/Spoint.png"/>
-<counter name="Tech" icon="counters/Tech.png"/>
-
-
-
-<hand name="Hand" icon="groups/hand.png" height="88" width="63" ordered="False" visibility="me">
-
-<groupaction menu="Random Discard" execute="randomDiscard" shortcut="ALT+R"/>
-<groupaction menu="Random Discard Many" execute="discardMany" shortcut="CTRL+R"/>
-<groupaction menu="Mulligan" execute="mulligan" shortcut="CTRL+SHIFT+M"/>
-
-<cardaction menu="Play Card" execute="play" default="True"/>
-<cardaction menu="Discard Card" execute="disc" shortcut="DEL" />
-
-</hand>
-
-
-<group name="Deck" icon="groups/deck.png" height="88" width="63" visibility="none">
-
-<groupaction menu="Shuffle" execute="shuffle" shortcut="CTRL+SHIFT+S"/>
-<groupaction menu="Draw" execute="draw" default="True"/>
-<groupaction menu="Draw Many" execute="drawMany" shortcut="CTRL+D"/>
-<groupaction menu="Search Top X Cards" execute="searchTop" shortcut="CTRL+S"/>
-<groupaction menu="Discard Many From Top" execute="discardManyFromTop" shortcut="CTRL+R"/>
-
-<cardaction menu="Discard Card" execute="disc" shortcut="DEL" />
-
-</group>
-
-
-<group name="Planets" icon="groups/planet.png" height="88" width="63" visibility="all" collapsed="True"></group>
-
-<group name="Discard Pile" icon="groups/discard.png" height="88" width="63" visibility="all"></group>
-
-
-</player>
-
-
-
-<deck>
-
-<section name="Warlord" group="Hand"/>
-
-<section name="Synapse" group="Hand"/>
-
-<section name="Armies" group="Deck"/>
-
-<section name="Attachments" group="Deck"/>
-
-<section name="Events" group="Deck"/>
-
-<section name="Supports" group="Deck"/>
-
-</deck>
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<game name="Warhammer 40K Conquest LCG" id="af04f855-58c4-4db3-a191-45fe33381679" octgnVersion="3.1.0.0" version="2.0.2.6" markersize="16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" authors="Kertanos" description="In the grim darkness of the far future there is only War...&#xA;&#xA; Warhammer 40k Conquest is a 2 players Living Card Game based on the Warhammer40000 Game Workshop universe and edited by Fantasy Flight Games.&#xA; &#xA;Automation rank: C&#xA;(This game definition contains automation of common actions to reduce tediousness amd speed up play.)" setsurl="http://tinyurl.com/kt7b6o9" gameurl="http://octgngames.com/wh40kc/" tags="OCTGN Warhammer w40k 40k LCG Conquest" iconurl="http://i39.servimg.com/u/f39/18/93/93/88/whk01_10.jpg" scriptVersion="3.1.0.2" usetwosidedtable="True">
+  <scripts>
+    <script src="scripts/actions.py" />
+    <script src="scripts/autos.py" />
+  </scripts>
+  <events>
+    <event name="OnTableLoaded" action="wilkommen" />
+    <event name="OnDeckLoaded" action="deckCheck" />
+  </events>
+  <proxygen definitionsrc="proxy/proxydef.xml">
+  </proxygen>
+  <documents>
+    <document name="Keyboard Shortcuts" icon="Documents/blank.png" src="Documents/Shortcuts.html" />
+    <document name="ChangeLog" icon="Documents/blank.png" src="Documents/ChangeLog.html" />
+  </documents>
+  <gameModes>
+    <gameMode name="Advanced Play" shortDescription="Use this matchmaking to find advanced players." image="cards/advanced.png" playerCount="2" />
+    <gameMode name="Casual Play" shortDescription="Use this matchmaking to find casual or new players." image="cards/casual.png" playerCount="2" />
+  </gameModes>
+  <globalvariables>
+    <globalvariable name="Turn" value="1" />
+    <globalvariable name="Planet1" value="" />
+    <globalvariable name="Planet2" value="" />
+    <globalvariable name="Planet3" value="" />
+    <globalvariable name="Planet4" value="" />
+    <globalvariable name="Planet5" value="" />
+    <globalvariable name="Planet6" value="" />
+    <globalvariable name="Planet7" value="" />
+    <globalvariable name="OutPlanets" value="" />
+  </globalvariables>
+  <card height="88" width="63" front="cards/front.png" back="cards/front.png">
+    <property name="Faction" type="String" />
+    <property name="Loyalty" type="String" />
+    <property name="Type" type="String" />
+    <property name="Traits" type="String" />
+    <property name="Keywords" type="String" />
+    <property name="Text" type="String" />
+    <property name="Unique" type="String" />
+    <property name="Cost" type="String" />
+    <property name="Attack" type="String" />
+    <property name="Health" type="String" />
+    <property name="Command" type="String" />
+    <property name="Shield" type="String" />
+    <property name="ResourceBonus" type="String" />
+    <property name="CardBonus" type="String" />
+    <property name="CardNumber" type="String" />
+    <property name="Copies" type="String" hidden="True" />
+    <property name="Squad" type="String" />
+    <property name="ErrataText" type="String" />
+    <property name="PlanetMaterial" type="String" hidden="True" />
+    <property name="PlanetStrongpoint" type="String" hidden="True" />
+    <property name="PlanetTech" type="String" hidden="True" />
+    <property name="StartingHand" type="String" />
+    <property name="StartingResources" type="String" />
+    <size name="PlanetSize" width="88" height="63" back="cards/frontH.png" front="cards/frontH.png" />
+    <size name="SkullSize" width="63" height="63" back="cards/BackSkull.png" front="cards/BackSkull.png" />
+    <size name="InitSize" width="63" height="28" back="cards/BackInit.png" front="cards/BackInit.png" />
+    <size name="TokenSize" width="42" height="69" back="cards/front.png" front="cards/front.png" />
+  </card>
+  <table name="Table" height="700" width="1250" board="background/background.jpg" backgroundStyle="uniformToFill" background="background/background.jpg" ordered="False" visibility="undefined">
+    <groupaction menu="Set up" execute="setup" shortcut="CTRL+SHIFT+S" />
+    <groupaction menu="Flip Coin" execute="flipCoin" shortcut="CTRL+F" />
+    <groupaction menu="Win Command on Targets" execute="winC" shortcut="F5" />
+    <groupaction menu="Set Servo-Skull" execute="ServoSkull" shortcut="F6" />
+    <groupaction menu="Set Enslavement Dial" execute="NecronDial" shortcut="ALT+F6" />
+    <groupaction menu="Capture planet" execute="capture" shortcut="F7" />
+    <groupaction menu="Ready all my cards" execute="restoreAll" shortcut="F9" />
+    <groupaction menu="Create Token" execute="createToken" shortcut="F10" />
+    <groupaction menu="Create Synapse" execute="createSynapse" />
+    <groupaction menu="End Turn" execute="endTurn" shortcut="F12" />
+    <groupaction menu="STOP" execute="holdOn" shortcut="ALT+S" />
+    <groupaction menu="I'm Done" execute="imDone" shortcut="ALT+D" />
+    <cardaction menu="Exhaust/Ready/Deep strike" execute="kneel" default="True" />
+    <cardaction menu="Flip Card" execute="flipcard" shortcut="F8" />
+    <cardaction menu="Infest Planet" execute="infest" shortcut="CTRL+I" />
+    <cardaction menu="Clear Infestation" execute="uninfest" shortcut="ALT+I" />
+    <cardaction menu="Add Damage" execute="addDamage" shortcut="F1" />
+    <cardaction menu="Sub Damage" execute="subDamage" shortcut="F2" />
+    <cardaction menu="Add Resource" execute="addResource" shortcut="F3" />
+    <cardaction menu="sub Resource" execute="subResource" shortcut="F4" />
+    <cardaction menu="Add Marker(s)" execute="addMarker" shortcut="CTRL+M" />
+    <cardaction menu="Sub Marker(s)" execute="subMarker" shortcut="ALT+M" />
+    <cardaction menu="Discard Card" execute="disc" shortcut="DEL" />
+    <cardaction menu="Bloody Warrior" execute="bloodied" shortcut="CTRL+B" />
+    <cardaction menu="Restore Warrior" execute="restore" shortcut="ALT+B" />
+    <cardaction menu="Switch/Replace Planet" execute="replace" />
+  </table>
+  <player summary="{#Resources} Resources/ {#Hand} Cards/ {#Initiative} Initiative/ {#Material} Material(Red)/ {#Strongpoint} Strongpoint(Green)/ {#Tech} Tech(Blue)/">
+    <globalvariable name="setupOk" value="0" />
+    <globalvariable name="Pturn" value="1" />
+    <counter name="Resources" icon="counters/Resources.png" />
+    <counter name="Initiative" icon="counters/Initiative.png" />
+    <counter name="Material" icon="counters/Material.png" />
+    <counter name="Strongpoint" icon="counters/Spoint.png" />
+    <counter name="Tech" icon="counters/Tech.png" />
+    <hand name="Hand" icon="groups/hand.png" height="88" width="63" ordered="False" visibility="me">
+      <groupaction menu="Random Discard" execute="randomDiscard" shortcut="ALT+R" />
+      <groupaction menu="Random Discard Many" execute="discardMany" shortcut="CTRL+R" />
+      <groupaction menu="Mulligan" execute="mulligan" shortcut="CTRL+SHIFT+M" />
+      <cardaction menu="Play Card" execute="play" default="True" />
+      <cardaction menu="Discard Card" execute="disc" shortcut="DEL" />
+    </hand>
+    <group name="Deck" icon="groups/deck.png" height="88" width="63" visibility="none">
+      <groupaction menu="Shuffle" execute="shuffle" shortcut="CTRL+SHIFT+S" />
+      <groupaction menu="Draw" execute="draw" default="True" />
+      <groupaction menu="Draw Many" execute="drawMany" shortcut="CTRL+D" />
+      <groupaction menu="Search Top X Cards" execute="searchTop" shortcut="CTRL+S" />
+      <groupaction menu="Discard Many From Top" execute="discardManyFromTop" shortcut="CTRL+R" />
+      <cardaction menu="Discard Card" execute="disc" shortcut="DEL" />
+    </group>
+    <group name="Planets" icon="groups/planet.png" height="88" width="63" visibility="all" collapsed="True">
+    </group>
+    <group name="Discard Pile" icon="groups/discard.png" height="88" width="63" visibility="all">
+    </group>
+  </player>
+  <deck>
+    <section name="Warlord" group="Hand" />
+    <section name="Synapse" group="Hand" />
+    <section name="Armies" group="Deck" />
+    <section name="Attachments" group="Deck" />
+    <section name="Events" group="Deck" />
+    <section name="Supports" group="Deck" />
+  </deck>
 </game>
