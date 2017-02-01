@@ -553,7 +553,7 @@ Action: Sacrifice a Synapse unit to put a Synapse unit with a different name int
             <property name="CardNumber"    value="27"/>
         </card>
         <card id="e3d959f1-185a-4ab4-aaca-5cf84abe1cc7" name="Commissar Somiel">
-            <property name="Faction"        value="Astra Militarium"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Soldier. Officer. Commissar."/>
