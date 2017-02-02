@@ -20,7 +20,7 @@ Interrupt: When this unit would be destroyed by taking damage, sacrifice another
 			<property name="ErrataText"     value=""/>
 			<property name="CardNumber"	value="1"/>
 		</card>
-<card id="934844da-9902-a429-926d-9061900dc201" name="Wolf Guard Veteran">
+  <card id="934844da-9902-a429-926d-9061900dc201" name="Wolf Guard Veteran">
 			<property name="Faction"        value="Space Marine"/>
 			<property name="Type"           value="Army"/>
 			<property name="Loyalty"        value=""/>
