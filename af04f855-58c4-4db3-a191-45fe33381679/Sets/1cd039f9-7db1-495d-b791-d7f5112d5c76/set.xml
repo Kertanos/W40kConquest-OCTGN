@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="09-Champions" id="1cd039f9-7db1-495d-b791-d7f5112d5c76" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.0">
+    <cards>
+        <card id="d199fe8e-5807-414d-9516-a78c851f1b03" name="Veteran Crusader">
+            <property name="Faction"        value="Space Marine"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Scout. Soldier. Black Templars."/>
+            <property name="Text"           value="Forced Reaction: After this unit enters play, each player chooses a planet on his command dial, then simultaneously reveals it. Each player sacrifices an army unit at each planet, if able. If both players choose the same planet, cancel this effect."/>
+            <property name="Keywords"       value="Ambush."/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="3"/>
+            <property name="Health"         value="3"/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="1"/>
+        </card>
+        <card id="ad70ec90-ebf6-41e3-ae71-42b6c2d15b7d" name="War Father Nathaniel">
+            <property name="Faction"        value="Space Marine"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Soldier. Raven Guard. Elite."/>
+            <property name="Text"           value="Your opponent takes 1 fewer [Resource] when collecting resources during the headquarters phase."/>
+            <property name="Keywords"       value="Ranged."/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="5"/>
+            <property name="Attack"         value="3"/>
+            <property name="Health"         value="6"/>
+            <property name="Command"        value="2"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="2"/>
+        </card>
+        <card id="99e995f4-abdc-46e8-9f29-a8688914aaee" name="War Father's Shadows">
+            <property name="Faction"        value="Space Marine"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Soldier. Raven Guard."/>
+            <property name="Text"           value="Reaction: After this unit is deployed, your opponent loses 1[Resource]"/>
+            <property name="Keywords"       value="Ambush."/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="4"/>
+            <property name="Health"         value="2"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="3"/>
+        </card>
+        <card id="379abf12-4041-4c35-a068-89c8495e4550" name="Herald of the WAAAGH!">
+            <property name="Faction"        value="Ork"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Warrior. Nob."/>
+            <property name="Text"           value="Reaction: After this unit enters play, resolve a battle at this planet. (This battle cannot cause a player to claim a planet.)"/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="4"/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="3"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="4"/>
+        </card>
+    </cards>
+</set>

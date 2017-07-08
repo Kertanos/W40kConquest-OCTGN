@@ -153,7 +153,7 @@ Reaction: After this unit readies, have your opponent deal 4 indirect damage amo
 			<property name="Loyalty"        value="Loyal"/>
 			<property name="Traits"         value="Tactic."/>
 			<property name="Text"           value="Reaction: After you Deep Strike this event, Daemon units at this planet cannot be damaged by units with cost 2 or lower until the end of the phase."/>
-			<property name="Keywords"       value="Deep Strike (1)"/>
+			<property name="Keywords"       value="Deep Strike (1)."/>
 			<property name="Unique"         value=""/>
 			<property name="Cost"           value=""/>
 			<property name="Attack"         value=""/>
@@ -244,7 +244,7 @@ Reaction: After this unit readies, have your opponent deal 4 indirect damage amo
 			<property name="Traits"         value="Wargear. Weapon."/>
 			<property name="Text"           value="Attach to an army unit you control.
 While attacking a non-Warlord unit, attached unit gets +2 ATK."/>
-			<property name="Keywords"       value=""/>
+			<property name="Keywords"       value="Deep Strike (0)."/>
 			<property name="Unique"         value=""/>
 			<property name="Cost"           value="1"/>
 			<property name="Attack"         value=""/>
@@ -692,7 +692,7 @@ your deck."/>
 			<property name="Text"           value="Reaction: After you Deep Strike this event, you may
 deploy each [Eldar] unit in your hand at this planet as
 though it had Ambush until the end of the phase."/>
-			<property name="Keywords"       value="Deep Strike (1)"/>
+			<property name="Keywords"       value="Deep Strike (1)."/>
 			<property name="Unique"         value=""/>
 			<property name="Cost"           value=""/>
 			<property name="Attack"         value=""/>
@@ -816,7 +816,7 @@ this planet gets -1 HP."/>
 			<property name="Text"           value="Reaction: After you Deep Strike this event, until
 the end of this battle's first combat round, reduce all
 damage taken by [Necron] units you control to 1."/>
-			<property name="Keywords"       value="Deep Strike (2)"/>
+			<property name="Keywords"       value="Deep Strike (2)."/>
 			<property name="Unique"         value=""/>
 			<property name="Cost"           value=""/>
 			<property name="Attack"         value=""/>

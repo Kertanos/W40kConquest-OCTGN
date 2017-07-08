@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="02- Warlord Cycle" id="9a38f053-1b57-46f5-8578-39e4d1bb45d9" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.2.0.0" version="1.6">
+<set name="02- Warlord Cycle" id="9a38f053-1b57-46f5-8578-39e4d1bb45d9" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.2.0.0" version="1.7">
 	<cards>
 		<card id="87d27e71-9203-4bd1-b725-1b390ed73278" name="Ragnar Blackmane">
 			<property name="Faction"        value="Space Marine"/>
@@ -1727,7 +1727,7 @@ Reaction: After a Snotlings token is destroyed, exhaust this attachment to put a
 		<card id="31d47709-d81c-423c-a621-ee3ec846b6ea" name="Gleeful Plague Beast">
 			<property name="Faction"        value="Chaos"/>
 			<property name="Type"           value="Army"/>
-			<property name="Loyalty"        value="loyal"/>
+			<property name="Loyalty"        value="Loyal"/>
 			<property name="Traits"         value="Daemon. Nurgle. Elite."/>
 			<property name="Text"           value="Forced Reaction: After the combat phase begins, deal 1 damage to each unit at this planet."/>
 			<property name="Keywords"       value="No Wargear Attachments."/>

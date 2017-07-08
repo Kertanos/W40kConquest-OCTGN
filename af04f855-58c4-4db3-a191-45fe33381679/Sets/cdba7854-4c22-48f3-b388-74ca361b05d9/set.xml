@@ -6,6 +6,8 @@
 		<marker id="9e9aceca-516f-43f4-8590-48068298af6f" name="fstPlanet"/>
 		<marker id="8e41b199-b00c-4009-b94c-f10eb25cbaa2" name="sixPlanet"/>
 		<marker id="5b35b6b8-aa47-4e70-934c-db3b7e64941a" name="infest"/>
+		<marker id="2138972e-68ee-4aa8-a803-1b4bd7de183b" name="faith"/>
+
 	</markers>
 	<cards>
 		<card id="5e423620-6663-4198-8cdc-df0fabf876c8" name="Plannum" size="PlanetSize">

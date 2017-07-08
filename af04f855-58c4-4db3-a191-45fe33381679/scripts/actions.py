@@ -1,6 +1,7 @@
 #---------------------------------------------------------------------------
 # Constants
 #---------------------------------------------------------------------------
+Faith = ("Faith", "2138972e-68ee-4aa8-a803-1b4bd7de183b")
 Resource = ("Resource", "906bc3a2-9315-4473-8671-7ece287de4a8")
 Damage = ("Damage", "22adcef9-414c-4e96-8381-f155283e170e")
 FstPlanet = ("FstPlanet", "9e9aceca-516f-43f4-8590-48068298af6f")
@@ -288,7 +289,8 @@ def endTurn(group, x=0, y=0):
 		return
 	fstP= getGlobalVariable("Planet{}".format(turn))
 	plan=(card for card in table if card.name == fstP)
-	for card in plan: card.markers[FstPlanet] = 1 
+	for card in plan: card.markers[FstPlanet] = 1
+	for card in table: card.markers[Faith] = 0 
 	notify("** Turn {} HQ Phase Complete**".format(turn-1))
  	if turn <= 3 :
 		fstP=(card for card in table if card.markers[SixPlanet] == turn+4)
@@ -437,6 +439,17 @@ def subResource(card, x = 0, y = 0):
     mute()
     notify("{} subtracts a Resource to {}.".format(me, card))
     card.markers[Resource] -= 1 
+
+def addFaith(card, x = 0, y = 0):
+	mute()
+	notify("{} adds a Faith to {}.".format(me, card))
+	card.markers[Faith] += 1
+
+def subFaith(card, x = 0, y = 0):
+    mute()
+    notify("{} removes a Faith from {}.".format(me, card))
+    card.markers[Faith] -= 1 
+
 
 def infest(card, x = 0, y = 0):
 	mute()
