@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="APK-02-Defenders of the Faith" id="c7a2d98e-984b-4340-8071-77a70b316ee1" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.1">
+    <cards>
+        <card id="710816ab-91dd-4ccf-a656-930ded56c5af" name="Saint Celestine">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Warlord"/>
+            <property name="Loyalty"        value="Squad"/>
+            <property name="Traits"         value="Saint. Ecclesiarchy."/>
+            <property name="Text"           value="Combat Action: Pay F equal to the printed cost of a non-Elite unit in your hand to put it into play at this planet. If that unit is still in play at the end of the phase, discard it and draw a card. (Limit once per phase.)"/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value=""/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="7"/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="1"/>
+            <property name="StartingHand"     value="7"/>
+            <property name="StartingResources" value="7"/>
+            <property name="Squad"         value="37"/>
+            <alternate name="Saint Celestine" type="bloodied">
+                <property name="Faction"        value="Astra Militarum"/>
+                <property name="Type"           value="Warlord"/>
+                <property name="Loyalty"        value="Squad"/>
+                <property name="Traits"         value="Saint. Ecclesiarchy."/>
+                <property name="Text"           value="Interrupt: When your warlord would be defeated by taking damage, remove all damage from it instead. Then deal it 5 damage. (Limit once per game.)"/>
+                <property name="Keywords"       value="Bloodied."/>
+                <property name="Unique"         value="yes"/>
+                <property name="Cost"           value=""/>
+                <property name="Attack"         value="2"/>
+                <property name="Health"         value="5"/>
+                <property name="Command"        value=""/>
+                <property name="Shield"         value=""/>
+                <property name="ResourceBonus"  value=""/>
+                <property name="CardBonus"      value=""/>
+                <property name="ErrataText"     value=""/>
+                <property name="CardNumber"     value="1"/>
+            </alternate>
+        </card>
+        <card id="ea66abe7-e3f8-4c3c-ab59-d51a5a8a6425" name="Heralding Cherubim">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Squad (4)"/>
+            <property name="Traits"         value="Herald. Ecclesiarchy."/>
+            <property name="Text"           value="Reaction: After your warlord commits to a planet, place 1 F on this unit. Then you may move this unit to a planet adjacent to your warlord."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="2"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="2"/>
+            <property name="Copies"         value="4"/>
+            <property name="Squad"          value="37"/>
+        </card>
+        <card id="d91621df-bfd0-4c20-8255-c96ad43388a5" name="Miraculous Intervention">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value="Squad (2)"/>
+            <property name="Traits"         value="Prayer. Ecclesiarchy."/>
+            <property name="Text"           value="Reaction: After a combat round begins at a planet, commit your warlord to that planet and place 2 F on it. Then you may pay 1 R to put Guardsman tokens into play at that planet until you control at least as many units as your opponent at that planet."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="1"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="3"/>
+            <property name="Copies"         value="2"/>
+            <property name="Squad"          value="37"/>
+        </card>
+        <card id="9230de8d-2513-49b6-9969-d4cc7001fea2" name="Armour of Saint Katherine">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Attachment"/>
+            <property name="Loyalty"        value="Squad (1)"/>
+            <property name="Traits"         value="Wargear. Armor."/>
+            <property name="Text"           value="Attach to an Ecclesiarchy unit.
+Reduce all damage dealt to attached unit to 3.
+Reaction: After attached unit is dealt damage, place 1 F on it."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="3"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="4"/>
+            <property name="Copies"         value="1"/>
+            <property name="Squad"          value="37"/>
+        </card>
+        <card id="1a58171c-1259-4289-8369-0bd2f9e5a3c9" name="Order of Our Martyred Lady">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Squad (1)"/>
+            <property name="Traits"         value="Location. Ecclesiarchy."/>
+            <property name="Text"           value="While at the first planet, your warlord gets +2 HP. Reaction: After your opponent wins a battle, Rally 6 for a unit, add it to your hand. Then place 2 F among army units you control."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="5"/>
+            <property name="Copies"         value="1"/>
+            <property name="Squad"          value="37"/>
+        </card>
+        <card id="cc2ec0ca-5bd6-4866-a1fa-b23d8ae60536" name="Canoness Vardina">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Warlord"/>
+            <property name="Loyalty"        value="Squad"/>
+            <property name="Traits"         value="Officer. Ecclesiarchy."/>
+            <property name="Text"           value="Action: Place 2 F among army units you control. If your warlord is at a planet with an enemy warlord, place 3 instead. (Limit once per round)"/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value=""/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="6"/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="6"/>
+            <property name="StartingHand"     value="7"/>
+            <property name="StartingResources" value="7"/>
+            <property name="Squad"         value="37"/>
+            <alternate name="Canoness Vardina" type="bloodied">
+                <property name="Faction"        value="Astra Militarum"/>
+                <property name="Type"           value="Warlord"/>
+                <property name="Loyalty"        value="Squad"/>
+                <property name="Traits"         value="Officer. Ecclesiarchy."/>
+                <property name="Text"           value="Action: Place 2 F among army units you control. If your warlord is at a planet with an enemy warlord, place 3 instead. (Limit once per round)"/>
+                <property name="Keywords"       value="Bloodied."/>
+                <property name="Unique"         value="yes"/>
+                <property name="Cost"           value=""/>
+                <property name="Attack"         value="2"/>
+                <property name="Health"         value="6"/>
+                <property name="Command"        value=""/>
+                <property name="Shield"         value=""/>
+                <property name="ResourceBonus"  value=""/>
+                <property name="CardBonus"      value=""/>
+                <property name="ErrataText"     value=""/>
+                <property name="CardNumber"     value="6"/>
+            </alternate>
+        </card>
+        <card id="dbd4a5f3-51eb-4922-b5fa-e4f1a3d01231" name="Sororitas Command Squad">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Squad (4)"/>
+            <property name="Traits"         value="Soldier. Ecclesiarchy."/>
+            <property name="Text"           value="Reaction: After you prevent damage assigned to this unit by a non-warlord unit, deal damage equal to the prevented damage to that enemy unit. (Limit once per phase.)"/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="3"/>
+            <property name="Health"         value="3"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="7"/>
+            <property name="Copies"         value="4"/>
+            <property name="Squad"          value="37"/>
+        </card>
+        <card id="06797452-ee72-43cb-972b-820159922a0d" name="Faith Denies Death">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value="Squad (2)"/>
+            <property name="Traits"         value="Prayer. Ecclesiarchy."/>
+            <property name="Text"           value="Reaction: After an army unit with F is assigned damage, pay 1 F to prevent up to 5 of that damage."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="1"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="8"/>
+            <property name="Copies"         value="2"/>
+            <property name="Squad"          value="37"/>
+        </card>
+        <card id="5a6c6c2e-8465-4055-a73a-91bc631e1507" name="Transcendent Blessing">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Attachment"/>
+            <property name="Loyalty"        value="Squad (1)"/>
+            <property name="Traits"         value="Blessing."/>
+            <property name="Text"           value="Attach to a non-warlord unit.
+Attached unit gets +1 ATK and +1 HP.
+Interrupt: When attached unit leaves play, pay 1 F to attach this card to an eligible unit."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="3"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="9"/>
+            <property name="Copies"         value="1"/>
+            <property name="Squad"          value="37"/>
+        </card>
+        <card id="9369b2d7-d1dc-49be-b69c-30772644562c" name="Supreme Appearance">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Squad (1)"/>
+            <property name="Traits"         value="Miracle."/>
+            <property name="Text"           value="Action: Exhaust and sacrifice this support to exhaust each non-warlord unit. Use this ability only if you control no Ranged units."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="10"/>
+            <property name="Copies"         value="1"/>
+            <property name="Squad"          value="37"/>
+        </card>
+        <card id="a7b9db86-fe0a-4e69-96a0-73b830a817e6" name="Tenacious Novice Squad">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Soldier. Ecclesiarchy."/>
+            <property name="Text"           value="While this unit has F, it gets +1 ATK and +1 HP.
+Reaction: After a warlord commits to this planet, place 1 F on an army unit at this planet."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value="1"/>
+            <property name="Health"         value="1"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="11"/>
+        </card>
+        <card id="5104d3b5-b66b-4789-837b-930337ea445f" name="Penitent Engine">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Vehicle. Martyr. Ecclesiarchy."/>
+            <property name="Text"           value="Reaction: After an attack resolved by a unit you control at this planet does not destroy the defender, place 1 F on this unit and it gets +1 ATK for its next attack this phase."/>
+            <property name="Keywords" value="No Wargear attachments."/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="3"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="12"/>
+        </card>
+        <card id="d717691d-4b22-43aa-b5d0-c9453594f65e" name="Dominion Eugenia">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Soldier. Officer. Ecclesiarchy."/>
+            <property name="Text"           value="While this unit has F, it gains Armorbane.
+Reaction: After another AM Ecclesiarchy unit you control at this planet is declared as an attacker, place 1 F on this unit and the attacker."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="4"/>
+            <property name="Attack"         value="3"/>
+            <property name="Health"         value="4"/>
+            <property name="Command"        value="3"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="13"/>
+        </card>
+        <card id="0a50e569-a8c6-4c79-b885-ffc0ec520472" name="Sacred Rose Immolator">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Vehicle. Transport. Ecclesiarchy."/>
+            <property name="Text"           value="Reaction: After this unit resolves an attack or moves to a planet, place 1 F on it. Then deal 1 damage to up to 2 different enemy units at this planet. (Limit twice per round.)"/>
+            <property name="Keywords" value="No Wargear attachments."/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="1"/>
+            <property name="Health"         value="3"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="14"/>
+        </card>
+        <card id="6d8f81cf-cffa-46b2-a055-99d9c073ee21" name="Fanatical Sister Repentia">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Soldier. Martyr. Ecclesiarchy."/>
+            <property name="Text"           value="Interrupt: When this unit uses Shield with Faith, double the number of F on it."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="4"/>
+            <property name="Health"         value="2"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="15"/>
+        </card>
+        <card id="a16ea2db-0c76-4cc2-8633-aa39f001ae77" name="Heavy Flamer Retributor">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Soldier. Ecclesiarchy."/>
+            <property name="Text"           value="While this unit has F, it cannot be routed.
+Reaction: After this unit resolves its attack, deal 1 damage to a number of different enemy units at this planet equal to F on this unit."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="3"/>
+            <property name="Health"         value="2"/>
+            <property name="Command"        value="2"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="16"/>
+        </card>
+        <card id="d0a6131e-6168-4ad5-a83a-dc83e9fd2d62" name="Exalting Celestians">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Soldier. Ecclesiarchy."/>
+            <property name="Text"           value="While this unit has F and is not a defender, it cannot be dealt damage. Reaction: After this unit exhausts, place 1 F on it."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="2"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="17"/>
+        </card>
+        <card id="b976b07d-7e32-4199-ae78-d8a783252a54" name="Devoted Hospitaller">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Novice. Ecclesiarchy."/>
+            <property name="Text"           value="While you control a Commissar unit, you cannot deploy this unit. Reaction: After this unit enters play, place 2 F among army units you control. Then you may exhaust an enemy army unit at this planet and deal damage equal to its ATK value to this unit."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="1"/>
+            <property name="Health"         value="2"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="18"/>
+        </card>
+        <card id="5a4af6cd-d048-46a4-b81d-05a164462189" name="Eloquent Confessor">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Priest. Ecclesiarchy."/>
+            <property name="Text"           value="While this unit has F, it gets +1 ATK. Combat Reaction: After a unit moves or enters play at this planet, pay 1 F to exhaust that unit."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="2"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="19"/>
+        </card>
+        <card id="345fa84f-6fc3-4a2e-834c-88d03231082f" name="Zealous Cantus">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Soldier. Ecclesiarchy."/>
+            <property name="Text"           value="Reaction: After a Ecclesiarchy or Grey Knights card enters your discard pile, place 1 F on an army unit. (Limit twice per phase.)"/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="3"/>
+            <property name="Health"         value="3"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="20"/>
+        </card>
+        <card id="bbeac753-b08a-4dad-8324-eb2ddba00ec0" name="Vengeful Seraphim">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Soldier. Ecclesiarchy."/>
+            <property name="Text"           value="While this unit has F, it gains Flying. Reaction: After an Ecclesiarchy unit you control at this planet is destroyed, this unit gets +1 ATK and +1 HP until the end of the phase. Then you may pay 1 F to ready this unit. (Limit once per phase.)"/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="3"/>
+            <property name="Health"         value="2"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="21"/>
+        </card>
+        <card id="0ba3f86d-9de8-4320-9427-f4dcd2cd9ff4" name="Patron Saint">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Saint. Elite. Ecclesiarchy."/>
+            <property name="Text"           value="Reaction: After you deploy or Deep Strike this unit, remove up to 3 damage from AM army units and Ecclesiarchy units you control. Then place F equal to the damage removed among army units you control."/>
+            <property name="Keywords" value="Deep Strike (3)"/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="5"/>
+            <property name="Attack"         value="4"/>
+            <property name="Health"         value="5"/>
+            <property name="Command"        value="2"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="22"/>
+        </card>
+        <card id="fbc29391-ddc4-4af1-9536-dee4def67489" name="Saint Erika">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Saint. Martyr. Ecclesiarchy."/>
+            <property name="Text"           value="If you don't control F, destroy this unit.
+Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discard pile from this planet, pay 1 F to return that unit to your hand."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="5"/>
+            <property name="Health"         value="5"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="23"/>
+        </card>
+        <card id="8d6d3415-75da-4a0c-8595-b3fd4f763fa9" name="Evangelizing Ship">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Transport. Ecclesiarchy."/>
+            <property name="Text"           value="Combat Action: Pay 1 F to put a Guardsman token into play at a non-G (green) planet. Then your opponent moves this unit to a planet of his choice. (Limit once per phase.)"/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="1"/>
+            <property name="Health"         value="3"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="24"/>
+        </card>
+        <card id="f320525c-0a11-44fd-84f7-7c9dc5daaf92" name="Pattern IX Immolator">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Vehicle. Tank. Ecclesiarchy."/>
+            <property name="Text"           value="Command Action: Deal X damage among enemy non-warlord units at this planet and place X F among army units at this planet. X is the number of command struggles your opponent won this phase minus 1. (Limit once per phase.)"/>
+            <property name="Keywords" value="No Wargear attachments."/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="3"/>
+            <property name="Health"         value="3"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="25"/>
+        </card>
+        <card id="ea05f4fe-7532-440c-8870-f27567c5e391" name="Agra's Preachings">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Decree. Ecclesiarchy."/>
+            <property name="Text"           value="Limited. Reaction: After your opponent wins a battle, exhaust this support and target a planet with an enemy unit to Rally 6 for a non-Elite [AM] unit, attach it on this support. When the combat phase ends, deploy that unit at the targeted planet and reduce its cost by 2. If you cannot, discard it."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="26"/>
+        </card>
+        <card id="5f026bd1-abe6-4f10-bf80-1f4740bf1121" name="Cardinal Agra Decree">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Decree. Ecclesiarchy."/>
+            <property name="Text"           value="While you control F, each Vostroya unit you control gets +1 ATK. Interrupt: When this card enters your discard pile, draw a card and place 1 F on an army unit."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="27"/>
+        </card>
+        <card id="4d423cbb-2e9b-49e7-8d28-3c6296417f32" name="Holy Chapel">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Location. Ecclesiarchy."/>
+            <property name="Text"           value="Action: Exhaust and sacrifice this support to place 4 F among AM and SM army units you control."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="28"/>
+        </card>
+        <card id="e3f8983e-efa7-43e2-932a-a85335e6a073" name="Blood of Martyrs">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Decree. Ecclesiarchy."/>
+            <property name="Text"           value="Interrupt: When an AM unit you control is destroyed, exhaust this support and move all F from that unit to up to 3 target army units. Each targeted unit gets +1 ATK for its next attack this phase. Then if the destroyed unit is a Martyr, draw 1 card."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="29"/>
+        </card>
+        <card id="e55d421f-4f28-47ae-8ccb-ed5183482214" name="Our Last Stand">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Prayer. Ecclesiarchy."/>
+            <property name="Text"           value="Action: Place 1 F on each AM unit you control at a first planet, if that planet shares a common type with two planets in your opponent victory your warlord gains 'Interrupt: When this unit is assigned damage, prevent 1 of that damage.' until the end of a battle. Max 1 per round."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="2"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="30"/>
+        </card>
+        <card id="10140339-d37a-4ca7-8273-8872cfb5987c" name="Wrathful Retribution">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Prayer. Ecclesiarchy."/>
+            <property name="Text"           value="Reaction: After an enemy unit moves to, or enters play at, a planet where a battle is taking place, place F equal to its printed cost among army units you control. Then ready a non-Elite unit with F."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="2"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="31"/>
+        </card>
+        <card id="15e4807f-8d32-4dd1-968c-2af3468068e5" name="Banner of the Sacred Rose">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Attachment"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Standard. Ecclesiarchy."/>
+            <property name="Text"           value="Limited. Attach to a unit you control. Interrupt: When you deploy an Ecclesiarchy unit, exhaust this attachment to reduce the cost by 1 plus the number of G (green) planet in your opponent victory display."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="2"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="32"/>
+        </card>
+        <card id="a344bbbe-a284-4541-b5e7-a13ed4572fed" name="Until Justice is Done">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Attachment"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Vow. Ecclesiarchy."/>
+            <property name="Text"           value="Attach to an enemy army unit. Increase damage dealt to attached unit by 1. Reaction: After an Ecclesiarchy unit you control is assigned damage by an attack, put this card from your hand into play attached to the attacker."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="1"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="33"/>
+        </card>
+        <card id="cf7cb56d-67c9-44da-be37-518a2372a7d9" name="Sanctified Bolter">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Attachment"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Wargear. Weapon."/>
+            <property name="Text"           value="Attach to an army unit you control. Attached unit gets +1 ATK and +1 HP. Reaction: After a ranged skirmish at this planet begins or an enemy non-warlord unit moves from another planet to this planet, place 2 F among army units at this planet."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="2"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="34"/>
+        </card>
+        <card id="23c1616d-29c9-4056-9183-f40bb7bc22fc" name="Blade of the Crimson Oath">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Attachment"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Relic. Wargear. Weapon."/>
+            <property name="Text"           value="Attach to a non-warlord unit. Attached unit gets +2 ATK and +2 HP. Interrupt: When your opponent triggers an ability that discards a card from your hand, put 2 Guardsman tokens into play at a planet to put this card from your hand into play attached to a unit."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="2"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="35"/>
+        </card>
+        <card id="69702c21-cb27-4072-8660-cf672a0d1876" name="Revered Heavy Flamer">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Attachment"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Wargear. Weapon. Ecclesiarchy."/>
+            <property name="Text"           value="Attach to an army unit. Attached unit gets +2 ATK. Reaction: After your opponent uses a shield card on a unit at this planet, place 1 F on an army unit at this planet."/>
+            <property name="Keywords" value="Deep Strike (0)"/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="1"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="36"/>
+        </card>
+        <card id="c7273fcb-865b-4c3d-8ba0-630dffa785ea" name="First Line Rhinos">
+            <property name="Faction"        value="Space Marine"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Vehicle. Ultramarines."/>
+            <property name="Text"           value="Reaction: After you deploy this unit, Rally 6 for a non-Vehicle SM unit, attach it to this unit. When this unit leaves play, as an interrupt, put the attached unit exhausted into play at the same planet."/>
+            <property name="Keywords" value="No Wargear attachments."/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="2"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="37"/>
+        </card>
+        <card id="d8de8456-3266-41a2-a0f4-155cb2c77c0c" name="Evanescent Players">
+            <property name="Faction"        value="Eldar"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Psyker. Harlequin."/>
+            <property name="Text"           value="Interrupt: When this unit is assigned damage by an enemy army unit, prevent all but 2 of that damage. Then deal to that unit damage equal to the damage prevented. (Limit once per phase.)"/>
+            <property name="Keywords" value="Deep Strike (1)"/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="2"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="38"/>
+        </card>
+        <card id="619de58c-d90e-493d-a886-fea95e79931a" name="Improbable Runt Machine">
+            <property name="Faction"        value="Ork"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Machine. Marvel."/>
+            <property name="Text"           value="This unit gets +1 ATK, +1 HP and 1 command icon per attachment on it (Max 3). Action: Attach a Runt unit you control to this unit as a Copilot attachment. (Limit once per round.)"/>
+            <property name="Keywords" value="Flying"/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="1"/>
+            <property name="Health"         value="1"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="39"/>
+        </card>
+        <card id="6e8e0bdd-8320-4e6f-8758-0f6445f6cfa1" name="Charging Juggernaut">
+            <property name="Faction"        value="Chaos"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Daemon. Khorne."/>
+            <property name="Text"           value="While this unit has an attachment, is gets +1 HP and it cannot be routed until a combat round ended this round. Forced Reaction: After the deploy phase begins, move this unit to the first planet, if able. Then deal 2 damage to an enemy unit at that planet."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="4"/>
+            <property name="Health"         value="2"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="40"/>
+        </card>
+        <card id="0b6e5b56-5e14-4209-800f-20fd5b34b617" name="Shas'el Lyst">
+            <property name="Faction"        value="Tau"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Soldier. Hero."/>
+            <property name="Text"           value="While this unit is ready, as an additional cost to target units you control at this planet, your opponent must pay 1 R. Interrupt: When your opponent triggers an ability that discards a card from your hand or rout a unit you control, put this unit from your hand into play at a planet."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="3"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="41"/>
+        </card>
+        <card id="ee7f999f-6ec8-41ad-adcf-c82a1a3296b2" name="The Shadow Suit">
+            <property name="Faction"        value="Dark Eldar"/>
+            <property name="Type"           value="Attachment"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Wargear."/>
+            <property name="Text"           value="Attach to an army unit. Attached unit gets +2 ATK and +1 HP. Interrupt: When attached unit leaves play, put this card in reserve to a planet. Your opponent may exhaust a unit at that planet to cancel this effect."/>
+            <property name="Keywords" value="Deep Strike (0)"/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="2"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="42"/>
+        </card>
+        <card id="a00b22bd-0615-4c1e-b36a-05b896a281c7" name="Reinforced Synaptic Network">
+            <property name="Faction"        value="Tyranid"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Tactic."/>
+            <property name="Text"           value="Deploy Action: Put a synpase unit into play at your HQ from the card collection (only once per synapse). When your warlord commits to a planet, commit this unit to an adjacent planet. At the end of the round, discard any synapse unit not from your deck you control."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="1"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="43"/>
+        </card>
+        <card id="65f82de0-0826-4b20-8a6c-e91e0bc8875b" name="Flayed Ones Revenants">
+            <property name="Faction"        value="Necron"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Warrior."/>
+            <property name="Text"           value="As an additional cost to put this unit into play, discard 2 cards from your hand or pay 2 R to discard the top 8 cards of your deck. Interrupt: When this unit is destroyed by an enemy card effect, draw 2 cards and gain 2 R."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="4"/>
+            <property name="Attack"         value="6"/>
+            <property name="Health"         value="6"/>
+            <property name="Command"        value="2"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="44"/>
+        </card>
+        <card id="8aafc1b0-062f-468d-a273-3a38eb401b75" name="Eldritch Council">
+            <property name="Faction"        value="Neutral"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Relic."/>
+            <property name="Text"           value="Reaction: After you deploy a non-Elite unit, exhaust this support to look at an amount of top cards of your deck equal to the unit's printed cost. Put up to 1 card on the bottom of your deck and place the remaining cards on top of your deck in any order. Then if your opponent has more cards than you in hand, draw a card."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="45"/>
+        </card>
+        <card id="8b6ebfaf-a859-404f-aee2-fa257f595866" name="Imperial Blockade">
+            <property name="Faction"        value="Neutral"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Tactic."/>
+            <property name="Text"           value="Deploy Action: Pay 1 R per copy of this card in your discard pile and draw a card to target planet. Until the end of the round, at that planet, players must pay 1 R to trigger a non-warlord card effect that moves a unit to that planet, rout a unit or makes a non-Runt unit enter play."/>
+            <property name="Keywords" value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="1"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="46"/>
+        </card>
+    </cards>
+</set>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="07-NavidaPrime Cycle" id="ffc8bea9-c162-43df-a73f-91e29fa519bb" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.9">
+<set name="APK-01-Navida Prime Cycle" id="ffc8bea9-c162-43df-a73f-91e29fa519bb" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.10">
     <cards>
         <card id="ec83795b-7251-4277-a4e4-1e017f89c3c7" name="Shaper Agnok">
             <property name="Faction"        value="Tau"/>

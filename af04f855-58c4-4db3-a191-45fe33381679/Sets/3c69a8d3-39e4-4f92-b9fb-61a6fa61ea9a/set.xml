@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="08-Black Crusade" id="3c69a8d3-39e4-4f92-b9fb-61a6fa61ea9a" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.5.4.0" version="1.3">
+<set name="BCL-01-The Eye of Terror" id="3c69a8d3-39e4-4f92-b9fb-61a6fa61ea9a" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="1.5.4.0" version="1.4">
 	<cards>
 	<card id="934844da-9902-a429-926d-9061900dc200" name="Belial">
 			<property name="Faction"        value="Space Marine"/>

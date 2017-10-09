@@ -289,8 +289,8 @@ def endTurn(group, x=0, y=0):
 		return
 	fstP= getGlobalVariable("Planet{}".format(turn))
 	plan=(card for card in table if card.name == fstP)
-	for card in plan: card.markers[FstPlanet] = 1
-	for card in table: card.markers[Faith] = 0 
+	for card in plan: card.markers[FstPlanet] = 1 
+	for card in table: card.markers[Faith] = 0
 	notify("** Turn {} HQ Phase Complete**".format(turn-1))
  	if turn <= 3 :
 		fstP=(card for card in table if card.markers[SixPlanet] == turn+4)
@@ -446,10 +446,9 @@ def addFaith(card, x = 0, y = 0):
 	card.markers[Faith] += 1
 
 def subFaith(card, x = 0, y = 0):
-    mute()
-    notify("{} removes a Faith from {}.".format(me, card))
-    card.markers[Faith] -= 1 
-
+	mute()
+	notify("{} removes a Faith from {}.".format(me, card))
+	card.markers[Faith] -= 1
 
 def infest(card, x = 0, y = 0):
 	mute()
