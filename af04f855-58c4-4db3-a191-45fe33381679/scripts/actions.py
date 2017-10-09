@@ -15,6 +15,12 @@ PlanetList=[]
 #---------------------------------------------------------------------------
 
 def setupPlanet(group):
+	alt=""
+	pset=askChoice("Choose a planet set ",['Traxis Sector','Veros Sector','Gardis Sector'], customButtons =["Let the Chaos Gods decide"])
+	if pset == -1 :
+		pset=rnd(1,2,3)		
+	if pset == 2 : alt="veros"
+	if pset == 3 : alt="gardis"
 	group.create("5e423620-6663-4198-8cdc-df0fabf876c8")
 	group.create("12fea3b0-be4e-4142-89db-316c56956c8f")
 	group.create("89b18d3e-431e-4889-94d1-0948f73a4b2a")
@@ -30,18 +36,21 @@ def setupPlanet(group):
 	notify("The planets for this game are :")
 	for i in range(2):
 		card =group.random()
+		card.moveToTable(X,-43)
+		card.alternate=alt
 		setGlobalVariable("Planet{}".format(k), card.name)
-		card.moveToTable(X,-43,True)
+        	card.isFaceUp = False
 		card.markers[SixPlanet] = k
 		k-=1		
 		X+=200
 	for i in range(5):
 		card =group.random()
-		setGlobalVariable("Planet{}".format(k), card.name)
-		notify("**{}**".format(card))
 		card.moveToTable(X,-43)
+		card.alternate=alt
+		setGlobalVariable("Planet{}".format(k), card.name)
 		k-=1
 		X+=200
+		notify("**{}**".format(card))
 	card.markers[FstPlanet] = 1
 	for card in group:
 		PlanetList.append(card.model)
@@ -285,7 +294,7 @@ def endTurn(group, x=0, y=0):
 		for card in init: card.moveToTable(668,Y)
 	update()
 	if turn==8: 
-		Notify("End of the game ! The last players to have captured a planet win !")
+		notify("End of the game ! The last players to have captured a planet win !")
 		return
 	fstP= getGlobalVariable("Planet{}".format(turn))
 	plan=(card for card in table if card.name == fstP)
@@ -483,21 +492,23 @@ def replace(card, x =0, y = 0):
 	if card.Type != "Planet" : return
 	if not card.isFaceUp : return
 	x,y=card.position
+	alt=card.alternate
 	choice=askChoice("What do you want to do with {} ?".format(card.Name),["Declare the Crusade","Warp Rift"])
 	if choice == 0: return
 	elif choice == 1 :
 		PlanetList=eval(getGlobalVariable("OutPlanets"))
 		notify("{} is choosing a new planet to replace {}.".format(me,card))
-		guid,quantity=askCard({'Model':PlanetList})
+		guid,quantity=askCard({'model':PlanetList})
 		if guid == None: 
 			notify("{} didn't replace {}".format(me,card))
 			return
 		PlanetList.append(card.model)
 		PlanetList.remove(guid)
 		planet=table.create(guid,x,y,persist=True)
-		notify("{} is now replacing {}".format(planet,card))	
+		planet.alternate=alt
+		notify("{} is now replacing {}".format(planet,card))
 		for i in range(7):
-			if card.name==getGlobalVariable("Planet{}".format(i+1)) : setGlobalVariable("Planet{}".format(i+1),planet.name)
+			if card.name==getGlobalVariable("Planet{}".format(i+1)) : setGlobalVariable("Planet{}".format(i+1),planet.name)	
 		card.delete()
 		setGlobalVariable("OutPlanets",str(PlanetList))
 	elif choice == 2 :

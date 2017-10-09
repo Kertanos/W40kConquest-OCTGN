@@ -140,7 +140,7 @@
 		<block type="text" id="planetCardText">
 			<location x="110" y="325"/>
 			<text color="#000000" size="20" font="fonts/text.ttf"/>
-			<wordwrap height="80" width="360" shrinktofit="True"/>
+			<wordwrap height="76" width="360" shrinktofit="True"/>
 		</block>
 		<block type="text" id="planetTextDrawBonus">
 			<location x="40" y="318"/>

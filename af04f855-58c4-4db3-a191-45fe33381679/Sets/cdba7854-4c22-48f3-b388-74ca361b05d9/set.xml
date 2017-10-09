@@ -30,6 +30,48 @@ to a planet of your choice."/>
 			<property name="PlanetMaterial" value=""/>
 			<property name="PlanetStrongpoint" value="1"/>
 			<property name="PlanetTech"     value="1"/>
+			<alternate name="Xenos World Tallin" type="veros">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Your opponent must move an army unit to a target planet without a warlord, if able. Then you may move an army unit to that planet."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="1"/>
+				<property name="CardBonus"      value="1"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="175"/>
+				<property name="PlanetMaterial" value=""/>
+				<property name="PlanetStrongpoint" value="1"/>
+				<property name="PlanetTech"     value="1"/>
+        		</alternate>
+			<alternate name="Excellor" type="gardis">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Switch the planet location of two army units of the same player.&#10;&#10;Commit: Place 2 F among army units at this planet."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="1"/>
+				<property name="CardBonus"      value="1"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="175"/>
+				<property name="PlanetMaterial" value=""/>
+				<property name="PlanetStrongpoint" value="1"/>
+				<property name="PlanetTech"     value="1"/>
+        		</alternate>
 		</card>
 		<card id="12fea3b0-be4e-4142-89db-316c56956c8f" name="Atrox Prime" size="PlanetSize">
 			<property name="Faction"        value=""/>
@@ -52,13 +94,55 @@ target HQ or adjacent planet."/>
 			<property name="PlanetMaterial" value="1"/>
 			<property name="PlanetStrongpoint" value=""/>
 			<property name="PlanetTech"     value="1"/>
+			<alternate name="Mangeras" type="veros">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Remove up to 4 damage among cards you control."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="1"/>
+				<property name="CardBonus"      value="1"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="176"/>
+				<property name="PlanetMaterial" value="1"/>
+				<property name="PlanetStrongpoint" value=""/>
+				<property name="PlanetTech"     value="1"/>
+        		</alternate>
+			<alternate name="Anshan" type="gardis">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Rally 6 a unit with printed cost 3 or lower, put it into play at this planet.&#10;&#10;Commit: For each player, have them draw 1 card or gain 1 R."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="1"/>
+				<property name="CardBonus"      value="1"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="176"/>
+				<property name="PlanetMaterial" value="1"/>
+				<property name="PlanetStrongpoint" value=""/>
+				<property name="PlanetTech"     value="1"/>
+        		</alternate>
 		</card>
 		<card id="89b18d3e-431e-4889-94d1-0948f73a4b2a" name="Barlus" size="PlanetSize">
 			<property name="Faction"        value=""/>
 			<property name="Type"           value="Planet"/>
 			<property name="Loyalty"        value=""/>
 			<property name="Traits"         value=""/>
-			<property name="Text"           value="Battle: Discard 1 card at random from your
+			<property name="Text"           value="Battle: Discard 1 card at random from your 
 opponent's hand."/>
 			<property name="Keywords"       value=""/>
 			<property name="Unique"         value=""/>
@@ -74,6 +158,48 @@ opponent's hand."/>
 			<property name="PlanetMaterial" value=""/>
 			<property name="PlanetStrongpoint" value="1"/>
 			<property name="PlanetTech"     value=""/>
+			<alternate name="Ironforge" type="veros">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: You may move an army unit to your HQ. Then an army unit at your HQ gets +2 ATK and +2 HP until the end of the game."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="0"/>
+				<property name="CardBonus"      value="2"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="177"/>
+				<property name="PlanetMaterial" value=""/>
+				<property name="PlanetStrongpoint" value="1"/>
+				<property name="PlanetTech"     value=""/>
+        		</alternate>
+			<alternate name="Navida Prime" type="gardis">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Copy the Battle ability of a planet in a victory display.&#10;&#10;Commit: Copy the Commit ability of an adjacent planet."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="0"/>
+				<property name="CardBonus"      value="2"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="177"/>
+				<property name="PlanetMaterial" value=""/>
+				<property name="PlanetStrongpoint" value="1"/>
+				<property name="PlanetTech"     value=""/>
+        		</alternate>
 		</card>
 		<card id="9657b143-06c2-45fe-bd6e-4a3d131e1689" name="Elouith" size="PlanetSize">
 			<property name="Faction"        value=""/>
@@ -98,6 +224,48 @@ in any order."/>
 			<property name="PlanetMaterial" value=""/>
 			<property name="PlanetStrongpoint" value=""/>
 			<property name="PlanetTech"     value="1"/>
+			<alternate name="Craftworld Lugath" type="veros">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Switch this planet, if it is not the first planet, with another one or copy the Battle ability of an adjacent planet."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="0"/>
+				<property name="CardBonus"      value="2"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="178"/>
+				<property name="PlanetMaterial" value=""/>
+				<property name="PlanetStrongpoint" value=""/>
+				<property name="PlanetTech"     value="1"/>
+        		</alternate>
+			<alternate name="Vargus" type="gardis">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Move 1 damage from a unit to another. If that other unit is destroyed as a result of this effect, gain 1 R.&#10;&#10;Commit: Gain 1 R (or 2 if your warlord is bloodied)."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="0"/>
+				<property name="CardBonus"      value="2"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="178"/>
+				<property name="PlanetMaterial" value=""/>
+				<property name="PlanetStrongpoint" value=""/>
+				<property name="PlanetTech"     value="1"/>
+        		</alternate>
 		</card>
 		<card id="8ec7354b-eef5-4997-82ed-d7ed66a93c15" name="Carnath" size="PlanetSize">
 			<property name="Faction"        value=""/>
@@ -120,6 +288,48 @@ planet in play."/>
 			<property name="PlanetMaterial" value="1"/>
 			<property name="PlanetStrongpoint" value=""/>
 			<property name="PlanetTech"     value="1"/>
+			<alternate name="Contamined World Adracan" type="veros">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Deal 1 damage to up to 5 units at a target planet. Then you may infest it."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="1"/>
+				<property name="CardBonus"      value="1"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="179"/>
+				<property name="PlanetMaterial" value="1"/>
+				<property name="PlanetStrongpoint" value=""/>
+				<property name="PlanetTech"     value="1"/>
+        		</alternate>
+			<alternate name="Nectavus XI" type="gardis">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Resolve a command struggle at a target planet. While resolving it, control of each unit at that planet is switched with your opponent.&#10;&#10;Commit: Remove 1 damage from an army unit at this planet."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="1"/>
+				<property name="CardBonus"      value="1"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="179"/>
+				<property name="PlanetMaterial" value="1"/>
+				<property name="PlanetStrongpoint" value=""/>
+				<property name="PlanetTech"     value="1"/>
+        		</alternate>
 		</card>
 		<card id="8fcab463-9c8c-4745-a49e-38f56bc49e6d" name="Tarrus" size="PlanetSize">
 			<property name="Faction"        value=""/>
@@ -142,6 +352,48 @@ opponent, gain 3[RESOURCE] or draw 3 cards."/>
 			<property name="PlanetMaterial" value="1"/>
 			<property name="PlanetStrongpoint" value="1"/>
 			<property name="PlanetTech"     value=""/>
+			<alternate name="Bhorsapolis 'The Decadent'" type="veros">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Each player may sacrifice an army unit to put a target non-Elite unit into play from their discard pile at their HQ."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="1"/>
+				<property name="CardBonus"      value="1"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="180"/>
+				<property name="PlanetMaterial" value="1"/>
+				<property name="PlanetStrongpoint" value="1"/>
+				<property name="PlanetTech"     value=""/>
+        		</alternate>
+			<alternate name="Jaricho" type="gardis">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Resolve a battle at another non-first planet where no battle is taking place. (Can only be triggered during the combat phase.)&#10;&#10;Forced Commit: Reveal a card from your hand."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="1"/>
+				<property name="CardBonus"      value="1"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="180"/>
+				<property name="PlanetMaterial" value="1"/>
+				<property name="PlanetStrongpoint" value="1"/>
+				<property name="PlanetTech"     value=""/>
+        		</alternate>
 		</card>
 		<card id="1a35a54a-0f21-44d0-ab40-b3ec7ac5cadc" name="Osus IV" size="PlanetSize">
 			<property name="Faction"        value=""/>
@@ -163,6 +415,48 @@ opponent, gain 3[RESOURCE] or draw 3 cards."/>
 			<property name="PlanetMaterial" value=""/>
 			<property name="PlanetStrongpoint" value="1"/>
 			<property name="PlanetTech"     value=""/>
+			<alternate name="Daprian's Gate" type="veros">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Exhaust an army unit. That unit cannot ready during the next headquarter phase."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="2"/>
+				<property name="CardBonus"      value="0"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="181"/>
+				<property name="PlanetMaterial" value=""/>
+				<property name="PlanetStrongpoint" value="1"/>
+				<property name="PlanetTech"     value=""/>
+        		</alternate>
+			<alternate name="Munos" type="gardis">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Return a target unit and every attachment on it to its owner hand. Then the unit owner gains R equal to the unit printed cost.&#10;&#10;Commit: Look at the top card of your deck, you may place it on the bottom."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="2"/>
+				<property name="CardBonus"      value="0"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="181"/>
+				<property name="PlanetMaterial" value=""/>
+				<property name="PlanetStrongpoint" value="1"/>
+				<property name="PlanetTech"     value=""/>
+        		</alternate>
 		</card>
 		<card id="e0c7e2e6-711d-4704-8e38-182d113c6282" name="Ferrin" size="PlanetSize">
 			<property name="Faction"        value=""/>
@@ -184,6 +478,48 @@ opponent, gain 3[RESOURCE] or draw 3 cards."/>
 			<property name="PlanetMaterial" value="1"/>
 			<property name="PlanetStrongpoint" value=""/>
 			<property name="PlanetTech"     value=""/>
+			<alternate name="Kunarog the 'Slave market'" type="veros">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Put 2 token units (of any kind) in play exhausted at a target planet."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="2"/>
+				<property name="CardBonus"      value="0"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="182"/>
+				<property name="PlanetMaterial" value="1"/>
+				<property name="PlanetStrongpoint" value=""/>
+				<property name="PlanetTech"     value=""/>
+        		</alternate>
+			<alternate name="Jalayerid" type="gardis">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Deal 1 damage to a target unit at each adjacent planet and each enemy HQ.&#10;&#10;Commit: Deal 1 damage to a non-warlord unit at this planet."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="2"/>
+				<property name="CardBonus"      value="0"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="182"/>
+				<property name="PlanetMaterial" value="1"/>
+				<property name="PlanetStrongpoint" value=""/>
+				<property name="PlanetTech"     value=""/>
+        		</alternate>
 		</card>
 		<card id="3e58dd21-00fe-499e-87e9-7bb52bb66b95" name="Y'varn" size="PlanetSize">
 			<property name="Faction"        value=""/>
@@ -206,6 +542,48 @@ his hand at his HQ."/>
 			<property name="PlanetMaterial" value="1"/>
 			<property name="PlanetStrongpoint" value="1"/>
 			<property name="PlanetTech"     value="1"/>
+			<alternate name="Frontier world Jaris" type="veros">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: If you have less cards in hand than your opponent, draw 3 cards."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="1"/>
+				<property name="CardBonus"      value="0"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="183"/>
+				<property name="PlanetMaterial" value="1"/>
+				<property name="PlanetStrongpoint" value="1"/>
+				<property name="PlanetTech"     value="1"/>
+        		</alternate>
+			<alternate name="Erida" type="gardis">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Sacrifice an army unit to gain 2R and 2C.&#10;&#10;Forced Commit: Handsize limit is set to 8 this round."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="1"/>
+				<property name="CardBonus"      value="0"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="183"/>
+				<property name="PlanetMaterial" value="1"/>
+				<property name="PlanetStrongpoint" value="1"/>
+				<property name="PlanetTech"     value="1"/>
+        		</alternate>
 		</card>
 		<card id="36221c3a-591c-41e8-a4c9-fc71c89cac12" name="Iridial" size="PlanetSize">
 			<property name="Faction"        value=""/>
@@ -227,6 +605,48 @@ his hand at his HQ."/>
 			<property name="PlanetMaterial" value="1"/>
 			<property name="PlanetStrongpoint" value="1"/>
 			<property name="PlanetTech"     value="1"/>
+			<alternate name="Zarvoss Foundry" type="veros">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Rally 8 for a support or attachment card, put it into play at your HQ or attached to an eligible target."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="0"/>
+				<property name="CardBonus"      value="1"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="184"/>
+				<property name="PlanetMaterial" value="1"/>
+				<property name="PlanetStrongpoint" value="1"/>
+				<property name="PlanetTech"     value="1"/>
+        		</alternate>
+			<alternate name="Beckel" type="gardis">
+				<property name="Faction"        value=""/>
+				<property name="Type"           value="Planet"/>
+				<property name="Loyalty"        value=""/>
+				<property name="Traits"         value=""/>
+				<property name="Text"           value="Battle: Name a card. Look at your opponent's hand. If there is a card by that name, gain 1R.&#10;&#10;Forced Commit: Deal 1 damage to a unit you control at this planet."/>
+				<property name="Keywords"       value=""/>
+				<property name="Unique"         value=""/>
+				<property name="Cost"           value=""/>
+				<property name="Attack"         value=""/>
+				<property name="Health"         value=""/>
+				<property name="Command"        value=""/>
+				<property name="Shield"         value=""/>
+				<property name="ResourceBonus"  value="0"/>
+				<property name="CardBonus"      value="1"/>
+				<property name="ErrataText"     value=""/>
+				<property name="CardNumber"	value="184"/>
+				<property name="PlanetMaterial" value="1"/>
+				<property name="PlanetStrongpoint" value="1"/>
+				<property name="PlanetTech"     value="1"/>
+        		</alternate>
 		</card>
 		<card id="5c352ba9-9b70-4071-ae47-e2bed96d1e01" name="Servo-Skull" size="SkullSize">
 			<property name="Faction"        value=""/>
