@@ -56,7 +56,7 @@ to a planet of your choice."/>
 				<property name="Type"           value="Planet"/>
 				<property name="Loyalty"        value=""/>
 				<property name="Traits"         value=""/>
-				<property name="Text"           value="Battle: Switch the planet location of two army units of the same player.&#10;&#10;Commit: Place 2 F among army units at this planet."/>
+				<property name="Text"           value="Battle: Switch the planet location of two army units of the same player.&#10;&#10;Commit: Place 1 F on an army unit."/>
 				<property name="Keywords"       value=""/>
 				<property name="Unique"         value=""/>
 				<property name="Cost"           value=""/>
