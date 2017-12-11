@@ -300,7 +300,7 @@ Forced Interrupt: When an unit you control at this planet is chosen as a defende
             <property name="Text"           value="Attach to a Harlequin unit you control.
 Interrupt: When damage is assigned to a Harlequin unit you control at this planet, exhaust this attachment to reassign 1 of that damage to another non-warlord unit at this planet."/>
             <property name="Keywords" value=""/>
-            <property name="Unique"         value="1"/>
+            <property name="Unique"         value=""/>
             <property name="Cost"           value="1"/>
             <property name="Attack"         value=""/>
             <property name="Health"         value=""/>
@@ -340,7 +340,7 @@ Interrupt: When damage is assigned to a Harlequin unit you control at this plane
             <property name="Traits"         value="Advisor. Ecclesiarchy."/>
             <property name="Text"           value="Reaction: After a Vostroya unit moves to a planet, place 1 F on it. Then you may sacrifice this support to place 1 F on that unit and Rally 6 a support, add it to your hand."/>
             <property name="Keywords" value=""/>
-            <property name="Unique"         value="Yes"/>
+            <property name="Unique"         value="yes"/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
             <property name="Health"         value=""/>
@@ -377,11 +377,11 @@ Reaction: After a combat turn during which this unit was an attacker ends, take 
         <card id="ef1c662e-cef7-11e7-abc4-cec278b6b50a" name="Command Bravestorm">
             <property name="Faction"        value="Tau"/>
             <property name="Type"           value="Army"/>
-            <property name="Loyalty"        value="Yes"/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Soldier. Pilot. Hero."/>
             <property name="Text"           value="Reaction: After you attach a non-Drone attachment to a unit at this planet, draw a card. (Limit once per phase.)"/>
             <property name="Keywords" value=""/>
-            <property name="Unique"         value="Yes"/>
+            <property name="Unique"         value="yes"/>
             <property name="Cost"           value="3"/>
             <property name="Attack"         value="2"/>
             <property name="Health"         value="4"/>
@@ -397,7 +397,7 @@ Reaction: After a combat turn during which this unit was an attacker ends, take 
         <card id="ef1c6886-cef7-11e7-abc4-cec278b6b50a" name="Phantasmatic Masque">
             <property name="Faction"        value="Eldar"/>
             <property name="Type"           value="Army"/>
-            <property name="Loyalty"        value="Yes"/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Warrior. Harlequin."/>
             <property name="Text"           value="This unit gets +1 ATK for each remaining HP.
 Reaction: After an attack against this unit resolves, exhaust this unit to deal 2 damage to the attacker. (Limit once per phase.)"/>
@@ -418,7 +418,7 @@ Reaction: After an attack against this unit resolves, exhaust this unit to deal 
         <card id="ef1c694e-cef7-11e7-abc4-cec278b6b50a" name="Connoisseur of Terror">
             <property name="Faction"        value="Dark Eldar"/>
             <property name="Type"           value="Army"/>
-            <property name="Loyalty"        value="Yes"/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Scholar. Haemonculus."/>
             <property name="Text"           value="Deep Strike (2).
 Reaction: After this unit is turned face-up, draw 2 cards."/>
@@ -439,7 +439,7 @@ Reaction: After this unit is turned face-up, draw 2 cards."/>
         <card id="ef1c6a16-cef7-11e7-abc4-cec278b6b50a" name="Advocator of Blood">
             <property name="Faction"        value="Chaos"/>
             <property name="Type"           value="Army"/>
-            <property name="Loyalty"        value="Yes"/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Daemon. Khorne."/>
             <property name="Text"           value="Brutal.
 While any warlord is bloodied, this unit gains 1 command icon.
@@ -461,7 +461,7 @@ Reaction: After this unit enters play, move up to 2 damage from Chaos army units
         <card id="ef1c6ade-cef7-11e7-abc4-cec278b6b50a" name="Ireful Vanguard">
             <property name="Faction"        value="Chaos"/>
             <property name="Type"           value="Army"/>
-            <property name="Loyalty"        value="Yes"/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Daemon. Khorne."/>
             <property name="Text"           value="While any warlord is bloodied, this unit gets +1 ATK and +1 HP.
 Action: Deal 3 damage to an army unit at this planet. Play this ability only if your opponent won a command struggle at this planet this round. (Limit once per round.)"/>
