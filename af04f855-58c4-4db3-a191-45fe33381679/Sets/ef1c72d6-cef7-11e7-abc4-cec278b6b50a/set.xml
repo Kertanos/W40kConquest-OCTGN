@@ -210,7 +210,7 @@ Forced Interrupt: When an unit you control at this planet is chosen as a defende
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="8"/>
             <property name="Copies"         value="1"/>
-            <property name="Squad"          value="39"/>
+            <property name="Squad"          value="40"/>
         </card>
         <card id="ef1c5db4-cef7-11e7-abc4-cec278b6b50a" name="The Sun Prince">
             <property name="Faction"        value="Eldar"/>
@@ -230,7 +230,7 @@ Forced Interrupt: When an unit you control at this planet is chosen as a defende
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="9"/>
             <property name="Copies"         value="1"/>
-            <property name="Squad"          value="39"/>
+            <property name="Squad"          value="40"/>
         </card>
         <card id="ef1c5e90-cef7-11e7-abc4-cec278b6b50a" name="The Dawnsinger">
             <property name="Faction"        value="Eldar"/>
@@ -250,7 +250,7 @@ Forced Interrupt: When an unit you control at this planet is chosen as a defende
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="10"/>
             <property name="Copies"         value="1"/>
-            <property name="Squad"          value="39"/>
+            <property name="Squad"          value="40"/>
         </card>
         <card id="ef1c5f58-cef7-11e7-abc4-cec278b6b50a" name="The Blinded Princess">
             <property name="Faction"        value="Eldar"/>
@@ -270,7 +270,7 @@ Forced Interrupt: When an unit you control at this planet is chosen as a defende
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="11"/>
             <property name="Copies"         value="1"/>
-            <property name="Squad"          value="39"/>
+            <property name="Squad"          value="40"/>
         </card>
         <card id="ef1c6016-cef7-11e7-abc4-cec278b6b50a" name="Access to the Black Library">
             <property name="Faction"        value="Eldar"/>
@@ -290,7 +290,7 @@ Forced Interrupt: When an unit you control at this planet is chosen as a defende
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="12"/>
             <property name="Copies"         value="2"/>
-            <property name="Squad"          value="39"/>
+            <property name="Squad"          value="40"/>
         </card>
         <card id="ef1c60d4-cef7-11e7-abc4-cec278b6b50a" name="Starmist Raiment">
             <property name="Faction"        value="Eldar"/>
@@ -311,7 +311,7 @@ Interrupt: When damage is assigned to a Harlequin unit you control at this plane
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="13"/>
             <property name="Copies"         value="1"/>
-            <property name="Squad"          value="39"/>
+            <property name="Squad"          value="40"/>
         </card>
         <card id="ef1c63d6-cef7-11e7-abc4-cec278b6b50a" name="Masters of the Webway">
             <property name="Faction"        value="Eldar"/>
@@ -331,7 +331,7 @@ Interrupt: When damage is assigned to a Harlequin unit you control at this plane
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="14"/>
             <property name="Copies"         value="1"/>
-            <property name="Squad"          value="39"/>
+            <property name="Squad"          value="40"/>
         </card>
         <card id="ef1c649e-cef7-11e7-abc4-cec278b6b50a" name="Convent Prioris Advisor">
             <property name="Faction"        value="Astra Militarum"/>
