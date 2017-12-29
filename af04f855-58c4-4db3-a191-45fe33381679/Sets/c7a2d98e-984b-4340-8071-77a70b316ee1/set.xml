@@ -141,7 +141,7 @@ Reaction: After attached unit is dealt damage, place 1 F on it."/>
             <property name="CardNumber"     value="6"/>
             <property name="StartingHand"     value="7"/>
             <property name="StartingResources" value="7"/>
-            <property name="Squad"         value="37"/>
+            <property name="Squad"         value="38"/>
             <alternate name="Canoness Vardina" type="bloodied">
                 <property name="Faction"        value="Astra Militarum"/>
                 <property name="Type"           value="Warlord"/>
@@ -179,7 +179,7 @@ Reaction: After attached unit is dealt damage, place 1 F on it."/>
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="7"/>
             <property name="Copies"         value="4"/>
-            <property name="Squad"          value="37"/>
+            <property name="Squad"          value="38"/>
         </card>
         <card id="06797452-ee72-43cb-972b-820159922a0d" name="Faith Denies Death">
             <property name="Faction"        value="Astra Militarum"/>
@@ -199,7 +199,7 @@ Reaction: After attached unit is dealt damage, place 1 F on it."/>
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="8"/>
             <property name="Copies"         value="2"/>
-            <property name="Squad"          value="37"/>
+            <property name="Squad"          value="38"/>
         </card>
         <card id="5a6c6c2e-8465-4055-a73a-91bc631e1507" name="Transcendent Blessing">
             <property name="Faction"        value="Astra Militarum"/>
@@ -221,7 +221,7 @@ Interrupt: When attached unit leaves play, pay 1 F to attach this card to an eli
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="9"/>
             <property name="Copies"         value="1"/>
-            <property name="Squad"          value="37"/>
+            <property name="Squad"          value="38"/>
         </card>
         <card id="9369b2d7-d1dc-49be-b69c-30772644562c" name="Supreme Appearance">
             <property name="Faction"        value="Astra Militarum"/>
@@ -241,7 +241,7 @@ Interrupt: When attached unit leaves play, pay 1 F to attach this card to an eli
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="10"/>
             <property name="Copies"         value="1"/>
-            <property name="Squad"          value="37"/>
+            <property name="Squad"          value="38"/>
         </card>
         <card id="a7b9db86-fe0a-4e69-96a0-73b830a817e6" name="Tenacious Novice Squad">
             <property name="Faction"        value="Astra Militarum"/>
