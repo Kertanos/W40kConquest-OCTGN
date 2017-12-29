@@ -104,7 +104,7 @@ Combat Action: Exhaust this attachment to remove 1 damage from up to 2 support c
             <property name="CardBonus"      value=""/>
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="4"/>
-            <property name="Copies"         value="2"/>
+            <property name="Copies"         value="1"/>
             <property name="Squad"          value="39"/>
         </card>
         <card id="ef1c5814-cef7-11e7-abc4-cec278b6b50a" name="Fortress of Mangeras">
